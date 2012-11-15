@@ -1,4 +1,6 @@
 foodmap
 =======
 
-where to eat and why
+Where to eat and why.
+
+Attempting to make this into something awesome!
