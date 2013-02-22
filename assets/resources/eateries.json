@@ -2,13 +2,13 @@
     "Eateries": [
       {
         "name": "Duangrat's Thai Restaurant",
-        "description": "<h2>Thai, $15+</h2><p>One of my top 5 restaurants. There's been a sad commodification of Thai restaurants in suburban America (see: Tara Thai), and it's easy to forget there's more to it than Pad Thai with shrimp.  Duangrats is one of the best restaurants, at any price, in NOVA, and it's cheap.  I've never had anything on the menu that I didn't think was stellar, and the tastes are seriously that of a restaurant 2 to 3 times as expensive.  In a very unassuming building in an unassuming area, Duangrats is a gem.  Go exclusively for the small plates/tapas menu, which I believe is 11am-3pm on Weekends and 5-630pm on weekdays. I generally don't believe in tapas, but Duangrats has made me a believer.  It's overwhelmingly in your interests to try something different here, like a fried fish dish, rather than something generic like \"drunken noodles.\"  But go for the small plates menu.  My fav small plates: pork stuffed lychee, beef crepe, deep fried cod, and grilled calamari.  But they're all good.</p>.",
+        "description": "<h2>Thai, $15+</h2><p>One of my top 5 restaurants. There's been a sad commodification of Thai restaurants in suburban America (see: Tara Thai), and it's easy to forget there's more to it than Pad Thai with shrimp.  Duangrats is one of the best restaurants, at any price, in NOVA, and it's cheap.  I've never had anything on the menu that I didn't think was stellar, and the tastes are seriously that of a restaurant 2 to 3 times as expensive.  In a very unassuming building in an unassuming area, Duangrats is a gem.  Go exclusively for the small plnges/tapas menu, which I believe is 11am-3pm on Weekends and 5-630pm on weekdays. I generally don't believe in tapas, but Duangrats has made me a believer.  It's overwhelmingly in your interests to try something different here, like a fried fish dish, rather than something generic like \"drunken noodles.\"  But go for the small plnges menu.  My fav small plnges: pork stuffed lychee, beef crepe, deep fried cod, and grilled calamari.  But they're all good.</p>.",
         "price": "med",
         "tags": "Thai",
         "coordinates": 
             {
-                "lat":  "-77.134026",
-                "lng":  "38.853264" 
+                "lng":  "-77.134026",
+                "lat":  "38.853264" 
             }
       },
       {
@@ -18,8 +18,8 @@
         "tags": "Mexican",
         "coordinates": 
             {
-                "lat":  "-76.784607",
-                "lng":  "39.172413" 
+                "lng":  "-76.784607",
+                "lat":  "39.172413" 
             }
       },
       {
@@ -29,19 +29,19 @@
         "tags": "Japanese",
         "coordinates": 
             {
-                "lat":  "-77.176147",
-                "lng":  "38.932320" 
+                "lng":  "-77.176147",
+                "lat":  "38.932320" 
             }
       },
       {
         "name": "Rose Kabob Restaurant",
-        "description": "<h2>Iranian Kabobs, ~$15</h2><p>In my top 5 of restaurants anywhere.  I hype up this place like crazy to everyone I know and it always lives up to the hype.  While people say all the meats are good, I only ever order the Chicken platter with half rice, half salad.  If you&#39;re not super hungry, get the Chicken Kabob Junior, which is probably 80% of the non-junior portion.</p>.",
+        "description": "<h2>Iranian Kabobs, ~$15</h2><p>In my top 5 of restaurants anywhere.  I hype up this place like crazy to everyone I know and it always lives up to the hype.  While people say all the meats are good, I only ever order the Chicken plngter with half rice, half salad.  If you&#39;re not super hungry, get the Chicken Kabob Junior, which is probably 80% of the non-junior portion.</p>.",
         "price": "med",
         "tags": "Iranian, Kabobs",
         "coordinates": 
             {
-                "lat":  "-77.265999",
-                "lng":  "38.900791" 
+                "lng":  "-77.265999",
+                "lat":  "38.900791" 
             }
       },
       {
@@ -51,8 +51,8 @@
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.086563",
-                "lng":  "38.890537" 
+                "lng":  "-77.086563",
+                "lat":  "38.890537" 
             }
       },
       {
@@ -62,8 +62,8 @@
         "tags": "Japanese",
         "coordinates": 
             {
-                "lat":  "-77.236664",
-                "lng":  "39.180511" 
+                "lng":  "-77.236664",
+                "lat":  "39.180511" 
             }
       },
       {
@@ -73,8 +73,8 @@
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.078789",
-                "lng":  "38.894123" 
+                "lng":  "-77.078789",
+                "lat":  "38.894123" 
             }
       },
       {
@@ -84,8 +84,8 @@
         "tags": "Taiwanese, Chinese",
         "coordinates": 
             { 
-                "lat":  "-77.200989",
-                "lng":  "38.830288" 
+                "lng":  "-77.200989",
+                "lat":  "38.830288" 
             }
       },
       {
@@ -95,8 +95,8 @@
         "tags": "Vietnamese",
         "coordinates": 
             { 
-                "lat":  "-77.191292",
-                "lng":  "38.876064" 
+                "lng":  "-77.191292",
+                "lat":  "38.876064" 
             }
       },
       {
@@ -106,8 +106,8 @@
         "tags": "Vietnamese",
         "coordinates": 
             { 
-                "lat":  "-77.194901",
-                "lng":  "38.865978" 
+                "lng":  "-77.194901",
+                "lat":  "38.865978" 
             }
       },
       {
@@ -117,8 +117,8 @@
         "tags": "Mexican",
         "coordinates": 
             { 
-                "lat":  "-77.083214",
-                "lng":  "38.754421" 
+                "lng":  "-77.083214",
+                "lat":  "38.754421" 
             }
       },
       {
@@ -128,19 +128,19 @@
         "tags": "Korean",
         "coordinates": 
             { 
-                "lat":  "-77.190201",
-                "lng":  "38.833832" 
+                "lng":  "-77.190201",
+                "lat":  "38.833832" 
             }
       },
       {
         "name": "Kabob Palace",
-        "description": "<h2>Afghan Kabobs, $15: <p>Kabob Palace is a 24 hour Afghan Kabob restaurant in Crystal City and highly regarded by pretty much everybody.  The clientele, while diverse due to popularity, is still highly native most of the time -- always a sign of a solid and authentic eatery.  The biggest differentiation between this place and Rose Kabob is the sides they give you; the chickpeas and spinach (or half and half) are amazing.  Very, very well seasoned and lots of flavors.  I'm not a big lamb guy so my favorite plate here is the bone-in chicken, but I'm pretty sure everything is good.  If you want a huge meal at 4am (and many do, mostly on weekends), Kabob Palace is a great choice.&nbsp; I think I prefer Rose because I live significantly closer to it, but from time to time Kabob Palace is worth the drive.<p>",
+        "description": "<h2>Afghan Kabobs, $15</h2><p>Kabob Palace is a 24 hour Afghan Kabob restaurant in Crystal City and highly regarded by pretty much everybody.  The clientele, while diverse due to popularity, is still highly native most of the time -- always a sign of a solid and authentic eatery.  The biggest differentiation between this place and Rose Kabob is the sides they give you; the chickpeas and spinach (or half and half) are amazing.  Very, very well seasoned and lots of flavors.  I'm not a big lamb guy so my favorite plnge here is the bone-in chicken, but I'm pretty sure everything is good.  If you want a huge meal at 4am (and many do, mostly on weekends), Kabob Palace is a great choice.&nbsp; I think I prefer Rose because I live significantly closer to it, but from time to time Kabob Palace is worth the drive.<p>",
         "price": "low",
         "tags": "Afghan, Kabobs",
         "coordinates": 
             { 
-                "lat":  "-77.053444",
-                "lng":  "38.853222" 
+                "lng":  "-77.053444",
+                "lat":  "38.853222" 
             }
       },
       {
@@ -150,8 +150,8 @@
         "tags": "Vietnamese",
         "coordinates": 
             { 
-                "lat":  "-77.153572",
-                "lng":  "38.872787" 
+                "lng":  "-77.153572",
+                "lat":  "38.872787" 
             }
       },
       {
@@ -161,19 +161,19 @@
         "tags": "Vietnamese",
         "coordinates": 
             { 
-                "lat":  "-77.153465",
-                "lng":  "38.872829" 
+                "lng":  "-77.153465",
+                "lat":  "38.872829" 
             }
       },
       {
         "name": "Tony's New York Pizza",
-        "description": "<h2>Pizza by the slice, $2-$3/slice</h2><p>The best pizza by the slice in NOVA.  Large selection to choose from, including pizzas that feign authenticity by including toppings like arugula and olive oil.  Large, crispy thin crust slices.  They have pastas and gelato and whatnot here, but why bother with that stuff when you could be eating more pizza?",
+        "description": "<h2>Pizza by the slice, $2-$3/slice</h2><p>The best pizza by the slice in NOVA.  Large selection to choose from, including pizzas that feign authenticity by including toppings like arugula and olive oil.  Large, crispy thin crust slices.  They have pastas and gelngo and whatnot here, but why bother with that stuff when you could be eating more pizza?",
         "price": "low",
         "tags": "Italian, American",
         "coordinates": 
             {
-                "lat":  "-77.399673",
-                "lng":  "38.855190" 
+                "lng":  "-77.399673",
+                "lat":  "38.855190" 
             }
       },
       {
@@ -183,8 +183,8 @@
         "tags": "Italian, American",
         "coordinates": 
             {
-                "lat":  "-77.265427",
-                "lng":  "38.903267" 
+                "lng":  "-77.265427",
+                "lat":  "38.903267" 
             }
       },
       {
@@ -194,8 +194,8 @@
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.302956",
-                "lng":  "38.878998" 
+                "lng":  "-77.302956",
+                "lat":  "38.878998" 
             }
       },
       {
@@ -205,30 +205,30 @@
         "tags": "Chinese",
         "coordinates": 
             {
-                "lat":  "-77.275368",
-                "lng":  "38.893013" 
+                "lng":  "-77.275368",
+                "lat":  "38.893013" 
             }
       },
       {
         "name": "Original Pancake House",
-        "description": "<h2>Breakfast Food, $10</h2><p>Since IHOP sucks, go to OHOP.  I&#39;m not sure how many eggs they use to make their omelettes here but they resemble a small yellow tire on your plate.  They offer a variety of pancakes on the menu with various embedded fruits, and you can substitute specialty pancakes into your order for a small charge.  I don&#39;t really eat out for breakfast often, but when I do OHOP doesn&#39;t disappoint.</p>.",
+        "description": "<h2>Breakfast Food, $10</h2><p>Since IHOP sucks, go to OHOP.  I&#39;m not sure how many eggs they use to make their omelettes here but they resemble a small yellow tire on your plnge.  They offer a variety of pancakes on the menu with various embedded fruits, and you can substitute specialty pancakes into your order for a small charge.  I don&#39;t really eat out for breakfast often, but when I do OHOP doesn&#39;t disappoint.</p>.",
         "price": "low",
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.197533",
-                "lng":  "38.876293" 
+                "lng":  "-77.197533",
+                "lat":  "38.876293" 
             }
       },
       {
         "name": "Founding Farmers",
-        "description": "<h2>American (Brunch), $10</h2><p>I haven't been to Founding Farmers for dinner (which I hear is amazing but more expensive) but the Saturday brunch here is fantastic.  The brunch is unexpectedly cheap for a restaurant of this quality at around $10/plate, and they're big on organic foods and sustainable farming practices so the ingredients are high quality (well, at least that's what they say).  The brunch beignets are very popular and pretty decadent.  Make a reservation because otherwise there's always a wait.  You can generally find street parking within a few blocks of the restaurant.</p>.",
+        "description": "<h2>American (Brunch), $10</h2><p>I haven't been to Founding Farmers for dinner (which I hear is amazing but more expensive) but the Saturday brunch here is fantastic.  The brunch is unexpectedly cheap for a restaurant of this quality at around $10/plnge, and they're big on organic foods and sustainable farming practices so the ingredients are high quality (well, at least that's what they say).  The brunch beignets are very popular and pretty decadent.  Make a reservation because otherwise there's always a wait.  You can generally find street parking within a few blocks of the restaurant.</p>.",
         "price": "low",
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.044891",
-                "lng":  "38.900539" 
+                "lng":  "-77.044891",
+                "lat":  "38.900539" 
             }
       },
       {
@@ -238,8 +238,8 @@
         "tags": "Korean",
         "coordinates": 
             {
-                "lat":  "-77.189255",
-                "lng":  "38.828259" 
+                "lng":  "-77.189255",
+                "lat":  "38.828259" 
             }
       },
       {
@@ -249,19 +249,19 @@
         "tags": "Vietnamese",
         "coordinates": 
             {
-                "lat":  "-77.154266",
-                "lng":  "38.874027" 
+                "lng":  "-77.154266",
+                "lat":  "38.874027" 
             }
       },
       {
         "name": "Super Chicken",
-        "description": "<h2>Peruvian Chicken, $8-$10: <p>I don't really understand the hype around Peruvian chicken, but I do think this place is one of the better places I've had in the NOVA area.  The parking situation here is terrible, so if you're coming during a busy time expect to park near Elevation Burger and walk down the street.  They also don't have the reputation of being the most courteous servers in the world but I don't know why people expect Ritz level service for an $8.50 meal.  A half chicken with two sides is a serious size; I like the yucca fries (potatoes on steroids) and salad.  It seems to be on the average-to-lower end of prices for similar Peruvian chicken joints in the area.</p>.",
+        "description": "<h2>Peruvian Chicken, $8-$10</h2><p>I don't really understand the hype around Peruvian chicken, but I do think this place is one of the better places I've had in the NOVA area.  The parking situation here is terrible, so if you're coming during a busy time expect to park near Elevation Burger and walk down the street.  They also don't have the reputation of being the most courteous servers in the world but I don't know why people expect Ritz level service for an $8.50 meal.  A half chicken with two sides is a serious size; I like the yucca fries (potatoes on steroids) and salad.  It seems to be on the average-to-lower end of prices for similar Peruvian chicken joints in the area.</p>.",
         "price": "low",
         "tags": "Peruvian",
         "coordinates": 
             {
-                "lat":  "-77.175674",
-                "lng":  "38.880146" 
+                "lng":  "-77.175674",
+                "lat":  "38.880146" 
             }
       },
       {
@@ -271,41 +271,41 @@
         "tags": "Vietnamese",
         "coordinates": 
             {
-                "lat":  "-77.117691",
-                "lng":  "38.847061" 
+                "lng":  "-77.117691",
+                "lat":  "38.847061" 
             }
       },
       {
         "name": "Brio Tuscan Grille",
-        "description": "<h2>Happy Hour ($2.50 plates)</h2><p>The only reason Brio is on this map is because the happy hour menu is one of the best I know of in the area.  Substantial $2.50 plates, including a real-sized hamburger, ravioli, flatbreads, bruschetta, spinach/artichoke dip, etc.  I'm not a drinker so I can't comment on drink specials but the food is super cheap in the bar area from 3pm-7pm and 9pm-close on weekdays.  Generally not worth the money for anything other than HH.  Brio is located In Tysons 1, downstairs near Barnes and Noble.</p>.",
+        "description": "<h2>Happy Hour ($2.50 plnges)</h2><p>The only reason Brio is on this map is because the happy hour menu is one of the best I know of in the area.  Substantial $2.50 plnges, including a real-sized hamburger, ravioli, flngbreads, bruschetta, spinach/artichoke dip, etc.  I'm not a drinker so I can't comment on drink specials but the food is super cheap in the bar area from 3pm-7pm and 9pm-close on weekdays.  Generally not worth the money for anything other than HH.  Brio is located In Tysons 1, downstairs near Barnes and Noble.</p>.",
         "price": "low",
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.218613",
-                "lng":  "38.917816" 
+                "lng":  "-77.218613",
+                "lat":  "38.917816" 
             }
       },
       {
         "name": "Elephant Jumps",
-        "description": "<h2>Thai, $10-$15: <p>My recent and most significant revelation when it comes to Thai food (inspired by Duangrats) is that while most people order noodle dishes like Pad Thai, the best meals at quality Thai restaurants are fish dishes.  \"Elephant Jumps\" is a strange name but the food is good; maybe not Duangrats-level but few restaurants are.  The green curry is delicious, but my favorite dish is the crispy tilapia with crispy basil.  I've had the crispy flat bread shrimp appetizer and it was also good.  They have four levels of spicy here -- mild, medium, hot and \"Thai hot\".  My tolerance for spicy food has decreased over the years so I generally order mild curry but it still has a pleasant kick.  Order \"Thai hot\" at your own peril.</p>.",
+        "description": "<h2>Thai, $10-$15</h2><p>My recent and most significant revelngion when it comes to Thai food (inspired by Duangrats) is that while most people order noodle dishes like Pad Thai, the best meals at quality Thai restaurants are fish dishes.  \"Elephant Jumps\" is a strange name but the food is good; maybe not Duangrats-level but few restaurants are.  The green curry is delicious, but my favorite dish is the crispy tilapia with crispy basil.  I've had the crispy flng bread shrimp appetizer and it was also good.  They have four levels of spicy here -- mild, medium, hot and \"Thai hot\".  My tolerance for spicy food has decreased over the years so I generally order mild curry but it still has a pleasant kick.  Order \"Thai hot\" at your own peril.</p>.",
         "price": "med",
         "tags": "Thai",
         "coordinates": 
             {
-                "lat":  "-77.226105",
-                "lng":  "38.866695" 
+                "lng":  "-77.226105",
+                "lat":  "38.866695" 
             }
       },
       {
         "name": "La Caraquena",
-        "description": "<h2>Latin American, $10-$15: <p>I've had Mexican food, I've had Peruvian chicken, but I've never really ventured into other forms of Latin American cuisine.  La Caraquena was an awesome introduction into all things beyond the crunchwrap supreme (which is awesome).  It was also featured on Diners, Drive-ins and Dives on the Food Network but it doesn't really seem to fall under any of those categories.  While the interior is cramped and it's located in a crappy motel, it's not dirty or disorganized and the food is excellent.  There's a nice variety of arepas (cornmeal sandwiches) and the meat/steak dishes were very well seasoned and cooked perfectly.  But the best things ever are the saltenas, which are more or less the spanish version of a samosa or a big deep fried dumpling.  The saltenas aren't on the menu and not always available, but if you get lucky I consider them one of the best appetizers to order at any restaurant anywhere.&nbsp; The only caveat to the saltenas is that they're somewhat pricey for what they are, and can be obtained for significantly cheaper at Julia's Empanadas in Adams Morgan.&nbsp; But that means you have to be in Adams Morgan.<p>",
+        "description": "<h2>lngin American, $10-$15</h2><p>I've had Mexican food, I've had Peruvian chicken, but I've never really ventured into other forms of lngin American cuisine.  La Caraquena was an awesome introduction into all things beyond the crunchwrap supreme (which is awesome).  It was also featured on Diners, Drive-ins and Dives on the Food Network but it doesn't really seem to fall under any of those categories.  While the interior is cramped and it's located in a crappy motel, it's not dirty or disorganized and the food is excellent.  There's a nice variety of arepas (cornmeal sandwiches) and the meat/steak dishes were very well seasoned and cooked perfectly.  But the best things ever are the saltenas, which are more or less the spanish version of a samosa or a big deep fried dumpling.  The saltenas aren't on the menu and not always available, but if you get lucky I consider them one of the best appetizers to order at any restaurant anywhere.&nbsp; The only caveat to the saltenas is that they're somewhat pricey for what they are, and can be obtained for significantly cheaper at Julia's Empanadas in Adams Morgan.&nbsp; But that means you have to be in Adams Morgan.<p>",
         "price": "med",
         "tags": "Mexican",
         "coordinates": 
             {
-                "lat":  "-77.173698",
-                "lng":  "38.884361" 
+                "lng":  "-77.173698",
+                "lat":  "38.884361" 
             }
       },
       {
@@ -315,19 +315,19 @@
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.001793",
-                "lng":  "38.886723" 
+                "lng":  "-77.001793",
+                "lat":  "38.886723" 
             }
       },
       {
         "name": "Joe's Burgers",
-        "description": "<h2>Burgers, $13: <p>Joe&#39;s Burgers is one of the few legitimate contenders to Ray&#39;s Hell Burger that I&#39;ve had in NOVA.  It&#39;s located in a very small, very loud, very parking unfriendly location in McLean, but the burgers and fries are seriously great. Probably the best sweet potato fries I&#39;ve ever had.  Although this is very much a palate-specific assessment, I think the specialty burgers here are more appealing than the ones at Rays with a greater variety of toppings and flavors.  At the suggestion of the waiter (who was cool) I got the chorizo burger, which according to the website contains &quot;HOUSEMADE BERKSHIRE PORK SAUSAGE WITH ROMESCO SAUCE, FRIED ORGANIC EGG, JALAPENO JACK CHEESE, SMOKED MAYONNAISE.&quot;  It. Was. Awesome.  Blue cheese loving friends say the Port Wine Blue Cheese was fantastic, and I&#39;ve also enjoyed the French Dip.  The downsides: a smidgen more expensive than Rays, smaller and lower quality burger patties than Rays (unavoidable), a wait during busy times, very loud inside and families with little kids dressed in little league apparel dominate the clientele.  But that&#39;s McLean for you.</p>.",
+        "description": "<h2>Burgers, $13</h2><p>Joe&#39;s Burgers is one of the few legitimate contenders to Ray&#39;s Hell Burger that I&#39;ve had in NOVA.  It&#39;s located in a very small, very loud, very parking unfriendly location in McLean, but the burgers and fries are seriously great. Probably the best sweet potato fries I&#39;ve ever had.  Although this is very much a palnge-specific assessment, I think the specialty burgers here are more appealing than the ones at Rays with a greater variety of toppings and flavors.  At the suggestion of the waiter (who was cool) I got the chorizo burger, which according to the website contains &quot;HOUSEMADE BERKSHIRE PORK SAUSAGE WITH ROMESCO SAUCE, FRIED ORGANIC EGG, JALAPENO JACK CHEESE, SMOKED MAYONNAISE.&quot;  It. Was. Awesome.  Blue cheese loving friends say the Port Wine Blue Cheese was fantastic, and I&#39;ve also enjoyed the French Dip.  The downsides: a smidgen more expensive than Rays, smaller and lower quality burger patties than Rays (unavoidable), a wait during busy times, very loud inside and families with little kids dressed in little league apparel dominate the clientele.  But that&#39;s McLean for you.</p>.",
         "price": "med",
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.175697",
-                "lng":  "38.933407" 
+                "lng":  "-77.175697",
+                "lat":  "38.933407" 
             }
       },
       {
@@ -337,8 +337,8 @@
         "tags": "Korean",
         "coordinates": 
             {
-                "lat":  "-77.209953",
-                "lng":  "38.833759" 
+                "lng":  "-77.209953",
+                "lat":  "38.833759" 
             }
       },
       {
@@ -348,30 +348,30 @@
         "tags": "Vietnamese",
         "coordinates": 
             {
-                "lat":  "-77.228012",
-                "lng":  "38.873020" 
+                "lng":  "-77.228012",
+                "lat":  "38.873020" 
             }
       },
       {
         "name": "Skorpios Maggio's Family Restaurant",
-        "description": "<h2>Gyros, $10-$15</h2><p>A solid family run operation, where you can order a massive gyro that you probably shouldn't eat in one sitting.  Plaka Grill up the road has a better gyro, but it's significantly smaller and roughly the same price so not worth it.  They've given out small pieces of chocolate baklava on the house the last 2 times I've been there, which was nice.  The chicken wings here are the best chicken wings I've ever had.  Literally just deep fried chicken wings, no sauce.  Literally amazing.</p>.",
+        "description": "<h2>Gyros, $10-$15</h2><p>A solid family run operation, where you can order a massive gyro that you probably shouldn't eat in one sitting.  Plaka Grill up the road has a better gyro, but it's significantly smaller and roughly the same price so not worth it.  They've given out small pieces of chocolnge baklava on the house the last 2 times I've been there, which was nice.  The chicken wings here are the best chicken wings I've ever had.  Literally just deep fried chicken wings, no sauce.  Literally amazing.</p>.",
         "price": "med",
         "tags": "Greek, American",
         "coordinates": 
             {
-                "lat":  "-77.257256",
-                "lng":  "38.907887" 
+                "lng":  "-77.257256",
+                "lat":  "38.907887" 
             }
       },
       {
         "name": "China Wok",
-        "description": "<h2>Peking Duck/Chinese, $10-$30: <p>I've had some seriously underwhelming meals at China Wok in the past, and I had no idea this was a worthy establishment until this past weekend when I went with a friend who spoke Chinese.  The lunch specials/American-style Chinese food here is standard mall-style crap, but the authentic Chinese dishes are much, much better.  I haven't tried much of the menu yet but apparently the chef here moved from the highly regarded restaurant Oriental Regency that used to be down the street.  The Peking Duck here is a particularly great value at $28, especially compared to the $45 duck at Peking Gourmet Inn.  It comes with an entire crispy duck which is carved at the table, pancakes, hoisin sauce and green onions.  The markup at Peking Gourmet Inn is not worth it if you want duck alone, although the menu there is more extensive than the one here.  If you go to China Wok just remember not to get something typical like \"orange chicken,\" because it will suck.</p>.",
+        "description": "<h2>Peking Duck/Chinese, $10-$30</h2><p>I've had some seriously underwhelming meals at China Wok in the past, and I had no idea this was a worthy establishment until this past weekend when I went with a friend who spoke Chinese.  The lunch specials/American-style Chinese food here is standard mall-style crap, but the authentic Chinese dishes are much, much better.  I haven't tried much of the menu yet but apparently the chef here moved from the highly regarded restaurant Oriental Regency that used to be down the street.  The Peking Duck here is a particularly great value at $28, especially compared to the $45 duck at Peking Gourmet Inn.  It comes with an entire crispy duck which is carved at the table, pancakes, hoisin sauce and green onions.  The markup at Peking Gourmet Inn is not worth it if you want duck alone, although the menu there is more extensive than the one here.  If you go to China Wok just remember not to get something typical like \"orange chicken,\" because it will suck.</p>.",
         "price": "med",
         "tags": "Chinese",
         "coordinates": 
             {
-                "lat":  "-77.237305",
-                "lng":  "38.922848" 
+                "lng":  "-77.237305",
+                "lat":  "38.922848" 
             }
       },
       {
@@ -381,8 +381,8 @@
         "tags": "Korean",
         "coordinates": 
             {
-                "lat":  "-77.172531",
-                "lng":  "38.824356" 
+                "lng":  "-77.172531",
+                "lat":  "38.824356" 
             }
       },
       {
@@ -392,8 +392,8 @@
         "tags": "Korean",
         "coordinates": 
             {
-                "lat":  "-77.198708",
-                "lng":  "38.830235" 
+                "lng":  "-77.198708",
+                "lat":  "38.830235" 
             }
       },
       {
@@ -403,8 +403,8 @@
         "tags": "Chinese",
         "coordinates": 
             {
-                "lat":  "-77.147415",
-                "lng":  "38.870064" 
+                "lng":  "-77.147415",
+                "lat":  "38.870064" 
             }
       },
       {
@@ -414,8 +414,8 @@
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.177116",
-                "lng":  "38.886284" 
+                "lng":  "-77.177116",
+                "lat":  "38.886284" 
             }
       },
       {
@@ -425,19 +425,19 @@
         "tags": "Italian",
         "coordinates": 
             {
-                "lat":  "-77.042213",
-                "lng":  "38.922806" 
+                "lng":  "-77.042213",
+                "lat":  "38.922806" 
             }
       },
       {
         "name": "Sushi Yoshi",
-        "description": "<h2>Sushi, $20</h2><p>One of my friends considers this place better than Tachibana.  Sushi Yoshi is good, but saying it's better than Tachibana is madness.  It's also owned by Japanese people, and the quality of the fish is good.  They have a great happy hour with half off rolls.  But here's a massive protip: if you go here, order the chirashi.  It is one of the best dishes/values I've ever had at a sushi restaurant.  $15 for a big plate of fish and a load of rice topped with stuff that I can't recognize but tastes delicious.<p><p>Parking here can be scarce; park on the sloped road next to the restaurant rather than trying to find parking on the main street or in a lot.</p>.",
+        "description": "<h2>Sushi, $20</h2><p>One of my friends considers this place better than Tachibana.  Sushi Yoshi is good, but saying it's better than Tachibana is madness.  It's also owned by Japanese people, and the quality of the fish is good.  They have a great happy hour with half off rolls.  But here's a massive protip: if you go here, order the chirashi.  It is one of the best dishes/values I've ever had at a sushi restaurant.  $15 for a big plnge of fish and a load of rice topped with stuff that I can't recognize but tastes delicious.<p><p>Parking here can be scarce; park on the sloped road next to the restaurant rather than trying to find parking on the main street or in a lot.</p>.",
         "price": "med",
         "tags": "Japanese",
         "coordinates": 
             {
-                "lat":  "-77.266945",
-                "lng":  "38.901733" 
+                "lng":  "-77.266945",
+                "lat":  "38.901733" 
             }
       },
       {
@@ -447,8 +447,8 @@
         "tags": "American",
         "coordinates": 
             {
-                "lat":  "-77.122894",
-                "lng":  "38.897999" 
+                "lng":  "-77.122894",
+                "lat":  "38.897999" 
             }
       },
       {
@@ -458,19 +458,19 @@
         "tags": "French",
         "coordinates": 
             {
-                "lat":  "-77.046112",
-                "lng":  "38.913822" 
+                "lng":  "-77.046112",
+                "lat":  "38.913822" 
             }
       },
       {
         "name": "Korshi Buffet",
-        "description": "<h2>Japanese/Korean Buffet, $30: <p>Korshi is in Centreville so it can be a trek depending on where you live, but I think it's better than all the other Japanese/Korean buffets that I've been to so far: Todai, HeeBeen and the lowly IlMee included.&nbsp; The variety of sushi/rolls here is ridiculous; probably twice the size of the other places and with expensive types of sushi included (sea urchin, white tuna, fatty tuna, etc.)&nbsp; They also cook the Korean BBQ at your table for you, and while buffet meats are never stellar they were better than the other places I've mentioned.&nbsp; The decor is nice, it's very clean, and the other buffet items seem to be fancier (i.e. raw oysters) for the same $30 price tag.&nbsp; All that being said... I should probably stop eating so many buffets.<p>",
+        "description": "<h2>Japanese/Korean Buffet, $30</h2><p>Korshi is in Centreville so it can be a trek depending on where you live, but I think it's better than all the other Japanese/Korean buffets that I've been to so far: Todai, HeeBeen and the lowly IlMee included.&nbsp; The variety of sushi/rolls here is ridiculous; probably twice the size of the other places and with expensive types of sushi included (sea urchin, white tuna, fatty tuna, etc.)&nbsp; They also cook the Korean BBQ at your table for you, and while buffet meats are never stellar they were better than the other places I've mentioned.&nbsp; The decor is nice, it's very clean, and the other buffet items seem to be fancier (i.e. raw oysters) for the same $30 price tag.&nbsp; All that being said... I should probably stop eating so many buffets.<p>",
         "price": "high",
         "tags": "Buffet, Chinese, Japanese, Korean",
         "coordinates": 
             {
-                "lat":  "-77.423019",
-                "lng":  "38.838116" 
+                "lng":  "-77.423019",
+                "lat":  "38.838116" 
             }
       },
       {
@@ -480,8 +480,8 @@
         "tags": "Buffet, Chinese, Japanese",
         "coordinates": 
             {
-                "lat":  "-77.357719",
-                "lng":  "38.861866" 
+                "lng":  "-77.357719",
+                "lat":  "38.861866" 
             }
       },
       {
@@ -491,8 +491,8 @@
         "tags": "Korean",
         "coordinates": 
             {
-                "lat":  "-77.194122",
-                "lng":  "38.831692" 
+                "lng":  "-77.194122",
+                "lat":  "38.831692" 
             }
       },
       {
@@ -502,9 +502,9 @@
         "tags": "Chinese",
         "coordinates": 
             {
-                "lat":  "-77.139603",
-                "lng":  "38.855694" 
+                "lng":  "-77.139603",
+                "lat":  "38.855694" 
             }
       }
   ]
-};
+}

@@ -2,8 +2,18 @@
 
 $(document).ready(function() {
 
-   var foodMap = new foodmap.map( foodmap.globals.container, foodmap.globals.kmlAddress );
+    function loadScript() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "http://maps.googleapis.com/maps/api/js?key=" + foodmap.globals.API_KEY + "&sensor=false&callback=initialize";
+        document.body.appendChild(script);
+    }
 
-   foodMap.init();
+    loadScript();
+
+    window.initialize = function() { 
+        var map = new foodmap.map();
+        map.init();
+    }
 
 });
