@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Notable NOVA Eateries</name>
+  <description><![CDATA[Applicable demographic information that will help to explain the selection of eateries on this map:
+
+- 20-something
+- Employed, full time
+- Asian descent
+- Will pay for quality, but rarely over $30
+- Otherwise, cheap eats are preferred almost always
+- Partial to ethnic eateries
+
+Color scheme:
+Green: Cheap (&lt;= $10)
+Yellow: Moderate ($10 &lt; $ &lt;= $25)
+Red: Expensive (&gt; $25)
+
+Within the color scheme the restaurants are generally ordered by preference. I'm also intentionally omitting most common food chains, which is why Red Robin is not on this list.  But I've got love for Red Robin.
+
+Current top restaurants:
+Some permutation of Duangrats, Tachibana, Rose Kabob, Ray's the Steaks, Ray's Hell Burger, A&amp;J, Pho Sate, R&amp;R Tacqueria and Yuraku.
+
+If you can't see the description, use the arrow keys on your keyboard to move around the map.
+
+There will be rolling updates to this list.]]></description>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Duangrat&#39;s Thai Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Thai, $15+:<br>One of my top 5 restaurants. There's been a sad commodification of Thai restaurants in suburban America (see: Tara Thai), and it's easy to forget there's more to it than Pad Thai with shrimp.  Duangrats is one of the best restaurants, at any price, in NOVA, and it's cheap.  I've never had anything on the menu that I didn't think was stellar, and the tastes are seriously that of a restaurant 2 to 3 times as expensive.  In a very unassuming building in an unassuming area, Duangrats is a gem.  Go exclusively for the small plates/tapas menu, which I believe is 11am-3pm on Weekends and 5-630pm on weekdays. I generally don't believe in tapas, but Duangrats has made me a believer.  It's overwhelmingly in your interests to try something different here, like a fried fish dish, rather than something generic like "drunken noodles."  But go for the small plates menu.  My fav small plates: pork stuffed lychee, beef crepe, deep fried cod, and grilled calamari.  But they're all good.</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-77.134026,38.853264,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>R&amp;R Taqueria</name>
+    <description><![CDATA[<div dir="ltr">Mexican, &lt;$10:<br>I drove 40 minutes both ways with a group of friends to try this place, which is roughly 10 minutes outside of Baltimore.  It's literally within the corner of a Sunoco gas station, with no visible sign from the street indicating that there's a restaurant inside.  The ordering menus are hand-written and taped to the wall, and the maximum occupancy of the facility itself is a single table with 3 bar stools.  The food, however, is incredible.<br><br>When I got to the restaurant (if you can call it that) I told the guy behind the counter that I drove 40 minutes to get there and had no idea what to order.  He said, "don't worry, I'll take care of you guys."  He proceeded to bring out a collection of tacos, huaraches, tortas, steak dishes, etc.  Everything was fantastic.  The meats were well spiced and the use of real Mexican cheese and freshly made tortillas made a huge difference. My single favorite item was the beef tongue tacos.  After a satisfying and substantial meal we were ready to foot a significant bill, but the final tally?  A little over $40 for four people.  Crazy.</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-76.784607,39.172413,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tachibana Japanese Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Sushi, $25-$30:<br>In my top 5 restaurants in NOVA.  The best sushi restaurant in the area, and owned by actual Japanese people, which I think makes a difference.  The difference in the quality of fish here is distinct compared to other sushi restaurants in the area.  If it's not a weekday, make a reservation.  I like it so much that I go here with the fam on my birthdays.  I don't think ordering the sushi deluxe is worth it unless you especially enjoy the taste of sea urchin.</div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-77.176147,38.932320,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rose Kabob Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Iranian Kabobs, ~$15:<br>In my top 5 of restaurants anywhere.  I hype up this place like crazy to everyone I know and it always lives up to the hype.  While people say all the meats are good, I only ever order the Chicken platter with half rice, half salad.  If you&#39;re not super hungry, get the Chicken Kabob Junior, which is probably 80% of the non-junior portion.</div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-77.265999,38.900791,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ray&#39;s the Steaks</name>
+    <description><![CDATA[Steaks, $30-$40+:<br>One of my top 5 restaurants. This is as expensive as I get, and it's worth it. The best steak I've had anywhere, including cumberbund-mandatory places like Mortons. They don't do that "dip in clarified butter before serving" thing that most expensive restaurants do -- I hate that. Steaks come with unlimited garlic mashed potatoes and creamed spinach, and complimentary bread and seasoned cashews to start. I really like the Cajun Ribeye, but even the $20 hanger steak is great.&nbsp; Because the meat quality is high, order your steak rarer than "medium."&nbsp; I'm a medium-rare guy myself.]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-77.086563,38.890537,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yuraku Japanese Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Sushi, $12-$13:<br>Yuraku has a lunch buffet which is super cheap (~$12) and solid, but if you have a choice go for dinner because the dinner is amazing.  Yuraku has the highest quality sushi rolls I've ever had.  There's a ton of variety, the fish is high quality, and the rolls themselves are massive.  Bigger than you've seen anywhere else.  And despite the size and quality of the food it's still cheaper per roll/piece than other sushi restaurants in the area.<br><br>Of course, there's always a catch.  Yelp reviews say that the wait at this place can get long during prime times, which I believe due to both the low price and smaller size of the facility.  I went at 2:00pm on a Saturday and seating was clear, so I'd recommend that for others who are willing to make the ~30min trek to Germantown, MD.  Definitely a great find.</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-77.236664,39.180511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ray&#39;s Hell Burgers</name>
+    <description><![CDATA[<div dir="ltr">Burgers, $10-$15:<br>The best burger in NOVA.  This place should supplant the completely underwhelming "Ben's Chili Bowl" as the iconic DC-area eatery. Lots of options and you won't leave hungry.  Other notes: (1) Parking here is terrible.  You'll probably wait for a spot. (2) Sweet potato fries. 'Nuff said.  (3) The au poivre burger will make peppercorns get stuck in your teeth.</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-77.078789,38.894123,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A &amp; J Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Taiwanese, $10:<br>I really love A&amp;J, which is (so I hear) an authentic Taiwanese restaurant.  I love Taiwanese food because it's so much lighter than typical Americanized Chinese food.  The menu is almost tapas like, and it's fun because you can order a bunch of smaller $4-$5 dishes and share amongst friends.  They also have good beef noodle soup.  My favorite dishes are the fried chicken with rice, pulled noodle soups and the rice dish with the pork and boiled egg (sounds strange, but it's fantastic).  It's not something you'd probably expect but Chinese restaurants can seriously fry their chickens.</div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-77.200989,38.830288,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pho Sate</name>
+    <description><![CDATA[<div dir="ltr">Pho, $8:<br>Okay so let&#39;s stop fooling ourselves, 90% of pho joints are exactly the same.  Unless you hail from Saigon you&#39;re not really differentiating nuances in broth.  Superficially Pho Sate is like that, until they bring out the dish of Sate sauce and blow every other pho restaurant out of the water.  It&#39;s a non-spicy, smokey pepper oil that you pour into the broth that makes the world a better place.  Their other soup dishes are pretty good too; I like the seafood egg noodle bowl.  Like every other pho restaurant your food will come out in 30 seconds.  Cash only.</div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-77.191292,38.876064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bahn Mi DC Sandwich</name>
+    <description><![CDATA[<div dir="ltr">Bahn Mi, $3.50:<br>Best banh mi in NOVA.  Bahn Mi DC is located near the famous (and in my opinion, over-hyped) Pho 75 off of route 50 in Falls Church.  The chicken is good, but the roast pork here is AWESOME and the single best bahn mi I know of in the area.  The sandwich menu here also appears to be more extensive than the one at Song Que, so I'll venture out into trying other sandwiches in the future and update this review.  There's no seating here, as the rest of the facility is used to sell Vietnamese groceries.  As of May 1, 2011, there's a sign under the menu that says "buy 5 sandwiches get 1 free."  If you don't want to die, do yourself a favor and take out the small green peppers from the sandwich before you eat it (or ask them not to put peppers in when you order).</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-77.194901,38.865978,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Mexicana Bakery and Tacqueria</name>
+    <description><![CDATA[<div dir="ltr">Mexican, $10:<br>Similar to R&amp;R Tacqueria but not nearly as far.  Located in Alexandria, La Mexicana also offers a similar variety of Mexican dishes (tacos, tortas, sopas, etc) in addition to pastries (which I haven't tried yet).  I've gotten the four tacos with steak/chicken/sausage/beef tongue and they were good; not quite R&amp;R good, but the closest you'll get around here.  Super authentic and fresh tasting.  I've only been here once so I can't comment on any of the other food yet.  The green hot sauce is unreasonably spicy, so beware of that.</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-77.083214,38.754421,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vit Goel Tofu &amp; B.B.Q. Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Soondooboo, $10:<br>The soondooboo here is great, in all varieties.  And it's cheap.  Get the mixed, which has the meat and seafood and all that jazz.  Seafood pancake appetizer (pajun) is good too.  But you know what's even better here?  THE CUCUMBER KIMCHI.  Seriously.  I could eat it for the rest of my life.  I think it's marinated in crack.</div>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>-77.190201,38.833832,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kabob Palace</name>
+    <description><![CDATA[<div dir="ltr">Afghan Kabobs, $15: <br>Kabob Palace is a 24 hour Afghan Kabob restaurant in Crystal City and highly regarded by pretty much everybody.  The clientele, while diverse due to popularity, is still highly native most of the time -- always a sign of a solid and authentic eatery.  The biggest differentiation between this place and Rose Kabob is the sides they give you; the chickpeas and spinach (or half and half) are amazing.  Very, very well seasoned and lots of flavors.  I'm not a big lamb guy so my favorite plate here is the bone-in chicken, but I'm pretty sure everything is good.  If you want a huge meal at 4am (and many do, mostly on weekends), Kabob Palace is a great choice.&nbsp; I think I prefer Rose because I live significantly closer to it, but from time to time Kabob Palace is worth the drive.<br></div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-77.053444,38.853222,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Song Que</name>
+    <description><![CDATA[<div dir="ltr">Bahn Mi, $3.50:<br>Bahn Mi are Vietnamese sandwiches, and Song Que is the destination Anthony Bourdain visited for bahn mi during the DC episode of No Reservations.  They're sizable, especially for their price.  If you're hungry you could probably eat two in one sitting.  I typically go with chicken or pork and avoid anything with "head cheese," which is a cheese-like substance made with head-meat... yeah.  The bubble tea here is very fresh.  The mango bubble tea tastes like you're literally sticking a straw into a mango, with no added sugar/ingredients.  That being said, the bubble tea at Thanh Son Tofu (down a few stores) is better, so go there for boba.</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-77.153572,38.872787,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Thanh Son Tofu / Bubble Tea</name>
+    <description><![CDATA[<div dir="ltr">$3.50, Bubble Tea:<br>Thanh Son is in the parking madness but eating goodness that is Eden Center, on the far left wall of the shopping center.  It&#39;s called &quot;Thanh Son Tofu&quot; because there are lots of old Vietnamese grandmas waiting in line to buy bags of tofu, which means you know the place really knows their bean curd.  I&#39;m not much of a bean curd guy so I stick to the bubble tea.  For $3.50 you can choose a very sizable bubble tea in a variety of flavors (normal: strawberry, coffee, pineapple, taro, mango, etc... weird: durian) with quality bubbles and/or jelly.  Being lactose intolerant, I was pleased that they could accommodate my request for no milk.  The bubble &quot;tea&quot; (smoothie) here is the best I&#39;ve had in VA; better than Song Que.  They have a lot of other interesting looking offerings here than I&#39;m unfamiliar with (rice dishes paired with mushrooms and other vegetables) that I&#39;d like to try but have no idea how to order.  I often feel that way in Eden Center.</div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-77.153465,38.872829,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tony&#39;s New York Pizza</name>
+    <description><![CDATA[<div dir="ltr">Pizza by the slice, $2-$3/slice:<br>The best pizza by the slice in NOVA.  Large selection to choose from, including pizzas that feign authenticity by including toppings like arugula and olive oil.  Large, crispy thin crust slices.  They have pastas and gelato and whatnot here, but why bother with that stuff when you could be eating more pizza?</div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-77.399673,38.855190,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Church Street Pizza</name>
+    <description><![CDATA[<div dir="ltr">Pizza by the slice, $2:<br>There&#39;s a serious lack of quality NY-style pizza by the slice joints in NOVA.  You can get a solid slice at Church Street Pizza, which is easy to miss on one of the back streets of Vienna.  It&#39;s next to a dance studio.  It&#39;s also perpetually filled with soccer moms and their children, for better or for worse.  The only pizza I like better in the area is Tony&#39;s NY Style Pizza in the Fair Lakes Shopping Center.</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-77.265427,38.903267,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Santini&#39;s New York Style Deli</name>
+    <description><![CDATA[<div dir="ltr">Hoagies/Pizza, $10:<br>Solid selection of different sandwiches, including but not limited to common deli meats.  You can get hot breaded chicken/steak sandwiches here also which is nice.  Sides are good, if you&#39;re in the mood for something like curly fries or onion rings.  I haven&#39;t had the pizza by the slice, but I hear it&#39;s good too.  Conveniently it&#39;s located right next to Oakmarr so you can replenish your energy after frustratingly shanking balls on the driving range (like I do).  They&#39;re hardcore Yankees fans, but I try not to judge them too much while I eat.</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-77.302956,38.878998,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sunflower Vegetarian Rstrnt</name>
+    <description><![CDATA[<div dir="ltr">Vegetarian, $10:<br>I&#39;m nowhere near vegetarian, but Sunflower is solid eats.  It&#39;s essentially vegetarian Chinese food, and they even make variants of common Chinese favorites like &quot;General Tso&#39;s Surprise.&quot;  While that may sound like a train wreck, it&#39;s actually an excellent dish -- made with seitan, the soy protein, instead of chicken. Believe it or not, I might even prefer &quot;General Tso&#39;s Surprise&quot; to the real thing.  The other dishes are good too, but I can&#39;t remember any off the top of my head.</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-77.275368,38.893013,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Original Pancake House</name>
+    <description><![CDATA[<div dir="ltr">Breakfast Food, $10:<br>Since IHOP sucks, go to OHOP.  I&#39;m not sure how many eggs they use to make their omelettes here but they resemble a small yellow tire on your plate.  They offer a variety of pancakes on the menu with various embedded fruits, and you can substitute specialty pancakes into your order for a small charge.  I don&#39;t really eat out for breakfast often, but when I do OHOP doesn&#39;t disappoint.</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-77.197533,38.876293,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Founding Farmers</name>
+    <description><![CDATA[<div dir="ltr">American (Brunch), $10:<br>I haven't been to Founding Farmers for dinner (which I hear is amazing but more expensive) but the Saturday brunch here is fantastic.  The brunch is unexpectedly cheap for a restaurant of this quality at around $10/plate, and they're big on organic foods and sustainable farming practices so the ingredients are high quality (well, at least that's what they say).  The brunch beignets are very popular and pretty decadent.  Make a reservation because otherwise there's always a wait.  You can generally find street parking within a few blocks of the restaurant.</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-77.044891,38.900539,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Red Mango</name>
+    <description><![CDATA[<div dir="ltr">$4-$5, Froyo: <br>So I&#39;ve been to Red Mango locations before (see: Clarendon) and they sucked.  The Vienna location, by contrast, is awesome.  As opposed to the Clarendon location the Vienna Red Mango is entirely self-serve for both the froyo flavors and toppings, so you can try all of their 8 flavors and 16-20 toppings if your heart so desires and then pay based on weight.  The Clarendon location completely screws you over on toppings by doing this &quot;I&#39;ll smash a tiny teaspoon of fruit bits into the side of your undersized yogurt cup and charge you $2 per&quot; thing while only offering 3 or so flavors.  While I&#39;ve got love for original tart flavored froyo, the consensus among all comers is that the white peach is king.  The froyo here is superior to Fruity Yogurt, but the parking situation sucks.  Don&#39;t plan on making a left out of the parking lot.</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-77.273529,38.895367,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fruity Yogurt Inc</name>
+    <description><![CDATA[<div dir="ltr">Froyo, $4:<br>Tysons Corner Mall is awesome if you love being around groups of 14 year old girls who are carrying around Coach bags and texting their BFFs on their Blackberrys.  Otherwise, Tysons sucks.  Arguably the only redeeming value to the existence of Tysons is the froyo place upstairs next to Banana Republic, where you can get a mountain of flavored froyo for less than $5.  Get the tart, the honeydew, and the taro, and then get the hell out of Tysons.</div>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-77.221657,38.917450,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shilla Bakery</name>
+    <description><![CDATA[<div dir="ltr">Korean Bakery, $10:<br>The breads here are good, as are the shaved ice desserts that are popular in Korean culture.  There's also been a growing level of ethnic diversity among the customers, which is always a plus.  On the downside, Shilla Bakery will always be filled with really loud groups of Korean high schoolers.</div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-77.189255,38.828259,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hai Duong</name>
+    <description><![CDATA[<div dir="ltr">Vietnamese, $10:<br>Hai Duong is located in the Mecca of Vietnamese culture in Northern Virginia otherwise known as Eden Center.  I&#39;ve only tried a couple of the probably 50 eateries in Eden Center, but for broken rice / grilled pork dishes (one of my absolute favorite meals in Vietnamese cuisine) Hai Duong does not disappoint.  I always order the same thing (#16) so I can&#39;t comment on the other types of non-rice dishes here, but believe it or not when I make the trip to Eden I more often end up at Hai Duong than Song Que.  Food comes out super quickly which is always nice.</div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-77.154266,38.874027,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Super Chicken</name>
+    <description><![CDATA[<div dir="ltr">Peruvian Chicken, $8-$10: <br>I don't really understand the hype around Peruvian chicken, but I do think this place is one of the better places I've had in the NOVA area.  The parking situation here is terrible, so if you're coming during a busy time expect to park near Elevation Burger and walk down the street.  They also don't have the reputation of being the most courteous servers in the world but I don't know why people expect Ritz level service for an $8.50 meal.  A half chicken with two sides is a serious size; I like the yucca fries (potatoes on steroids) and salad.  It seems to be on the average-to-lower end of prices for similar Peruvian chicken joints in the area.</div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-77.175674,38.880146,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pho Golden Cow</name>
+    <description><![CDATA[<div dir="ltr">Pho, $8:<br>So let's say you're super hungry and craving pho but want more food than is usually offered in a large at a place like Pho Sate.  Drive down Graham Road for 2 minutes and go to Pho Golden Cow instead.  The broth and flavors are not as good as Sate, but the portions here are the biggest I've seen for a pho restaurant.  I go here based on quantity alone; much bigger portions of noodles and meat.   I mean, the taste isn't terrible, but it's just not on the same level as Sate.  Still a valuable place to know when you're in a certain mood.</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-77.117691,38.847061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brio Tuscan Grille</name>
+    <description><![CDATA[<div dir="ltr">Happy Hour ($2.50 plates):<br>The only reason Brio is on this map is because the happy hour menu is one of the best I know of in the area.  Substantial $2.50 plates, including a real-sized hamburger, ravioli, flatbreads, bruschetta, spinach/artichoke dip, etc.  I'm not a drinker so I can't comment on drink specials but the food is super cheap in the bar area from 3pm-7pm and 9pm-close on weekdays.  Generally not worth the money for anything other than HH.  Brio is located In Tysons 1, downstairs near Barnes and Noble.</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-77.218613,38.917816,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Elephant Jumps</name>
+    <description><![CDATA[<div dir="ltr">Thai, $10-$15: <br>My recent and most significant revelation when it comes to Thai food (inspired by Duangrats) is that while most people order noodle dishes like Pad Thai, the best meals at quality Thai restaurants are fish dishes.  "Elephant Jumps" is a strange name but the food is good; maybe not Duangrats-level but few restaurants are.  The green curry is delicious, but my favorite dish is the crispy tilapia with crispy basil.  I've had the crispy flat bread shrimp appetizer and it was also good.  They have four levels of spicy here -- mild, medium, hot and "Thai hot".  My tolerance for spicy food has decreased over the years so I generally order mild curry but it still has a pleasant kick.  Order "Thai hot" at your own peril.</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-77.226105,38.866695,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Caraquena</name>
+    <description><![CDATA[<div dir="ltr">Latin American, $10-$15: <br>I've had Mexican food, I've had Peruvian chicken, but I've never really ventured into other forms of Latin American cuisine.  La Caraquena was an awesome introduction into all things beyond the crunchwrap supreme (which is awesome).  It was also featured on Diners, Drive-ins and Dives on the Food Network but it doesn't really seem to fall under any of those categories.  While the interior is cramped and it's located in a crappy motel, it's not dirty or disorganized and the food is excellent.  There's a nice variety of arepas (cornmeal sandwiches) and the meat/steak dishes were very well seasoned and cooked perfectly.  But the best things ever are the saltenas, which are more or less the spanish version of a samosa or a big deep fried dumpling.  The saltenas aren't on the menu and not always available, but if you get lucky I consider them one of the best appetizers to order at any restaurant anywhere.&nbsp; The only caveat to the saltenas is that they're somewhat pricey for what they are, and can be obtained for significantly cheaper at Julia's Empanadas in Adams Morgan.&nbsp; But that means you have to be in Adams Morgan.<br></div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-77.173698,38.884361,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Good Stuff Eatery</name>
+    <description><![CDATA[<div dir="ltr">Burgers/Fries/Shakes, $10-$15:<br>Kind of a hike to the Capitol South/Eastern Market area, but the food is solid and you&#39;ll probably catch a glimpse of the semi-famous owner, Spike from Top Chef.  Basically Spike ate at Shake Shack in NYC, asked himself &quot;Hmm, how can I copy this in almost every way but make it better?&quot; and opened Good Stuff.  The Obama burger is my favorite, but even the plain burger is really good.  For a side get the onion petals, and the chipotle/mango mayo dipping sauces are the best.  The sriracha one is okay, if you like the stuff they use in spicy tuna rolls.  The old bay mayo is disgusting.</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-77.001793,38.886723,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Joe&#39;s Burgers</name>
+    <description><![CDATA[<div dir="ltr">Burgers, $13: <br>Joe&#39;s Burgers is one of the few legitimate contenders to Ray&#39;s Hell Burger that I&#39;ve had in NOVA.  It&#39;s located in a very small, very loud, very parking unfriendly location in McLean, but the burgers and fries are seriously great. Probably the best sweet potato fries I&#39;ve ever had.  Although this is very much a palate-specific assessment, I think the specialty burgers here are more appealing than the ones at Rays with a greater variety of toppings and flavors.  At the suggestion of the waiter (who was cool) I got the chorizo burger, which according to the website contains &quot;HOUSEMADE BERKSHIRE PORK SAUSAGE WITH ROMESCO SAUCE, FRIED ORGANIC EGG, JALAPENO JACK CHEESE, SMOKED MAYONNAISE.&quot;  It. Was. Awesome.  Blue cheese loving friends say the Port Wine Blue Cheese was fantastic, and I&#39;ve also enjoyed the French Dip.  The downsides: a smidgen more expensive than Rays, smaller and lower quality burger patties than Rays (unavoidable), a wait during busy times, very loud inside and families with little kids dressed in little league apparel dominate the clientele.  But that&#39;s McLean for you.</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-77.175697,38.933407,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yechon Korean Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Korean, $15:<br>Yechon was the 24 hour Korean restaurant that started it all, at the first stoplight into Annandale off of 495.  People hate on Yechon for whatever reason but I love it; it's cheap, the banchan isn't skimpy, they speak English, and the lunch specials are great for around $10. I more or less only order the mixed rice with galbi (galbi dolsot bibimbap), but that's just my preference rather than a recommendation.  Spicy shredded beef soup (yukgaejang) is also good, as is the seafood pancake (haemul pajun).  Not a place you'd want to order sushi, even though they offer it.</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-77.209953,38.833759,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Four Sisters Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Vietnamese, $10-$15:<br>Four Sisters' reputation as one of the best low-priced restaurants in NOVA is well deserved, as the food is great.  You can get standard stuff like vermicelli bowls or chairbroiled pork dishes, but the best things here are the dinner combos (i.e. dinner for 2, dinner for 4, dinner for 8, etc.)  Try the papaya or lotus root salads, which might be my favorite things on the menu.  You'll probably need a reservation on a weekend evening.<br><br>(EDIT 9/18/2011): I play basketball at the gym with the executive chef of Four Sisters, and I had the opportunity to ask him what he considered the best items on the menu.  I tried his recommendations -- black pepper beef and the sea bass -- and they were great.  So my current reccs include the lotus root salad, black pepper beef, and the crispy sea bass in black bean sauce.</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-77.228012,38.873020,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Skorpios Maggio&#39;s Family</name>
+    <description><![CDATA[<div dir="ltr">Gyros, $10-$15:<br>A solid family run operation, where you can order a massive gyro that you probably shouldn't eat in one sitting.  Plaka Grill up the road has a better gyro, but it's significantly smaller and roughly the same price so not worth it.  They've given out small pieces of chocolate baklava on the house the last 2 times I've been there, which was nice.  The chicken wings here are the best chicken wings I've ever had.  Literally just deep fried chicken wings, no sauce.  Literally amazing.</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-77.257256,38.907887,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>China Wok</name>
+    <description><![CDATA[<div dir="ltr">Peking Duck/Chinese, $10-$30: <br>I've had some seriously underwhelming meals at China Wok in the past, and I had no idea this was a worthy establishment until this past weekend when I went with a friend who spoke Chinese.  The lunch specials/American-style Chinese food here is standard mall-style crap, but the authentic Chinese dishes are much, much better.  I haven't tried much of the menu yet but apparently the chef here moved from the highly regarded restaurant Oriental Regency that used to be down the street.  The Peking Duck here is a particularly great value at $28, especially compared to the $45 duck at Peking Gourmet Inn.  It comes with an entire crispy duck which is carved at the table, pancakes, hoisin sauce and green onions.  The markup at Peking Gourmet Inn is not worth it if you want duck alone, although the menu there is more extensive than the one here.  If you go to China Wok just remember not to get something typical like "orange chicken," because it will suck.</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-77.237305,38.922848,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bon Chon Chicken</name>
+    <description><![CDATA[<div dir="ltr">Fried Chicken, $12 med/$20 large:<br>Bon Chon should seriously be on every street corner in the US.  The owners should be billionaires; they&#39;re sitting on a winning lottery ticket but have no idea how to market their product.  Bon Chon is chicken fried multiple times and glazed with a soy-garlic sauce, resulting in a product that&#39;s strangely super crispy yet not messy to eat.  It&#39;s like the evolution of popeyes/KFC/insert other preconception of fried chicken.  And the drumsticks are the size of your head.  Notes: (1) Call ahead and place your order, because the chicken takes at least an hour to prepare; (2) Every time I&#39;ve had the &quot;spicy&quot; it&#39;s been unenjoyably spicy, so I avoid it now; (3) I always order &quot;large drumsticks only.&quot;  Also, for reasons that defy all reason and logic Bon Chon doesn&#39;t have call waiting at the Annandale location.  The Fairfax location has better decor and a more competent wait staff.</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-77.172531,38.824356,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Oegadjib Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Korean BBQ, $20:<br>If you want to eat all you can eat pork belly (samgyupsal) and non-galbi beef, oegadjib is probably your best bet for around $20 including tip.  That being said, all you can eat pork belly will probably take years off your life.  That being said, all you can eat pork belly is awesome.  The banchan here is definitely better than honeypig.  They have all you can eat shabu shabu here too, but if I have to choose between meat and shabu shabu, I never choose shabu shabu.</div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-77.198708,38.830235,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mark&#39;s Duck House</name>
+    <description><![CDATA[<div dir="ltr">Dim sum, $20:<br>I'm a fan of dim sum, but I've never had great dim sum in VA.  The only place I've had great dim sum is NYC's Chinatown.  Mark's Duck House is adequate, given the alternatives ("Fortune" across the street is mediocre), but I don't think either is particularly stellar.  I'm also not a huge fan of the more popular dim sum places in Wheaton/Silver Spring, MD.  At the end of the day, for a dim sum fix in VA, go here.</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-77.147415,38.870064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mad Fox Brewing Company</name>
+    <description><![CDATA[<div dir="ltr">Burgers/Pizza/Beer, $15:<br>Okay, so the service at Mad Fox is terrible.  I&#39;ve been there multiple times for lunch with coworkers and it&#39;s taken us 30 minutes to get our food with nobody else in the restaurant.  That being said, the food here is excellent, and the bbq brisket sandwich is one of the best I&#39;ve ever had.  Fries are great.  Pizza is good.  Ketchup is homemade.  Gah; if they could hire a competent wait staff this place would be off the charts.  So in the end, if you&#39;re in a patient mood and not pressed for time, it&#39;s a worthwhile place to go eat.</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-77.177116,38.886284,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pasta Mia</name>
+    <description><![CDATA[<div dir="ltr">Pasta, $16:<br>While I haven&#39;t eaten enough pasta in the area to know, I wouldn&#39;t be surprised if Pasta Mia was in the running for best pasta in the DC area.  Located in Adams Morgan, it&#39;s a small, family-run, cash only operation marked by the huge line outside its building.  So the way it works is you line up before the restaurant opens and they let in the first 25 or so people, in order.  Those people place their orders, in order, and the single old male chef makes their orders, in order.  After a table clears a new set of patrons are seated.  Basically, if you&#39;re number 26 you&#39;re going to be waiting outside for over an hour, so get their early and wait.  The food is handmade and excellent.  Portions are enormous.</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-77.042213,38.922806,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sushi Yoshi</name>
+    <description><![CDATA[<div dir="ltr">Sushi, $20:<br>One of my friends considers this place better than Tachibana.  Sushi Yoshi is good, but saying it's better than Tachibana is madness.  It's also owned by Japanese people, and the quality of the fish is good.  They have a great happy hour with half off rolls.  But here's a massive protip: if you go here, order the chirashi.  It is one of the best dishes/values I've ever had at a sushi restaurant.  $15 for a big plate of fish and a load of rice topped with stuff that I can't recognize but tastes delicious.<br><br>Parking here can be scarce; park on the sloped road next to the restaurant rather than trying to find parking on the main street or in a lot.</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-77.266945,38.901733,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Metro 29 Diner Restaurant</name>
+    <description><![CDATA[<div dir="ltr">Diner Food, $10-$15:<br>Metro 29 is a good quality diner in Arlington off of Route 29 (Lee Highway).  The menu here is surprisingly extensive, including an entire array of seafood dishes that have no business being on a diner menu.  I haven&#39;t ventured in the seafood areas, but the breakfast and dinner entrees are good.  It was featured on Food Network on &quot;Diners, Drive Ins and Dives.&quot;</div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-77.122894,38.897999,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bistrot Du Coin</name>
+    <description><![CDATA[<div dir="ltr">French, ~$25:<br>A nice mid-scale French restaurant in DC that specializes in mussels and steak frites.  Both were excellent when I went. It isn't the cheapest place but I don't feel ripped off when I go there because the food quality is high.  I think it's impossible for mussels to be filling (I could probably eat 100 mussels in a single sitting) but the different broths that the mussels are cooked in are really fantastic.  I think going with a small group of people is in your best interest to defer costs for appetizers like mussels while still maintaining variety in your order.  Parking can be a pain in the neck, but that's expected with most of DC.</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-77.046112,38.913822,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Korshi Buffet</name>
+    <description><![CDATA[Japanese/Korean Buffet, $30: <br>Korshi is in Centreville so it can be a trek depending on where you live, but I think it's better than all the other Japanese/Korean buffets that I've been to so far: Todai, HeeBeen and the lowly IlMee included.&nbsp; The variety of sushi/rolls here is ridiculous; probably twice the size of the other places and with expensive types of sushi included (sea urchin, white tuna, fatty tuna, etc.)&nbsp; They also cook the Korean BBQ at your table for you, and while buffet meats are never stellar they were better than the other places I've mentioned.&nbsp; The decor is nice, it's very clean, and the other buffet items seem to be fancier (i.e. raw oysters) for the same $30 price tag.&nbsp; All that being said... I should probably stop eating so many buffets.<br>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-77.423019,38.838116,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Todai Buffet</name>
+    <description><![CDATA[<div dir="ltr">Sushi Buffet, $30:<br>I&#39;m at that age where I average about 1 buffet a weekend, which I&#39;ll probably regret once I&#39;m a portly 30 year old.  Oh well.  Todai is in one of the corners of Fair Oaks Mall, and it has one of the better offerings of buffet sushi that I&#39;ve had in the area.  It has your average inauthentic Chinese/Korean offerings also, as well as a dessert stand, but I only go here when I anticipate eating 40 pieces of sushi.  It&#39;s predominantly in roll form.  The lunch is around $15, so it&#39;s a much better deal.</div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-77.357719,38.861866,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Honey Pig</name>
+    <description><![CDATA[<div dir="ltr">Korean BBQ, $20-30+:<br>A 24 hour bbq joint that has its busiest hours (no lie) from 12am-4am on weekends.  That's when all the NOVA azns are returning from da klubz, which is why you should avoid honey pig like the plague from 12am-4am.  Otherwise, it's a relatively cheap place to get a variety of meats cooked at your table, if you don't mind the sound of really loud and really bad Korean techno.  It tends to appeal to a younger crowd and the meat quality isn't the greatest here, but you get what you pay for.  Also you can drink to your heart's content, if you're into that type of thing.  It's probably going to cost around $25-$30 to eat enough meat to be full, but you should be seriously full.</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-77.194122,38.831692,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Peking Gourmet Inn</name>
+    <description><![CDATA[<div dir="ltr">Peking Duck/Chinese, $45:<br>The duck here is famous and for good reason, as it is excellent.  It's also overpriced like nobody's business.  $45 for a single duck.  This place is popularized by the presence of hundreds of photos of politicians and dignitaries on the walls, especially George Bush.  Why George Bush's preference for eating at your restaurant is a positive endorsement is beyond me.  Despite my inability to get over my political leanings when writing restaurant reviews, the food here is definitely good.  Going without a reservation is pointless during prime times.  The odd-hour "lunch for x" deals are a better bang for the buck.</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-77.139603,38.855694,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
