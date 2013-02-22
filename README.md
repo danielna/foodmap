@@ -1,6 +1,6 @@
-foodmap
+Notable NOVA Eateries
 =======
 
-Where to eat and why.
+Replacing http://www.tinyurl.com/eatnova with more of a custom implementation.  Uses the Google Maps API, which is excellent.
 
-Attempting to make this into something awesome!
+This is a longer-term work in progress (both the eating and the coding).
