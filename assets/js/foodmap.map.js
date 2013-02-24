@@ -5,16 +5,18 @@
     foodmap.map = function() {
 
         var 
-            markers         = [],
+            markers         = {},
             markerBounds    = null,
-            map             = null;
+            map             = null,
+            zoom            = 18;
 
         // Initialize the maps
-        var init = function() {        
+        var init = function(setZoom) {        
             var 
                 latlng = new google.maps.LatLng(38.907649,-77.239659), //arbitrary coordinates
+                zoom = setZoom || zoom;
                 myOptions = {
-                                zoom: 18,
+                                zoom: zoom,
                                 center: latlng,
                                 mapTypeId: google.maps.MapTypeId.ROADMAP
                             };
@@ -31,8 +33,11 @@
             var path = 'assets/resources/eateries.json';
 
             $.getJSON(path, function(data) {
-                createMarkers(data);
-                map.fitBounds(markerBounds);
+                var markers = createMarkers(data);
+                createMarkerEvents(markers);
+
+                setMarkerBounds(markerBounds);
+                setOriginalZoom();
             });
 
         };
@@ -52,36 +57,61 @@
                         position: latLng,
                         animation: google.maps.Animation.DROP,
                         map: map,
+                        icon: foodmap.globals.map_icons[self.price],
                         title: self.name
                     });
                     marker.description = self.description;
                     marker.price = self.price;
                     marker.tags = self.tags;
 
-                    markers.push(marker);             
+                    markers[self.name] = marker;             
                 });
 
             } else {
                 console.error("markerData is null in createMarkers");
                 return null;
             }
-            createClickEvents(markers);
+            return markers;
         };
 
-        var createClickEvents = function(markers) {
+        var createMarkerEvents = function(markers) {
             for (var i in markers) {
                 addClickListener(markers[i]);
             }
 
             function addClickListener(marker) {
                 google.maps.event.addListener(marker, 'click', function() {
+                    $("#welcome").slideUp();
                     var meta = $(".meta");
+                    meta.show();
+
+                    var price_map = foodmap.globals.price_map[marker.price];
                     meta.find(".title").text(marker.title);
                     meta.find(".description").html(marker.description);
+                    meta.find(".price").html(price_map).attr("data-price", marker.price);
+                    meta.find(".tags").html(marker.tags);
+
+                    zoomMarker(marker.title);
                 });
             }
-        }
 
+            $("#reset-map").on("click", function(){
+                setOriginalZoom();
+            });
+        };
+
+        var setMarkerBounds = function(inputBounds) {
+            markerBounds = inputBounds;
+        };
+
+        var setOriginalZoom = function(){
+            map.fitBounds(markerBounds);
+        };
+
+        var zoomMarker = function(title) {
+            map.setCenter(markers[title].getPosition());
+            map.setZoom(16);
+        };
 
         return {
             init: init

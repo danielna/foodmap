@@ -8,16 +8,52 @@
 </head>
 <body>
     
-    <div id="main">
-        <h1>Notable NOVA Eateries</h1>
+    <section id="main">
+        <div id="welcome">
+            <h1>Notable NOVA Eateries</h1>
+            <p>
+                Applicable demographic information that will help to explain the selection of eateries on this map:
+            </p>
+            <ul>
+                <li>20-something</li>
+                <li>Employed full-time</li>
+                <li>Asian descent</li>
+                <li>Will pay for quality, but rarely over $30</li>
+                <li>Otherwise, cheap eats are preferred almost always</li>
+                <li>Partial to ethnic eateries</li>
+            </ul>
+            <p>Color scheme:</p>
+            <ul>
+                <li>Green: Cheap (<= $10)</li>
+                <li>Yellow: Medium ($10 < $ <= $25)</li>
+                <li>Red: Expensive (> $25)</li>
+            </ul>
+            <p>
+                Within the color scheme the restaurants are generally ordered by preference. I'm also intentionally omitting most common food chains, which is why Red Robin is not on this list.  But I've got love for Red Robin.
+            </p>
+            <p>
+                Current top restaurants include some permutation of Duangrats, Tachibana, Rose Kabob, Ray's the Steaks, Ray's Hell Burger, A&amp;J, Pho Sate, R&amp;R Tacqueria and Yuraku.
+            </p>
+            <p>
+                There will be rolling updates to this list.  Last updated 2/2013.
+            </p>
+        </div>
+
         <div class="meta">
             <div class="title"></div>
+            <div class="price"></div>
             <div class="description"></div>
+            <div class="tags"></div>
         </div>
-    </div>
-    <div id="map-container">
-    </div>
+    </section>
     
+    <section id="map-container">
+    </section>
+    
+    <div id="controls">
+        <button id="reset-map" title="Reset Map">Reset Map</button>
+    </div>
+
     <!-- javascript -->
     <script type="text/javascript" src="assets/js/vendor/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="assets/js/foodmap.globals.js"></script>

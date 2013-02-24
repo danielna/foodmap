@@ -12,6 +12,7 @@ $(document).ready(function() {
     loadScript();
 
     window.initialize = function() { 
+        $(".meta").hide();
         var map = new foodmap.map();
         map.init();
     }
