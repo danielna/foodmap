@@ -15,6 +15,19 @@ $(document).ready(function() {
         $(".meta").hide();
         var map = new foodmap.map();
         map.init();
-    }
+    };
+
+    $("#js-btn-menu").on("click", function() {
+        $("body").toggleClass("menu-on");
+    });
+
+    $("#js-btn-welcome").on("click", function() {
+        $("#welcome").fadeToggle();
+    });
+
+    $("#js-close-welcome").on("click", function() {
+        $("#welcome").fadeOut();
+    });
+
 
 });

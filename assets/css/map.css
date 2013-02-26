@@ -1,41 +1,57 @@
-/* line 6, ../sass/map.scss */
+/* line 12, ../sass/map.scss */
 html {
   height: 100%;
 }
 
-/* line 10, ../sass/map.scss */
+/* line 16, ../sass/map.scss */
 body {
   position: relative;
   height: 100%;
   margin: 0;
-  padding: 0.3%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #222222;
   color: #222222;
   font-size: 16px;
+  overflow: hidden;
 }
 
-/* line 21, ../sass/map.scss */
-h1 {
-  display: block;
-  width: 100%;
-  font-size: 1.8em;
-  line-height: 1.5em;
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px solid #f2f2f2;
+/* line 27, ../sass/map.scss */
+.color-low {
+  color: #89e63b;
 }
 
-/* line 35, ../sass/map.scss */
-section {
-  display: block;
-  position: relative;
-  float: left;
+/* line 30, ../sass/map.scss */
+.color-med {
+  color: #fbf658;
 }
+
+/* line 33, ../sass/map.scss */
+.color-high {
+  color: #dd7663;
+}
+
 /* line 39, ../sass/map.scss */
-section#main {
+section {
+  position: absolute;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 44, ../sass/map.scss */
+section#left-menu {
+  top: 0;
+  left: -25%;
   height: 100%;
   width: 25%;
   background-color: #222222;
@@ -44,30 +60,152 @@ section#main {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow-y: auto;
-  overflow-x: none;
 }
-/* line 48, ../sass/map.scss */
-section#map-container {
+/* line 53, ../sass/map.scss */
+body.menu-on section#left-menu {
+  left: 0;
+}
+/* line 57, ../sass/map.scss */
+section#top-bar {
+  height: 5%;
+  width: 100%;
+  left: 0%;
+  background-color: #f2f2f2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: #adadad 1px 1px;
+  -moz-box-shadow: #adadad 1px 1px;
+  box-shadow: #adadad 1px 1px;
+}
+/* line 64, ../sass/map.scss */
+section#top-bar button {
+  display: inline-block;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/* line 71, ../sass/map.scss */
+section#top-bar h1.page-title {
+  display: inline-block;
   height: 100%;
-  width: 75%;
+  font-size: 1.2em;
+  line-height: 1em;
+  padding: 0;
+  margin: 0 auto;
+  color: #222222;
+}
+/* line 80, ../sass/map.scss */
+body.menu-on section#top-bar {
+  left: 25%;
+}
+/* line 84, ../sass/map.scss */
+section#map-container {
+  top: 5%;
+  left: 0%;
+  height: 95%;
+  width: 100%;
+}
+/* line 89, ../sass/map.scss */
+body.menu-on section#map-container {
+  left: 25%;
 }
 
-/* line 54, ../sass/map.scss */
+/* line 95, ../sass/map.scss */
 #welcome {
+  z-index: 100;
   display: block;
-  position: relative;
-  float: left;
-  margin: 2% 5% 0 2%;
+  position: absolute;
+  padding: 20px;
+  width: 40%;
+  right: 10%;
+  top: 10%;
   font-size: 0.875em;
   line-height: 1.3em;
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.8);
 }
-/* line 61, ../sass/map.scss */
-#welcome h1 {
-  margin: 0;
-  padding: 0;
+/* line 108, ../sass/map.scss */
+#welcome p:first-child {
+  margin-top: 0px;
+}
+/* line 111, ../sass/map.scss */
+#welcome p:last-child {
+  margin-bottom: 0px;
+}
+/* line 115, ../sass/map.scss */
+#welcome #js-close-welcome {
+  position: absolute;
+  display: inline-block;
+  top: 0.4em;
+  right: 0.7em;
+  font-size: 0.7em;
+  cursor: pointer;
 }
 
-/* line 67, ../sass/map.scss */
+/* line 126, ../sass/map.scss */
+section#left-menu > h2 {
+  font-size: 1.6em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0.5em 0 0.5em 0.3em;
+}
+/* line 132, ../sass/map.scss */
+section#left-menu .listing {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  color: #f2f2f2;
+  margin-bottom: 2px;
+}
+/* line 139, ../sass/map.scss */
+section#left-menu .listing:hover, section#left-menu .listing.active {
+  background-color: #999;
+}
+/* line 142, ../sass/map.scss */
+section#left-menu .listing .thumb {
+  width: 20%;
+  padding: 2.5%;
+  float: left;
+}
+/* line 146, ../sass/map.scss */
+section#left-menu .listing .thumb img {
+  width: 100%;
+}
+/* line 150, ../sass/map.scss */
+section#left-menu .listing .title {
+  font-size: 1em;
+}
+/* line 153, ../sass/map.scss */
+section#left-menu .listing .price {
+  font-size: 0.9em;
+}
+/* line 155, ../sass/map.scss */
+section#left-menu .listing .price[data-price="low"] {
+  color: #89e63b;
+}
+/* line 158, ../sass/map.scss */
+section#left-menu .listing .price[data-price="med"] {
+  color: #fbf658;
+}
+/* line 161, ../sass/map.scss */
+section#left-menu .listing .price[data-price="high"] {
+  color: #dd7663;
+}
+/* line 165, ../sass/map.scss */
+section#left-menu .listing .metadata {
+  width: 75%;
+  padding: 3% 0;
+  float: left;
+  -webkit-box-sizing: padding-box;
+  -moz-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+
+/* line 174, ../sass/map.scss */
 .meta {
   display: none;
   position: relative;
@@ -76,46 +214,20 @@ section#map-container {
   font-size: 0.875em;
   line-height: 1.3em;
 }
-/* line 74, ../sass/map.scss */
+/* line 181, ../sass/map.scss */
 .meta .title {
   font-size: 1.5em;
   margin-bottom: 0.3125em;
   line-height: 1.2em;
 }
-/* line 80, ../sass/map.scss */
+/* line 187, ../sass/map.scss */
 .meta .description > h2 {
   font-size: 1em;
   line-height: 1.1em;
   font-weight: bold;
   margin-top: 0;
 }
-/* line 86, ../sass/map.scss */
+/* line 193, ../sass/map.scss */
 .meta .description p {
   margin-bottom: 1.5em;
-}
-/* line 91, ../sass/map.scss */
-.meta .price[data-price="low"] {
-  color: #89E63B;
-}
-/* line 94, ../sass/map.scss */
-.meta .price[data-price="med"] {
-  color: #FBF658;
-}
-/* line 97, ../sass/map.scss */
-.meta .price[data-price="high"] {
-  color: #DD7663;
-}
-
-/* line 103, ../sass/map.scss */
-#controls {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 25.15%;
-  bottom: 0.6%;
-  padding: 5px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
 }

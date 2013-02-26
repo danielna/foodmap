@@ -1,7 +1,13 @@
 @import "compass/css3";
 
 $color-black: #222222;
-$color-lightgray: #f2f2f2;
+$color-lightgray: #F2F2F2;
+$color-darkgray: #ADADAD;
+$color-green: #89E63B;
+$color-yellow: #FBF658;
+$color-red: #DD7663;
+$menu-duration: 0.6s;
+$left-transition-percentage: 25%;
 
 html { 
     height: 100% 
@@ -11,56 +17,157 @@ body {
     position: relative;
     height: 100%; 
     margin: 0; 
-    padding: 0.3%;
     @include box-sizing(border-box);
     background-color: $color-black;
     color: $color-black;
     font-size: 16px;
+    overflow: hidden;
 }
 
-h1 {
-    display: block;
-    width: 100%;
-    font-size: 1.8em;
-    line-height: 1.5em;
-    padding: 0;
-    margin: 0;
-    border-bottom: 1px solid $color-lightgray;
+.color-low {
+    color: $color-green;
 }
-
-
+.color-med {
+    color: $color-yellow;
+}
+.color-high {
+    color: $color-red;
+}
 
 //
 // Containers
 section {
-    display: block;
-    position: relative;
-    float: left;
-    &#main {
+    position: absolute;
+    @include transition-property(left);
+    @include transition-duration($menu-duration);
+    @include transition-timing-function(ease-in-out);   
+    &#left-menu {
+        top: 0;
+        left: -$left-transition-percentage;
         height: 100%;
-        width: 25%;
+        width: $left-transition-percentage;
         background-color: $color-black;
         color: $color-lightgray;
         @include box-sizing(border-box);
         overflow-y: auto;
-        overflow-x: none;
+        body.menu-on & {
+            left: 0;
+        }
+    }
+    &#top-bar {
+        height: 5%;
+        width: 100%;
+        left: 0%;
+        background-color: $color-lightgray;
+        @include box-sizing(border-box);
+        @include box-shadow($color-darkgray 1px 1px);
+        button {
+            display: inline-block;
+            position: relative;
+            margin-top: 5px;
+            margin-left: 5px;
+            
+        }
+        h1.page-title {
+            display: inline-block;
+            height: 100%;
+            font-size: 1.2em;
+            line-height: 1em;
+            padding: 0;
+            margin: 0 auto;
+            color: $color-black;
+        }
+        body.menu-on & {
+            left: $left-transition-percentage;
+        }
     }
     &#map-container { 
-        height: 100%;
-        width: 75%;
+        top: 5%;
+        left: 0%;
+        height: 95%;
+        width: 100%;
+        body.menu-on & {
+            left: $left-transition-percentage;
+        }
     }
 }
 
 #welcome {
+    z-index: 100;
     display: block;
-    position: relative;
-    float: left;
-    margin: 2% 5% 0 2%; 
+    position: absolute;
+    padding: 20px;
+    width: 40%;
+    right: 10%;
+    top: 10%;
     font-size: 0.875em;
     line-height: 1.3em;
-    h1 {
+    color: $color-lightgray;
+    background-color: rgba(0,0,0, 0.8);
+    p {
+        &:first-child {
+            margin-top: 0px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+    #js-close-welcome {
+        position: absolute;
+        display: inline-block;
+        top: 0.4em;
+        right: 0.7em;
+        font-size: 0.7em;
+        cursor: pointer;
+    }
+}
+
+section#left-menu {
+    > h2 {
+        font-size: 1.6em;
+        line-height: 1em;
         margin: 0;
-        padding: 0;
+        padding: 0.5em 0 0.5em 0.3em;
+    }
+    .listing {
+        position: relative;
+        @include box-sizing(border-box);
+        float: left;
+        width: 100%;
+        color: $color-lightgray;
+        margin-bottom: 2px;
+        &:hover, &.active {
+            background-color: #999;
+        }
+        .thumb {
+            width: 20%;
+            padding: 2.5%;
+            float: left;
+            img {
+                width: 100%;
+            }
+        }
+        .title {
+            font-size: 1em;
+        }
+        .price {
+            font-size: 0.9em;
+            &[data-price="low"] {
+                color: $color-green;
+            }
+            &[data-price="med"] {
+                color: $color-yellow;
+            }
+            &[data-price="high"] {
+                color: $color-red;
+            }
+        }
+        .metadata {
+            width: 75%;
+            padding: 3% 0;
+            float: left;
+            @include box-sizing(padding-box);
+        }
     }
 }
 
@@ -87,28 +194,5 @@ section {
             margin-bottom: 1.5em;
         }
     }
-    .price {
-        &[data-price="low"] {
-            color: #89E63B;
-        }
-        &[data-price="med"] {
-            color: #FBF658;
-        }
-        &[data-price="high"] {
-            color: #DD7663;
-        }
-    }
-}
-
-#controls {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 25.15%;
-    bottom: 0.6%;
-    padding: 5px;
-    @include box-sizing(border-box);
-    background-color: $color-lightgray;
-
-
+    
 }
