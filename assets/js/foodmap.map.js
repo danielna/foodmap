@@ -55,6 +55,8 @@ foodmap.map = function() {
 
         function addClickListener(marker) {
             google.maps.event.addListener(marker, 'click', function() {
+                $("#welcome-container").fadeOut();
+
                 marker_util.highlightListing(marker.title);
                 marker_util.zoomMarker(marker.title);
                 marker_util.showInfoWindow(marker.title);
@@ -126,6 +128,8 @@ foodmap.map = function() {
             });
 
             google.maps.event.addDomListener($self[0], "click", function(ev) {
+                $("#welcome-container").fadeOut();
+                
                 var id = $self.attr("data-id");
                 marker_util.zoomMarker(id);
                 marker_util.showInfoWindow(id);
@@ -165,7 +169,8 @@ foodmap.map = function() {
             $js_listing_container.find(".listing").removeClass("active");
             $active_listing.addClass("active");
 
-            $("#left-menu").scrollTop($active_listing[0].offsetTop);
+            console.log("offsetLeft:",$active_listing[0].offsetLeft);
+            $("#bottom-container .listing-scroll").scrollLeft($active_listing[0].offsetLeft);
         },
 
         // Zoom to a marker on the map

@@ -8,40 +8,37 @@
 </head>
 <body>
 
-    <section id="left-menu">
-        <h2>Eateries</h2>
-        <div class="js-listing-container">
-            <div id="js-template-listing" style="display: none">
-                <div class="listing">
-                    <div class="thumb">
-                        <img src="http://www.placehold.it/50x50/" title="image-name"/>
-                    </div>
-                    <div class="metadata">
-                        <div class="title"></div>
-                        <div class="price"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!--         <div class="meta">
-            <div class="title"></div>
-            <div class="price"></div>
-            <div class="description"></div>
-            <div class="tags"></div>
-        </div> -->
+    <section id="left-container">
+
     </section>
 
     <section id="top-bar">
+        <h1 class="page-title">Notable NOVA Eateries</h1>
         <button id="js-btn-menu">Listings</button>
         <button id="js-btn-reset" title="Reset Map">Reset Map</button>
         <button id="js-btn-welcome" title="Show welcome message">Welcome Message</button>
-        <h1 class="page-title">Notable NOVA Eateries</h1>
+        
     </section>
     
     <section id="map-container">
     </section>
 
-    <div id="welcome">
+    <section id="bottom-container">
+        <div class="listing-scroll">
+            <div class="js-listing-container listing-container">
+                <div id="js-template-listing" style="display: none">
+                    <div class="listing">
+                        <div class="metadata">
+                            <div class="title"></div>
+                            <div class="price"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="welcome-container">
         <span id="js-close-welcome" title="Close this message">
             close
         </span>

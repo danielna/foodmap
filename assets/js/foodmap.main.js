@@ -13,21 +13,33 @@ $(document).ready(function() {
 
     window.initialize = function() { 
         $(".meta").hide();
-        var map = new foodmap.map();
+        var map = new foodmap.map(10);
         map.init();
     };
 
+    var $welcome = $("#welcome-container");
+
     $("#js-btn-menu").on("click", function() {
-        $("body").toggleClass("menu-on");
+        $welcome.fadeOut();
+        $("body").toggleClass("menu-left");
     });
 
     $("#js-btn-welcome").on("click", function() {
-        $("#welcome").fadeToggle();
+        $welcome.fadeToggle();
     });
 
     $("#js-close-welcome").on("click", function() {
-        $("#welcome").fadeOut();
+        $welcome.fadeOut();
     });
+
+    $("#js-btn-reset").on("click", function() {
+        $welcome.fadeOut();
+    });
+
+    $(".js-expand-container").on("click", function() {
+        $("body").toggleClass("menu-bottom");
+    });
+
 
 
 });

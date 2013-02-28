@@ -1,9 +1,9 @@
-/* line 12, ../sass/map.scss */
+/* line 20, ../sass/map.scss */
 html {
   height: 100%;
 }
 
-/* line 16, ../sass/map.scss */
+/* line 24, ../sass/map.scss */
 body {
   position: relative;
   height: 100%;
@@ -17,43 +17,35 @@ body {
   overflow: hidden;
 }
 
-/* line 27, ../sass/map.scss */
+/* line 35, ../sass/map.scss */
 .color-low {
   color: #89e63b;
 }
 
-/* line 30, ../sass/map.scss */
+/* line 38, ../sass/map.scss */
 .color-med {
   color: #fbf658;
 }
 
-/* line 33, ../sass/map.scss */
+/* line 41, ../sass/map.scss */
 .color-high {
   color: #dd7663;
 }
 
-/* line 39, ../sass/map.scss */
+/* line 47, ../sass/map.scss */
 section {
   position: absolute;
-  -webkit-transition-property: left;
-  -moz-transition-property: left;
-  -o-transition-property: left;
-  transition-property: left;
-  -webkit-transition-duration: 0.6s;
-  -moz-transition-duration: 0.6s;
-  -o-transition-duration: 0.6s;
-  transition-duration: 0.6s;
-  -webkit-transition-timing-function: ease-in-out;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  -webkit-transition: left 0.6s ease-in-out;
+  -moz-transition: left 0.6s ease-in-out;
+  -o-transition: left 0.6s ease-in-out;
+  transition: left 0.6s ease-in-out;
 }
-/* line 44, ../sass/map.scss */
-section#left-menu {
+/* line 50, ../sass/map.scss */
+section#left-container {
   top: 0;
-  left: -25%;
+  left: -15%;
   height: 100%;
-  width: 25%;
+  width: 15%;
   background-color: #222222;
   color: #f2f2f2;
   -webkit-box-sizing: border-box;
@@ -61,16 +53,17 @@ section#left-menu {
   box-sizing: border-box;
   overflow-y: auto;
 }
-/* line 53, ../sass/map.scss */
-body.menu-on section#left-menu {
+/* line 59, ../sass/map.scss */
+body.menu-left section#left-container {
   left: 0;
 }
-/* line 57, ../sass/map.scss */
+/* line 63, ../sass/map.scss */
 section#top-bar {
   height: 5%;
   width: 100%;
   left: 0%;
-  background-color: #f2f2f2;
+  background-color: #222222;
+  color: #f2f2f2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -78,41 +71,119 @@ section#top-bar {
   -moz-box-shadow: #adadad 1px 1px;
   box-shadow: #adadad 1px 1px;
 }
-/* line 64, ../sass/map.scss */
+/* line 71, ../sass/map.scss */
 section#top-bar button {
   display: inline-block;
   position: relative;
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 71, ../sass/map.scss */
+/* line 77, ../sass/map.scss */
 section#top-bar h1.page-title {
   display: inline-block;
   height: 100%;
   font-size: 1.2em;
   line-height: 1em;
   padding: 0;
-  margin: 0 auto;
-  color: #222222;
+  margin: 3px 3px;
 }
-/* line 80, ../sass/map.scss */
-body.menu-on section#top-bar {
-  left: 25%;
+/* line 85, ../sass/map.scss */
+body.menu-left section#top-bar {
+  left: 15%;
 }
-/* line 84, ../sass/map.scss */
+/* line 89, ../sass/map.scss */
 section#map-container {
   top: 5%;
   left: 0%;
-  height: 95%;
+  height: 80%;
   width: 100%;
 }
-/* line 89, ../sass/map.scss */
-body.menu-on section#map-container {
-  left: 25%;
+/* line 94, ../sass/map.scss */
+body.menu-left section#map-container {
+  left: 15%;
+}
+/* line 98, ../sass/map.scss */
+section#bottom-container {
+  height: 15%;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: left 0.6s ease-in-out, height 0.4s ease-in-out;
+  -moz-transition: left 0.6s ease-in-out, height 0.4s ease-in-out;
+  -o-transition: left 0.6s ease-in-out, height 0.4s ease-in-out;
+  transition: left 0.6s ease-in-out, height 0.4s ease-in-out;
+}
+/* line 103, ../sass/map.scss */
+section#bottom-container .listing-scroll {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+/* line 112, ../sass/map.scss */
+body.menu-left section#bottom-container {
+  left: 15%;
+}
+/* line 115, ../sass/map.scss */
+body.menu-bottom section#bottom-container {
+  height: 15%;
 }
 
-/* line 95, ../sass/map.scss */
-#welcome {
+/* line 121, ../sass/map.scss */
+#bottom-container .listing-container {
+  width: 200000px;
+}
+/* line 123, ../sass/map.scss */
+#bottom-container .listing-container .listing {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 130px;
+  height: 120px;
+  color: #f2f2f2;
+  margin-right: 2px;
+  padding: 3px 5px;
+}
+/* line 132, ../sass/map.scss */
+#bottom-container .listing-container .listing:hover, #bottom-container .listing-container .listing.active {
+  background-color: #999;
+}
+/* line 135, ../sass/map.scss */
+#bottom-container .listing-container .listing .title {
+  font-size: 0.9em;
+}
+/* line 138, ../sass/map.scss */
+#bottom-container .listing-container .listing .price {
+  font-size: 0.65em;
+}
+/* line 140, ../sass/map.scss */
+#bottom-container .listing-container .listing .price[data-price="low"] {
+  color: #89e63b;
+}
+/* line 143, ../sass/map.scss */
+#bottom-container .listing-container .listing .price[data-price="med"] {
+  color: #fbf658;
+}
+/* line 146, ../sass/map.scss */
+#bottom-container .listing-container .listing .price[data-price="high"] {
+  color: #dd7663;
+}
+/* line 150, ../sass/map.scss */
+#bottom-container .listing-container .listing .metadata {
+  width: 75%;
+  padding: 3% 0;
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 160, ../sass/map.scss */
+#welcome-container {
   z-index: 100;
   display: block;
   position: absolute;
@@ -125,16 +196,16 @@ body.menu-on section#map-container {
   color: #f2f2f2;
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* line 108, ../sass/map.scss */
-#welcome p:first-child {
+/* line 173, ../sass/map.scss */
+#welcome-container p:first-child {
   margin-top: 0px;
 }
-/* line 111, ../sass/map.scss */
-#welcome p:last-child {
+/* line 176, ../sass/map.scss */
+#welcome-container p:last-child {
   margin-bottom: 0px;
 }
-/* line 115, ../sass/map.scss */
-#welcome #js-close-welcome {
+/* line 180, ../sass/map.scss */
+#welcome-container #js-close-welcome {
   position: absolute;
   display: inline-block;
   top: 0.4em;
@@ -143,69 +214,15 @@ body.menu-on section#map-container {
   cursor: pointer;
 }
 
-/* line 126, ../sass/map.scss */
-section#left-menu > h2 {
+/* line 191, ../sass/map.scss */
+section#left-container > h2 {
   font-size: 1.6em;
   line-height: 1em;
   margin: 0;
   padding: 0.5em 0 0.5em 0.3em;
 }
-/* line 132, ../sass/map.scss */
-section#left-menu .listing {
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
-  width: 100%;
-  color: #f2f2f2;
-  margin-bottom: 2px;
-}
-/* line 139, ../sass/map.scss */
-section#left-menu .listing:hover, section#left-menu .listing.active {
-  background-color: #999;
-}
-/* line 142, ../sass/map.scss */
-section#left-menu .listing .thumb {
-  width: 20%;
-  padding: 2.5%;
-  float: left;
-}
-/* line 146, ../sass/map.scss */
-section#left-menu .listing .thumb img {
-  width: 100%;
-}
-/* line 150, ../sass/map.scss */
-section#left-menu .listing .title {
-  font-size: 1em;
-}
-/* line 153, ../sass/map.scss */
-section#left-menu .listing .price {
-  font-size: 0.9em;
-}
-/* line 155, ../sass/map.scss */
-section#left-menu .listing .price[data-price="low"] {
-  color: #89e63b;
-}
-/* line 158, ../sass/map.scss */
-section#left-menu .listing .price[data-price="med"] {
-  color: #fbf658;
-}
-/* line 161, ../sass/map.scss */
-section#left-menu .listing .price[data-price="high"] {
-  color: #dd7663;
-}
-/* line 165, ../sass/map.scss */
-section#left-menu .listing .metadata {
-  width: 75%;
-  padding: 3% 0;
-  float: left;
-  -webkit-box-sizing: padding-box;
-  -moz-box-sizing: padding-box;
-  box-sizing: padding-box;
-}
 
-/* line 174, ../sass/map.scss */
+/* line 199, ../sass/map.scss */
 .meta {
   display: none;
   position: relative;
@@ -214,20 +231,20 @@ section#left-menu .listing .metadata {
   font-size: 0.875em;
   line-height: 1.3em;
 }
-/* line 181, ../sass/map.scss */
+/* line 206, ../sass/map.scss */
 .meta .title {
   font-size: 1.5em;
   margin-bottom: 0.3125em;
   line-height: 1.2em;
 }
-/* line 187, ../sass/map.scss */
+/* line 212, ../sass/map.scss */
 .meta .description > h2 {
   font-size: 1em;
   line-height: 1.1em;
   font-weight: bold;
   margin-top: 0;
 }
-/* line 193, ../sass/map.scss */
+/* line 218, ../sass/map.scss */
 .meta .description p {
   margin-bottom: 1.5em;
 }

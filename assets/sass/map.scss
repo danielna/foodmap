@@ -6,8 +6,16 @@ $color-darkgray: #ADADAD;
 $color-green: #89E63B;
 $color-yellow: #FBF658;
 $color-red: #DD7663;
-$menu-duration: 0.6s;
-$left-transition-percentage: 25%;
+
+$menu-left-transition-percentage: 15%;
+
+
+$menu-left-duration: 0.6s;
+$menu-bottom-duration: 0.4s;
+
+$top-bar-height: 5%;
+$menu-bottom-height: 15%;
+$menu-bottom-end-height: 15%;
 
 html { 
     height: 100% 
@@ -38,27 +46,26 @@ body {
 // Containers
 section {
     position: absolute;
-    @include transition-property(left);
-    @include transition-duration($menu-duration);
-    @include transition-timing-function(ease-in-out);   
-    &#left-menu {
+    @include transition(left $menu-left-duration ease-in-out); 
+    &#left-container {
         top: 0;
-        left: -$left-transition-percentage;
+        left: -$menu-left-transition-percentage;
         height: 100%;
-        width: $left-transition-percentage;
+        width: $menu-left-transition-percentage;
         background-color: $color-black;
         color: $color-lightgray;
         @include box-sizing(border-box);
         overflow-y: auto;
-        body.menu-on & {
+        body.menu-left & {
             left: 0;
         }
     }
     &#top-bar {
-        height: 5%;
+        height: $top-bar-height;
         width: 100%;
         left: 0%;
-        background-color: $color-lightgray;
+        background-color: $color-black;
+        color: $color-lightgray;
         @include box-sizing(border-box);
         @include box-shadow($color-darkgray 1px 1px);
         button {
@@ -66,7 +73,6 @@ section {
             position: relative;
             margin-top: 5px;
             margin-left: 5px;
-            
         }
         h1.page-title {
             display: inline-block;
@@ -74,25 +80,84 @@ section {
             font-size: 1.2em;
             line-height: 1em;
             padding: 0;
-            margin: 0 auto;
-            color: $color-black;
+            margin: 3px 3px;
         }
-        body.menu-on & {
-            left: $left-transition-percentage;
+        body.menu-left & {
+            left: $menu-left-transition-percentage;
         }
     }
     &#map-container { 
         top: 5%;
         left: 0%;
-        height: 95%;
+        height: 100% - $menu-bottom-height - $top-bar-height;
         width: 100%;
-        body.menu-on & {
-            left: $left-transition-percentage;
+        body.menu-left & {
+            left: $menu-left-transition-percentage;
+        }
+    }
+    &#bottom-container {
+        height: $menu-bottom-height;
+        bottom: 0;
+        width: 100%;
+        @include transition(left $menu-left-duration ease-in-out, height $menu-bottom-duration ease-in-out); 
+        .listing-scroll {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            float: left;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        body.menu-left & {
+            left: $menu-left-transition-percentage;
+        }
+        body.menu-bottom & { 
+            height: $menu-bottom-end-height;
         }
     }
 }
 
-#welcome {
+#bottom-container .listing-container {
+    width: 200000px;
+    .listing {
+        position: relative;
+        @include box-sizing(border-box);
+        float: left;
+        width: 130px;
+        height: 120px;
+        color: $color-lightgray;
+        margin-right: 2px;
+        padding: 3px 5px;
+        &:hover, &.active {
+            background-color: #999;
+        }
+        .title {
+            font-size: 0.9em;
+        }
+        .price {
+            font-size: 0.65em;
+            &[data-price="low"] {
+                color: $color-green;
+            }
+            &[data-price="med"] {
+                color: $color-yellow;
+            }
+            &[data-price="high"] {
+                color: $color-red;
+            }
+        }
+        .metadata {
+            width: 75%;
+            padding: 3% 0;
+            float: left;
+            @include box-sizing(content-box);
+        }
+    }
+}
+
+
+#welcome-container {
     z-index: 100;
     display: block;
     position: absolute;
@@ -122,52 +187,12 @@ section {
     }
 }
 
-section#left-menu {
+section#left-container {
     > h2 {
         font-size: 1.6em;
         line-height: 1em;
         margin: 0;
         padding: 0.5em 0 0.5em 0.3em;
-    }
-    .listing {
-        position: relative;
-        @include box-sizing(border-box);
-        float: left;
-        width: 100%;
-        color: $color-lightgray;
-        margin-bottom: 2px;
-        &:hover, &.active {
-            background-color: #999;
-        }
-        .thumb {
-            width: 20%;
-            padding: 2.5%;
-            float: left;
-            img {
-                width: 100%;
-            }
-        }
-        .title {
-            font-size: 1em;
-        }
-        .price {
-            font-size: 0.9em;
-            &[data-price="low"] {
-                color: $color-green;
-            }
-            &[data-price="med"] {
-                color: $color-yellow;
-            }
-            &[data-price="high"] {
-                color: $color-red;
-            }
-        }
-        .metadata {
-            width: 75%;
-            padding: 3% 0;
-            float: left;
-            @include box-sizing(padding-box);
-        }
     }
 }
 
