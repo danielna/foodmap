@@ -9,7 +9,7 @@ foodmap.map = function() {
         markerBounds = null,
         map = null,
         infoWindow = null,
-        zoom = 18;
+        zoom = 10;
 
     /**
     * Run the show
@@ -169,7 +169,6 @@ foodmap.map = function() {
             $js_listing_container.find(".listing").removeClass("active");
             $active_listing.addClass("active");
 
-            console.log("offsetLeft:",$active_listing[0].offsetLeft);
             $("#bottom-container .listing-scroll").scrollLeft($active_listing[0].offsetLeft);
         },
 

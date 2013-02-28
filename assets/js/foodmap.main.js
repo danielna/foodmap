@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     window.initialize = function() { 
         $(".meta").hide();
-        var map = new foodmap.map(10);
+        var map = new foodmap.map();
         map.init();
     };
 
