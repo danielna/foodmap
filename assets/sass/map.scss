@@ -14,8 +14,16 @@ $menu-left-duration: 0.6s;
 $menu-bottom-duration: 0.4s;
 
 $top-bar-height: 5%;
-$menu-bottom-height: 15%;
+$menu-bottom-height: 10%;
 $menu-bottom-end-height: 15%;
+
+@mixin background-gradient($color1: #414141, $color2: #111111) {
+    background-color: $color1; // Old browsers
+    @include filter-gradient($color1, $color2, vertical); // IE6-8
+    // IE9 SVG, needs conditional override of 'filter' to 'none'
+    $experimental-support-for-svg: true;
+    @include background-image(linear-gradient(top,$color1 0%,$color2 80%));
+}
 
 html { 
     height: 100% 
@@ -61,26 +69,33 @@ section {
         }
     }
     &#top-bar {
-        height: $top-bar-height;
+        height: 50px;
+        max-height: 50px;
         width: 100%;
-        left: 0%;
+        left: 0;
         background-color: $color-black;
+        @include background-gradient;
         color: $color-lightgray;
+        border: 0px;
         @include box-sizing(border-box);
-        @include box-shadow($color-darkgray 1px 1px);
+        z-index: 100;
         button {
             display: inline-block;
             position: relative;
-            margin-top: 5px;
             margin-left: 5px;
+            vertical-align: middle;
+            margin-bottom: 9px;
+            font-size: 0.9em;
+            padding: 5px 8px;
         }
         h1.page-title {
             display: inline-block;
             height: 100%;
-            font-size: 1.2em;
-            line-height: 1em;
+            font-size: 1.5em;
+            line-height: 50px;
             padding: 0;
-            margin: 3px 3px;
+            margin: 0 5px;
+            text-indent: 10px;
         }
         body.menu-left & {
             left: $menu-left-transition-percentage;
@@ -91,24 +106,18 @@ section {
         left: 0%;
         height: 100% - $menu-bottom-height - $top-bar-height;
         width: 100%;
+        z-index: 50;
         body.menu-left & {
             left: $menu-left-transition-percentage;
         }
     }
     &#bottom-container {
-        height: $menu-bottom-height;
+        height: 100px;
+        max-height: 100px;
         bottom: 0;
         width: 100%;
         @include transition(left $menu-left-duration ease-in-out, height $menu-bottom-duration ease-in-out); 
-        .listing-scroll {
-            display: block;
-            position: relative;
-            width: 100%;
-            height: 100%;
-            float: left;
-            overflow-x: auto;
-            overflow-y: hidden;
-        }
+        z-index: 150;
         body.menu-left & {
             left: $menu-left-transition-percentage;
         }
@@ -118,40 +127,57 @@ section {
     }
 }
 
-#bottom-container .listing-container {
-    width: 200000px;
-    .listing {
+#bottom-container {
+    .listing-scroll {
+        display: block;
         position: relative;
-        @include box-sizing(border-box);
+        width: 100%;
+        height: 100%;
         float: left;
-        width: 130px;
-        height: 120px;
-        color: $color-lightgray;
-        margin-right: 2px;
-        padding: 3px 5px;
-        &:hover, &.active {
-            background-color: #999;
-        }
-        .title {
-            font-size: 0.9em;
-        }
-        .price {
-            font-size: 0.65em;
-            &[data-price="low"] {
-                color: $color-green;
+        overflow-x: auto;
+        overflow-y: hidden;
+        .listing-container {
+            width: 100%;
+            .listing {
+                position: relative;
+                @include box-sizing(border-box);
+                float: left;
+                width: 130px;
+                height: 120px;
+                color: $color-lightgray;
+                background-color: #333;
+                @include background-gradient;
+                @include border-radius(5px 5px 0 0);
+                margin-right: 2px;
+                padding: 3px 8px;
+                margin: 5px;
+                &:hover, &.active {
+                    background-color: #999;
+                    @include background-gradient(#0090ff, #111111);
+                    @include box-shadow(rgba(#f2f2f2, 0.4) 0 0 25px);
+                }
+                .title {
+                    font-size: 0.9em;
+                }
+                .price {
+                    font-size: 0.65em;
+                    &[data-price="low"] {
+                        color: $color-green;
+                    }
+                    &[data-price="med"] {
+                        color: $color-yellow;
+                    }
+                    &[data-price="high"] {
+                        color: $color-red;
+                    }
+                }
+                .metadata {
+                    width: 75%;
+                    padding: 3% 0;
+                    float: left;
+                    @include box-sizing(content-box);
+                }
             }
-            &[data-price="med"] {
-                color: $color-yellow;
-            }
-            &[data-price="high"] {
-                color: $color-red;
-            }
-        }
-        .metadata {
-            width: 75%;
-            padding: 3% 0;
-            float: left;
-            @include box-sizing(content-box);
         }
     }
 }
@@ -170,8 +196,9 @@ section {
     color: $color-lightgray;
     background-color: rgba(0,0,0, 0.8);
     p {
-        &:first-child {
+        &:first-of-type {
             margin-top: 0px;
+            padding-top: 0px;
         }
         &:last-child {
             margin-bottom: 0px;

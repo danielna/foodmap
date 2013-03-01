@@ -40,6 +40,4 @@ $(document).ready(function() {
         $("body").toggleClass("menu-bottom");
     });
 
-
-
 });

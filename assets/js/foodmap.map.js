@@ -9,7 +9,8 @@ foodmap.map = function() {
         markerBounds = null,
         map = null,
         infoWindow = null,
-        zoom = 10;
+        zoom = 10,
+        listingWidth = 145;
 
     /**
     * Run the show
@@ -23,7 +24,8 @@ foodmap.map = function() {
             myOptions = {
                             zoom: zoom,
                             center: latlng,
-                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                            mapTypeId: google.maps.MapTypeId.ROADMAP,
+                            mapTypeControl: false
                         };
         
         markerBounds = new google.maps.LatLngBounds();
@@ -102,6 +104,10 @@ foodmap.map = function() {
                 createMarkerListing(marker);
             });
 
+            // set the width of the scrolling listing container
+            var pixelLength = listingWidth * _.keys(markers).length;
+            $("#bottom-container").find(".listing-container").attr("style", "width:" + pixelLength + "px;");
+
         } else {
             console.error("markerData is null in createMarkers");
             return null;
@@ -169,7 +175,7 @@ foodmap.map = function() {
             $js_listing_container.find(".listing").removeClass("active");
             $active_listing.addClass("active");
 
-            $("#bottom-container .listing-scroll").scrollLeft($active_listing[0].offsetLeft);
+            $("#bottom-container .listing-scroll").animate({scrollLeft: $active_listing[0].offsetLeft - ($(window).width()/2)}, 1200);
         },
 
         // Zoom to a marker on the map
