@@ -8,7 +8,7 @@ foodmap.map = function() {
         markers = {},
         markerBounds = null,
         map = null,
-        infoWindow = null,
+        infoBox = null,
         zoom = 10,
         listingWidth = 145;
 
@@ -60,8 +60,8 @@ foodmap.map = function() {
                 $("#welcome-container").fadeOut();
 
                 marker_util.highlightListing(marker.title);
-                marker_util.zoomMarker(marker.title);
-                marker_util.showInfoWindow(marker.title);
+                // marker_util.zoomMarker(marker.title);
+                marker_util.showinfoBox(marker.title);
             });
         }
 
@@ -137,8 +137,8 @@ foodmap.map = function() {
                 $("#welcome-container").fadeOut();
                 
                 var id = $self.attr("data-id");
-                marker_util.zoomMarker(id);
-                marker_util.showInfoWindow(id);
+                // marker_util.zoomMarker(id);
+                marker_util.showinfoBox(id);
             });
         });
     };
@@ -149,8 +149,8 @@ foodmap.map = function() {
     * Add the DOMListener for clicking on each listing, which engages the map via the marker.
     */
     var setOriginalZoom = function(){
-        if (infoWindow) {
-            infoWindow.close();
+        if (infoBox) {
+            infoBox.close();
         }
         map.fitBounds(markerBounds);
     };  
@@ -181,20 +181,25 @@ foodmap.map = function() {
         // Zoom to a marker on the map
         zoomMarker: function(id) {
             map.setCenter(markers[id].getPosition());
-            map.setZoom(16);
+            map.setZoom(12);
         },
 
-        // Pop an info window for the given marker id
-        showInfoWindow: function(id) {
+        // Pop an infoBox for the given marker id
+        showinfoBox: function(id) {
             var marker = markers[id];
-            if (infoWindow) {
-                infoWindow.close();
+            if (infoBox) {
+                infoBox.close();
             }
-            infoWindow = new google.maps.InfoWindow({
-                content: marker.description
+            infoBox = new InfoBox({
+                boxClass: "infobox-container",
+                content: marker.description,
+                infoBoxClearance: new google.maps.Size(10,10),
+                pixelOffset: new google.maps.Size(1,1)
             });
+            console.log("infoBox:", infoBox);
+            console.log("marker:", marker);
 
-            infoWindow.open(map, marker);
+            infoBox.open(map, marker);
         }
 
     };
