@@ -92,6 +92,15 @@ section#top-bar button {
   padding: 5px 8px;
 }
 /* line 91, ../sass/map.scss */
+section#top-bar .last-updated {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+/* line 99, ../sass/map.scss */
 section#top-bar h1.page-title {
   display: inline-block;
   height: 100%;
@@ -101,11 +110,11 @@ section#top-bar h1.page-title {
   margin: 0 5px;
   text-indent: 10px;
 }
-/* line 100, ../sass/map.scss */
+/* line 108, ../sass/map.scss */
 body.menu-left section#top-bar {
   left: 15%;
 }
-/* line 104, ../sass/map.scss */
+/* line 112, ../sass/map.scss */
 section#map-container {
   top: 5%;
   left: 0%;
@@ -113,11 +122,11 @@ section#map-container {
   width: 100%;
   z-index: 50;
 }
-/* line 110, ../sass/map.scss */
+/* line 118, ../sass/map.scss */
 body.menu-left section#map-container {
   left: 15%;
 }
-/* line 114, ../sass/map.scss */
+/* line 122, ../sass/map.scss */
 section#bottom-container {
   height: 100px;
   max-height: 100px;
@@ -129,16 +138,16 @@ section#bottom-container {
   transition: left 0.6s ease-in-out, height 0.4s ease-in-out;
   z-index: 150;
 }
-/* line 121, ../sass/map.scss */
+/* line 129, ../sass/map.scss */
 body.menu-left section#bottom-container {
   left: 15%;
 }
-/* line 124, ../sass/map.scss */
+/* line 132, ../sass/map.scss */
 body.menu-bottom section#bottom-container {
   height: 15%;
 }
 
-/* line 131, ../sass/map.scss */
+/* line 139, ../sass/map.scss */
 #bottom-container .listing-scroll {
   display: block;
   position: relative;
@@ -148,11 +157,11 @@ body.menu-bottom section#bottom-container {
   overflow-x: auto;
   overflow-y: hidden;
 }
-/* line 139, ../sass/map.scss */
+/* line 147, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container {
   width: 100%;
 }
-/* line 141, ../sass/map.scss */
+/* line 149, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -182,7 +191,7 @@ body.menu-bottom section#bottom-container {
   padding: 3px 8px;
   margin: 5px;
 }
-/* line 154, ../sass/map.scss */
+/* line 162, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing:hover, #bottom-container .listing-scroll .listing-container .listing.active {
   background-color: #999;
   background-color: #0090ff;
@@ -199,27 +208,27 @@ body.menu-bottom section#bottom-container {
   -moz-box-shadow: rgba(242, 242, 242, 0.4) 0 0 25px;
   box-shadow: rgba(242, 242, 242, 0.4) 0 0 25px;
 }
-/* line 159, ../sass/map.scss */
+/* line 167, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing .title {
   font-size: 0.9em;
 }
-/* line 162, ../sass/map.scss */
+/* line 170, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing .price {
   font-size: 0.65em;
 }
-/* line 164, ../sass/map.scss */
+/* line 172, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing .price[data-price="low"] {
   color: #89e63b;
 }
-/* line 167, ../sass/map.scss */
+/* line 175, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing .price[data-price="med"] {
   color: #fbf658;
 }
-/* line 170, ../sass/map.scss */
+/* line 178, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing .price[data-price="high"] {
   color: #dd7663;
 }
-/* line 174, ../sass/map.scss */
+/* line 182, ../sass/map.scss */
 #bottom-container .listing-scroll .listing-container .listing .metadata {
   width: 75%;
   padding: 3% 0;
@@ -229,7 +238,7 @@ body.menu-bottom section#bottom-container {
   box-sizing: content-box;
 }
 
-/* line 187, ../sass/map.scss */
+/* line 195, ../sass/map.scss */
 #welcome-container {
   z-index: 100;
   display: block;
@@ -243,16 +252,16 @@ body.menu-bottom section#bottom-container {
   color: #f2f2f2;
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* line 200, ../sass/map.scss */
+/* line 208, ../sass/map.scss */
 #welcome-container p:first-of-type {
   margin-top: 0px;
   padding-top: 0px;
 }
-/* line 204, ../sass/map.scss */
+/* line 212, ../sass/map.scss */
 #welcome-container p:last-child {
   margin-bottom: 0px;
 }
-/* line 208, ../sass/map.scss */
+/* line 216, ../sass/map.scss */
 #welcome-container #js-close-welcome {
   position: absolute;
   display: inline-block;
@@ -262,7 +271,7 @@ body.menu-bottom section#bottom-container {
   cursor: pointer;
 }
 
-/* line 219, ../sass/map.scss */
+/* line 227, ../sass/map.scss */
 section#left-container > h2 {
   font-size: 1.6em;
   line-height: 1em;
@@ -270,7 +279,7 @@ section#left-container > h2 {
   padding: 0.5em 0 0.5em 0.3em;
 }
 
-/* line 227, ../sass/map.scss */
+/* line 235, ../sass/map.scss */
 .meta {
   display: none;
   position: relative;
@@ -279,25 +288,25 @@ section#left-container > h2 {
   font-size: 0.875em;
   line-height: 1.3em;
 }
-/* line 234, ../sass/map.scss */
+/* line 242, ../sass/map.scss */
 .meta .title {
   font-size: 1.5em;
   margin-bottom: 0.3125em;
   line-height: 1.2em;
 }
-/* line 240, ../sass/map.scss */
+/* line 248, ../sass/map.scss */
 .meta .description > h2 {
   font-size: 1em;
   line-height: 1.1em;
   font-weight: bold;
   margin-top: 0;
 }
-/* line 246, ../sass/map.scss */
+/* line 254, ../sass/map.scss */
 .meta .description p {
   margin-bottom: 1.5em;
 }
 
-/* line 254, ../sass/map.scss */
+/* line 262, ../sass/map.scss */
 section#map-container .infobox-container {
   display: block;
   font-size: 0.875em;
@@ -320,20 +329,20 @@ section#map-container .infobox-container {
   box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px 2px;
   overflow-y: auto;
 }
-/* line 267, ../sass/map.scss */
+/* line 275, ../sass/map.scss */
 section#map-container .infobox-container > img {
   position: absolute !important;
   top: 5px;
   right: 5px;
 }
-/* line 272, ../sass/map.scss */
+/* line 280, ../sass/map.scss */
 section#map-container .infobox-container span.title {
   display: block;
   width: 100%;
   font-size: 1.3em;
   font-weight: bold;
 }
-/* line 279, ../sass/map.scss */
+/* line 287, ../sass/map.scss */
 section#map-container .infobox-container .price {
   display: inline-block;
   font-size: 0.8em;
@@ -345,26 +354,26 @@ section#map-container .infobox-container .price {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 285, ../sass/map.scss */
+/* line 293, ../sass/map.scss */
 section#map-container .infobox-container .price[data-price="low"] {
   background-color: #89e63b;
 }
-/* line 288, ../sass/map.scss */
+/* line 296, ../sass/map.scss */
 section#map-container .infobox-container .price[data-price="med"] {
   background-color: #fbf658;
 }
-/* line 291, ../sass/map.scss */
+/* line 299, ../sass/map.scss */
 section#map-container .infobox-container .price[data-price="high"] {
   background-color: #dd7663;
 }
-/* line 295, ../sass/map.scss */
+/* line 303, ../sass/map.scss */
 section#map-container .infobox-container .tags {
   display: inline-block;
   margin-left: 5px;
   font-size: 0.8em;
   font-style: italic;
 }
-/* line 301, ../sass/map.scss */
+/* line 309, ../sass/map.scss */
 section#map-container .infobox-container h2 {
   font-size: 1em;
   font-weight: normal;
@@ -372,7 +381,7 @@ section#map-container .infobox-container h2 {
   margin: 0;
   padding: 0;
 }
-/* line 308, ../sass/map.scss */
+/* line 316, ../sass/map.scss */
 section#map-container .infobox-container p:last-child {
   margin-bottom: 0px;
 }

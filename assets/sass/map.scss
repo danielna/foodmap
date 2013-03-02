@@ -88,6 +88,14 @@ section {
             font-size: 0.9em;
             padding: 5px 8px;
         }
+        .last-updated {
+            display: inline-block;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            font-size: 0.8em;
+            font-style: italic;
+        }
         h1.page-title {
             display: inline-block;
             height: 100%;
