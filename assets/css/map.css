@@ -229,7 +229,7 @@ body.menu-bottom section#bottom-container {
   box-sizing: content-box;
 }
 
-/* line 186, ../sass/map.scss */
+/* line 187, ../sass/map.scss */
 #welcome-container {
   z-index: 100;
   display: block;
@@ -243,16 +243,16 @@ body.menu-bottom section#bottom-container {
   color: #f2f2f2;
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* line 199, ../sass/map.scss */
+/* line 200, ../sass/map.scss */
 #welcome-container p:first-of-type {
   margin-top: 0px;
   padding-top: 0px;
 }
-/* line 203, ../sass/map.scss */
+/* line 204, ../sass/map.scss */
 #welcome-container p:last-child {
   margin-bottom: 0px;
 }
-/* line 207, ../sass/map.scss */
+/* line 208, ../sass/map.scss */
 #welcome-container #js-close-welcome {
   position: absolute;
   display: inline-block;
@@ -262,7 +262,7 @@ body.menu-bottom section#bottom-container {
   cursor: pointer;
 }
 
-/* line 218, ../sass/map.scss */
+/* line 219, ../sass/map.scss */
 section#left-container > h2 {
   font-size: 1.6em;
   line-height: 1em;
@@ -270,7 +270,7 @@ section#left-container > h2 {
   padding: 0.5em 0 0.5em 0.3em;
 }
 
-/* line 226, ../sass/map.scss */
+/* line 227, ../sass/map.scss */
 .meta {
   display: none;
   position: relative;
@@ -279,20 +279,100 @@ section#left-container > h2 {
   font-size: 0.875em;
   line-height: 1.3em;
 }
-/* line 233, ../sass/map.scss */
+/* line 234, ../sass/map.scss */
 .meta .title {
   font-size: 1.5em;
   margin-bottom: 0.3125em;
   line-height: 1.2em;
 }
-/* line 239, ../sass/map.scss */
+/* line 240, ../sass/map.scss */
 .meta .description > h2 {
   font-size: 1em;
   line-height: 1.1em;
   font-weight: bold;
   margin-top: 0;
 }
-/* line 245, ../sass/map.scss */
+/* line 246, ../sass/map.scss */
 .meta .description p {
   margin-bottom: 1.5em;
+}
+
+/* line 254, ../sass/map.scss */
+section#map-container .infobox-container {
+  display: block;
+  font-size: 0.875em;
+  line-height: 1.3em;
+  width: 400px;
+  max-height: 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #222222;
+  padding: 10px 15px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px 2px;
+  overflow-y: auto;
+}
+/* line 267, ../sass/map.scss */
+section#map-container .infobox-container > img {
+  position: absolute !important;
+  top: 5px;
+  right: 5px;
+}
+/* line 272, ../sass/map.scss */
+section#map-container .infobox-container span.title {
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+/* line 279, ../sass/map.scss */
+section#map-container .infobox-container .price {
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 2px 5px;
+  margin: 4px 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 285, ../sass/map.scss */
+section#map-container .infobox-container .price[data-price="low"] {
+  background-color: #89e63b;
+}
+/* line 288, ../sass/map.scss */
+section#map-container .infobox-container .price[data-price="med"] {
+  background-color: #fbf658;
+}
+/* line 291, ../sass/map.scss */
+section#map-container .infobox-container .price[data-price="high"] {
+  background-color: #dd7663;
+}
+/* line 295, ../sass/map.scss */
+section#map-container .infobox-container .tags {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+/* line 301, ../sass/map.scss */
+section#map-container .infobox-container h2 {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.125em;
+  margin: 0;
+  padding: 0;
+}
+/* line 308, ../sass/map.scss */
+section#map-container .infobox-container p:last-child {
+  margin-bottom: 0px;
 }

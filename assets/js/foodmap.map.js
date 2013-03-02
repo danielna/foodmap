@@ -25,7 +25,7 @@ foodmap.map = function() {
                             zoom: zoom,
                             center: latlng,
                             mapTypeId: google.maps.MapTypeId.ROADMAP,
-                            mapTypeControl: false
+                            mapTypeControl: false,
                         };
         
         markerBounds = new google.maps.LatLngBounds();
@@ -179,25 +179,32 @@ foodmap.map = function() {
         },
 
         // Zoom to a marker on the map
-        zoomMarker: function(id) {
-            map.setCenter(markers[id].getPosition());
-            map.setZoom(12);
-        },
+        // zoomMarker: function(id) {
+        //     map.setCenter(markers[id].getPosition());
+        //     map.setZoom(12);
+        // },
 
         // Pop an infoBox for the given marker id
         showinfoBox: function(id) {
-            var marker = markers[id];
+            var marker = markers[id],
+                price_map = foodmap.globals.price_map[marker.price],
+                content = 
+                    '<span class="title">' + marker.title + '</span>' + 
+                    '<span class="price" data-price="' + marker.price + '">' + price_map + '</span>' + 
+                    '<span class="tags">' + marker.tags + '</span>' + 
+                    marker.description;
+                    
+            
             if (infoBox) {
                 infoBox.close();
             }
+
             infoBox = new InfoBox({
                 boxClass: "infobox-container",
-                content: marker.description,
-                infoBoxClearance: new google.maps.Size(10,10),
-                pixelOffset: new google.maps.Size(1,1)
+                content: content,
+                infoBoxClearance: new google.maps.Size(50,50),
+                pixelOffset: new google.maps.Size(-200,5)
             });
-            console.log("infoBox:", infoBox);
-            console.log("marker:", marker);
 
             infoBox.open(map, marker);
         }

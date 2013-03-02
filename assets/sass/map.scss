@@ -183,6 +183,7 @@ section {
 }
 
 
+
 #welcome-container {
     z-index: 100;
     display: block;
@@ -247,4 +248,65 @@ section#left-container {
         }
     }
     
+}
+
+section#map-container {
+    .infobox-container {
+        display: block;
+        font-size: 0.875em;
+        line-height: 1.3em;
+        width: 400px;
+        max-height: 300px;
+        background-color: rgba(255,255,255,0.9);
+        border: 2px solid $color-black;
+        padding: 10px 15px;
+        @include box-sizing(content-box);
+        @include border-radius(8px);
+        @include box-shadow(rgba(0, 0, 0, 0.3) 2px 2px 2px 2px);
+        overflow-y: auto;
+        > img {
+            position: absolute !important;
+            top: 5px;
+            right: 5px;
+        }
+        span.title {
+            display: block;
+            width: 100%;
+            font-size: 1.3em;
+            font-weight: bold;
+
+        }
+        .price {
+            display: inline-block;
+            font-size: 0.8em;
+            padding: 2px 5px;
+            margin: 4px 0;
+            @include border-radius(3px);
+            &[data-price="low"] {
+                background-color: $color-green;
+            }
+            &[data-price="med"] {
+                background-color: $color-yellow;
+            }
+            &[data-price="high"] {
+                background-color: $color-red;
+            }
+        }
+        .tags {
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 0.8em;
+            font-style: italic;
+        }
+        h2 {
+            font-size: 1em;
+            font-weight: normal;
+            line-height: 1.125em;
+            margin: 0;
+            padding: 0;
+        }
+        p:last-child {
+            margin-bottom: 0px;
+        }
+    }
 }
