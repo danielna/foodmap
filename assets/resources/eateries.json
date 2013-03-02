@@ -2,7 +2,7 @@
     "Eateries": [
       {
         "name": "Duangrat's Thai Restaurant",
-        "description": "<h2>Thai, $15+</h2><p>One of my top 5 restaurants. There's been a sad commodification of Thai restaurants in suburban America (see: Tara Thai), and it's easy to forget there's more to it than Pad Thai with shrimp.  Duangrats is one of the best restaurants, at any price, in NOVA, and it's cheap.  I've never had anything on the menu that I didn't think was stellar, and the tastes are seriously that of a restaurant 2 to 3 times as expensive.  In a very unassuming building in an unassuming area, Duangrats is a gem.  Go exclusively for the small plates/tapas menu, which I believe is 11am-3pm on Weekends and 5-630pm on weekdays. I generally don't believe in tapas, but Duangrats has made me a believer.  It's overwhelmingly in your interests to try something different here, like a fried fish dish, rather than something generic like \"drunken noodles.\"  But go for the small plates menu.  My fav small plates: pork stuffed lychee, beef crepe, deep fried cod, and grilled calamari.  But they're all good.</p>",
+        "description": "<h2>Thai, $15+</h2><p>One of my top restaurants. There's been a sad commodification of Thai restaurants in suburban America (see: Tara Thai), and it's easy to forget there's more to it than Pad Thai with shrimp.  Duangrats is one of the best restaurants, at any price, in NOVA, and it's cheap.  I've never had anything on the menu that I didn't think was stellar, and the tastes are seriously that of a restaurant 2 to 3 times as expensive.  In a very unassuming building in an unassuming area, Duangrats is a gem.</p><p>Go exclusively for the small plates/tapas menu, which I believe is 11am-3pm on Weekends and 5-630pm on weekdays. I generally don't believe in tapas, but Duangrats has made me a believer.  It's overwhelmingly in your interests to try something different here, like a fried fish dish, rather than something generic like \"drunken noodles.\"  But go for the small plates menu.  My fav small plates: pork stuffed lychee, beef crepe, deep fried cod, and grilled calamari.  But they're all good.</p>",
         "price": "med",
         "tags": "Thai",
         "coordinates": 
@@ -24,7 +24,7 @@
       },
       {
         "name": "Tachibana Japanese Restaurant",
-        "description": "<h2>Sushi, $25-$30</h2><p>In my top 5 restaurants in NOVA.  The best sushi restaurant in the area, and owned by actual Japanese people, which I think makes a difference.  The difference in the quality of fish here is distinct compared to other sushi restaurants in the area.  If it's not a weekday, make a reservation.  I like it so much that I go here with the fam on my birthdays.  I don't think ordering the sushi deluxe is worth it unless you especially enjoy the taste of sea urchin.</p>",
+        "description": "<h2>Sushi, $25-$30</h2><p>One of my top restaurants in NOVA.  The best sushi restaurant in the area, and owned by actual Japanese people, which I think makes a difference.  The difference in the quality of fish here is distinct compared to other sushi restaurants in the area.  If it's not a weekday, make a reservation.  I like it so much that I go here with the fam on my birthdays.  I don't think ordering the sushi deluxe is worth it unless you especially enjoy the taste of sea urchin.</p>",
         "price": "high",
         "tags": "Japanese",
         "coordinates": 
@@ -35,7 +35,7 @@
       },
       {
         "name": "Rose Kabob Restaurant",
-        "description": "<h2>Iranian Kabobs, ~$15</h2><p>In my top 5 of restaurants anywhere.  I hype up this place like crazy to everyone I know and it always lives up to the hype.  While people say all the meats are good, I only ever order the Chicken platter with half rice, half salad.  If you&#39;re not super hungry, get the Chicken Kabob Junior, which is probably 80% of the non-junior portion.</p>",
+        "description": "<h2>Iranian Kabobs, ~$15</h2><p>One of my top restaurants.  I hype up this place like crazy to everyone I know and it always lives up to the hype.  While people say all the meats are good, I only ever order the Chicken platter with half rice, half salad.  If you&#39;re not super hungry, get the Chicken Kabob Junior, which is probably 80% of the non-junior portion.</p>",
         "price": "med",
         "tags": "Iranian, Kabobs",
         "coordinates": 
@@ -46,7 +46,7 @@
       },
       {
         "name": "Ray's the Steaks",
-        "description": "<h2>Steaks, $30-$40+</h2><p>One of my top 5 restaurants. This is as expensive as I get, and it's worth it. The best steak I've had anywhere, including cumberbund-mandatory places like Mortons. They don't do that \"dip in clarified butter before serving\" thing that most expensive restaurants do -- I hate that. Steaks come with unlimited garlic mashed potatoes and creamed spinach, and complimentary bread and seasoned cashews to start. I really like the Cajun Ribeye, but even the $20 hanger steak is great.&nbsp; Because the meat quality is high, order your steak rarer than \"medium.\"&nbsp; I'm a medium-rare guy myself.</p>",
+        "description": "<h2>Steaks, $30-$40+</h2><p>One of my top restaurants. This is as expensive as I typically get, and it's worth it. The best steak I've had anywhere, including cumberbund-mandatory places like Mortons. They don't do that \"dip in clarified butter before serving\" thing that most expensive restaurants do -- I hate that. Steaks come with unlimited garlic mashed potatoes and creamed spinach, and complimentary bread and seasoned cashews to start. I really like the Cajun Ribeye, but even the $20 hanger steak is great.&nbsp; Because the meat quality is high, order your steak rarer than \"medium.\"&nbsp; I'm a medium-rare guy myself.</p>",
         "price": "high",
         "tags": "American",
         "coordinates": 
@@ -68,7 +68,7 @@
       },
       {
         "name": "Ray's Hell Burgers",
-        "description": "<h2>Burgers, $10-$15</h2><p>The best burger in NOVA.  This place should supplant the completely underwhelming \"Ben's Chili Bowl\" as the iconic DC-area eatery. Lots of options and you won't leave hungry.  Other notes: (1) Parking here is terrible.  You'll probably wait for a spot. (2) Sweet potato fries. 'Nuff said.  (3) The au poivre burger will make peppercorns get stuck in your teeth.</p>",
+        "description": "<h2>Burgers, $10-$15</h2><p>The best burger in NOVA.  This place should supplant the completely underwhelming \"Ben's Chili Bowl\" as the iconic DC-area eatery. Lots of options and you won't leave hungry.  Other notes: (1) Parking here is terrible.  You'll probably wait for a spot. (2) Sweet potato fries. 'Nuff said.  (3) The au poivre burger will make peppercorns get stuck in your teeth.</p><p><em>Note (3/1/2013):</e> Word on the street is that RHB is closed indefinitely due to a landlord dispute.  So lame.</p></p>",
         "price": "high",
         "tags": "American",
         "coordinates": 
@@ -79,7 +79,7 @@
       },
       {
         "name": "A & J Restaurant",
-        "description": "<h2>Taiwanese, $10</h2><p>I really love A&amp;J, which is (so I hear) an authentic Taiwanese restaurant.  I love Taiwanese food because it's so much lighter than typical Americanized Chinese food.  The menu is almost tapas like, and it's fun because you can order a bunch of smaller $4-$5 dishes and share amongst friends.  They also have good beef noodle soup.  My favorite dishes are the fried chicken with rice, pulled noodle soups and the rice dish with the pork and boiled egg (sounds strange, but it's fantastic).  It's not something you'd probably expect but Chinese restaurants can seriously fry their chickens.</p>",
+        "description": "<h2>Taiwanese, $10</h2><p>I really love A&amp;J, which is (so I hear) an authentic Taiwanese restaurant.  I love Taiwanese food because it's so much lighter than typical Americanized Chinese food.  The menu is almost tapas like, and it's fun because you can order a bunch of smaller $4-$5 dishes and share amongst friends.  They also have good beef noodle soup.  My favorite dishes are the fried chicken with rice, pulled noodle soups and the rice dish with the pork and boiled egg (sounds strange, but it's fantastic).</p><p>I also really love the ja ja mien, which is the Chinese version of the Korean ja jang myun (noodles with black bean sauce).  It's much lighter than the Korean version with fresh veggies and a lighter sauce.  I actually prefer it to the Korean variant.</p>",
         "price": "low",
         "tags": "Taiwanese, Chinese",
         "coordinates": 
@@ -99,9 +99,53 @@
                 "lat":  "38.876064" 
             }
       },
+       {
+        "name": "Kabob Palace",
+        "description": "<h2>Afghan Kabobs, $15</h2><p>Kabob Palace is a 24 hour Afghan Kabob restaurant in Crystal City and highly regarded by pretty much everybody.  The clientele, while diverse due to popularity, is still highly native most of the time -- always a sign of a solid and authentic eatery.  The biggest differentiation between this place and Rose Kabob is the sides they give you; the chickpeas and spinach (or half and half) are amazing.  Very, very well seasoned and lots of flavors.</p><p>For kabobs my favorite plate here is the bone-in chicken, but if you can handle some heat arguably the best dish I know of in NOVA is the lamb karahi.  Google it.  It's spicy lamb cooked slowly in a big copper pot and it takes 30 minutes from order to your table.  It is so. freaking. good.  It's what all the native speakers order.<p>",
+        "price": "low",
+        "tags": "Afghan, Kabobs",
+        "coordinates": 
+            { 
+                "lng":  "-77.053444",
+                "lat":  "38.853222" 
+            }
+      },
+        {
+        "name": "Sushi Yoshi",
+        "description": "<h2>Sushi, $20</h2><p>Sushi Yoshi is very, very good -- almost Tachibana good.  It's also owned by Japanese people, and the quality of the fish is high.  They have a great happy hour with half off rolls.  But here's a massive protip: if you go here, order the chirashi.  It is one of the best dishes/values I've ever had at a sushi restaurant and <strong>arguably my favorite dish in NOVA.</strong>  $15 for a big plate of fish and a load of rice topped with stuff that I can't recognize but tastes delicious.<p><p>Parking here is a nightmare; park on the sloped road next to the restaurant rather than trying to find parking on the main street or in a lot.  And make a reservation, because this place is tiny.</p>",
+        "price": "med",
+        "tags": "Japanese",
+        "coordinates": 
+            {
+                "lng":  "-77.266945",
+                "lat":  "38.901733" 
+            }
+      },
+      {
+        "name": "Lotus Garden",
+        "description": "<h2>Chinese, $10</h2><p>Lotus Garden is relatively new, opening within the last year (current year: 2013) in an otherwise uninteresting strip mall in downtown Vienna.  But this place has one of my favorite meals in the entire area: roast pork hand drawn noodle soup.  There's a chef in the kitchen that you can watch pull the noodles by hand, and the noodles/broth/pork combo is so, so, so delicious.  I think it's a meal I could literally eat 3x a week and not get tired of.</p><p>You can not get a more satisfying $8 meal anywhere.</p>",
+        "price": "low",
+        "tags": "Chinese",
+        "coordinates": 
+            {
+                "lng":  "-77.268064",
+                "lat":  "38.898999"
+            }
+      },
+      {
+        "name": "Myung-Ga Korean Deli",
+        "description": "<h2>Korean, $10</h2><p>This place specializes in 'lower-end Korean fare,' somewhat akin to street/comfort food.  I'm not sure what the proper analogy is for American cuisine; maybe if a restaurant specialized in stuff like mac and cheese, hot dogs, etc.  The kimbap here is the best kimbap I know of in the area both in variety and value for the price (~$5).  The llabboki (spicy ramen noodles mixed with rice cakes) is awesome, especially when paired with the combination kimbap.</p><p>I'm pretty much always down to eat Myung-Ga.  The food is just... comforting.  The Centreville location is more spacious than the Fairfax location but the food is the same.</p><p>Naming it a 'deli' is a bit of a misnomer, as far as traditional American delis go.</p>",
+        "price": "low",
+        "tags": "Korean",
+        "coordinates": 
+            { 
+                "lng":  "-77.277761",
+                "lat":  "38.86464" 
+            }
+      },
       {
         "name": "Bahn Mi DC Sandwich",
-        "description": "<h2>Bahn Mi, $3.50</h2><p>Best banh mi in NOVA.  Bahn Mi DC is located near the famous (and in my opinion, over-hyped) Pho 75 off of route 50 in Falls Church.  The chicken is good, but the roast pork here is AWESOME and the single best bahn mi I know of in the area.  The sandwich menu here also appears to be more extensive than the one at Song Que, so I'll venture out into trying other sandwiches in the future and update this review.  There's no seating here, as the rest of the facility is used to sell Vietnamese groceries.  As of May 1, 2011, there's a sign under the menu that says \"buy 5 sandwiches get 1 free.\"  If you don't want to die, do yourself a favor and take out the small green peppers from the sandwich before you eat it (or ask them not to put peppers in when you order).</p>",
+        "description": "<h2>Bahn Mi, $3.50</h2><p>Best banh mi in NOVA.  Bahn Mi DC is located near the famous (and in my opinion, over-hyped) Pho 75 off of route 50 in Falls Church.  The chicken is good, but the roast pork here is AWESOME and the single best bahn mi I know of in the area.  The sandwich menu here also appears to be more extensive than the one at Song Que, so I'll venture out into trying other sandwiches in the future and update this review.</p><p>There's no seating here, as the rest of the facility is used to sell Vietnamese groceries.  As of May 1, 2011, there's a sign under the menu that says \"buy 5 sandwiches get 1 free.\"  If you don't want to die, do yourself a favor and take out the small green peppers from the sandwich before you eat it (or ask them not to put peppers in when you order).</p>",
         "price": "low",
         "tags": "Vietnamese",
         "coordinates": 
@@ -123,7 +167,7 @@
       },
       {
         "name": "Vit Goel Tofu & B.B.Q. Restaurant",
-        "description": "<h2>Soondooboo, $10</h2><p>The soondooboo here is great, in all varieties.  And it's cheap.  Get the mixed, which has the meat and seafood and all that jazz.  Seafood pancake appetizer (pajun) is good too.  But you know what's even better here?  THE CUCUMBER KIMCHI.  Seriously.  I could eat it for the rest of my life.  I think it's marinated in crack.</p>",
+        "description": "<h2>Soondooboo, $10</h2><p>Soodooboo is a spicy soft bean curd soup with vegetables, which sounds as disgusting as every other Asian dish when it's written out in English.  The soondooboo here is great, in all varieties.  And it's cheap.  Get the mixed, which has the meat and seafood and all that jazz.  Seafood pancake appetizer (pajun) is good too.  But you know what's even better here?  THE CUCUMBER KIMCHI.  Seriously.  I could eat it for the rest of my life.  I think it's marinated in crack.</p>",
         "price": "low",
         "tags": "Korean",
         "coordinates": 
@@ -133,19 +177,8 @@
             }
       },
       {
-        "name": "Kabob Palace",
-        "description": "<h2>Afghan Kabobs, $15</h2><p>Kabob Palace is a 24 hour Afghan Kabob restaurant in Crystal City and highly regarded by pretty much everybody.  The clientele, while diverse due to popularity, is still highly native most of the time -- always a sign of a solid and authentic eatery.  The biggest differentiation between this place and Rose Kabob is the sides they give you; the chickpeas and spinach (or half and half) are amazing.  Very, very well seasoned and lots of flavors.  I'm not a big lamb guy so my favorite plate here is the bone-in chicken, but I'm pretty sure everything is good.  If you want a huge meal at 4am (and many do, mostly on weekends), Kabob Palace is a great choice.&nbsp; I think I prefer Rose because I live significantly closer to it, but from time to time Kabob Palace is worth the drive.<p>",
-        "price": "low",
-        "tags": "Afghan, Kabobs",
-        "coordinates": 
-            { 
-                "lng":  "-77.053444",
-                "lat":  "38.853222" 
-            }
-      },
-      {
         "name": "Song Que",
-        "description": "<h2>Bahn Mi, $3.50</h2><p>Bahn Mi are Vietnamese sandwiches, and Song Que is the destination Anthony Bourdain visited for bahn mi during the DC episode of No Reservations.  They're sizable, especially for their price.  If you're hungry you could probably eat two in one sitting.  I typically go with chicken or pork and avoid anything with \"head cheese,\" which is a cheese-like substance made with head-meat... yeah.  The bubble tea here is very fresh.  The mango bubble tea tastes like you're literally sticking a straw into a mango, with no added sugar/ingredients.  That being said, the bubble tea at Thanh Son Tofu (down a few stores) is better, so go there for boba.</p>",
+        "description": "<h2>Bahn Mi, $3.50</h2><p>Song Que is the destination Anthony Bourdain visited for bahn mi during the DC episode of No Reservations.  They're sizable, especially for their price.  If you're hungry you could probably eat two in one sitting.  I typically go with chicken or pork and avoid anything with \"head cheese,\" which is a \"cheese-like\" (?!) substance made with head-meat... yeah.  The bubble tea here is very fresh.  The mango bubble tea tastes like you're literally sticking a straw into a mango, with no added sugar/ingredients.  That being said, the bubble tea at Thanh Son Tofu (down a few stores) is better, so go there for boba.</p>",
         "price": "low",
         "tags": "Vietnamese",
         "coordinates": 
@@ -156,7 +189,7 @@
       },
       {
         "name": "Thanh Son Tofu / Bubble Tea",
-        "description": "<h2>$3.50, Bubble Tea</h2><p>Thanh Son is in the parking madness but eating goodness that is Eden Center, on the far left wall of the shopping center.  It&#39;s called &quot;Thanh Son Tofu&quot; because there are lots of old Vietnamese grandmas waiting in line to buy bags of tofu, which means you know the place really knows their bean curd.  I&#39;m not much of a bean curd guy so I stick to the bubble tea.  For $3.50 you can choose a very sizable bubble tea in a variety of flavors (normal: strawberry, coffee, pineapple, taro, mango, etc... weird: durian) with quality bubbles and/or jelly.  Being lactose intolerant, I was pleased that they could accommodate my request for no milk.  The bubble &quot;tea&quot; (smoothie) here is the best I&#39;ve had in VA; better than Song Que.  They have a lot of other interesting looking offerings here than I&#39;m unfamiliar with (rice dishes paired with mushrooms and other vegetables) that I&#39;d like to try but have no idea how to order.  I often feel that way in Eden Center.</p>",
+        "description": "<h2>$3.50, Bubble Tea</h2><p>Thanh Son is in the parking madness but eating goodness that is Eden Center, on the far left wall of the shopping center.  It&#39;s called &quot;Thanh Son Tofu&quot; because there are lots of old Vietnamese grandmas waiting in line to buy bags of tofu, which means you know the place really knows their bean curd.  I&#39;m not much of a bean curd guy so I stick to the bubble tea.</p><p>For $3.50 you can choose a very sizable bubble tea in a variety of flavors (normal: strawberry, coffee, pineapple, taro, mango, etc... weird: durian) with quality bubbles and/or jelly.  Being lactose intolerant, I was pleased that they could accommodate my request for no milk.  The bubble &quot;tea&quot; (smoothie) here is the best I&#39;ve had in VA; better than Song Que.  They have a lot of other interesting looking offerings here than I&#39;m unfamiliar with (rice dishes paired with mushrooms and other vegetables) that I&#39;d like to try but have no idea how to order.  I often feel that way in Eden Center.</p>",
         "price": "low",
         "tags": "Vietnamese",
         "coordinates": 
@@ -185,6 +218,28 @@
             {
                 "lng":  "-77.265427",
                 "lat":  "38.903267" 
+            }
+      },
+      {
+        "name": "Smashburger",
+        "description": "<h2>Burgers, $10</h2><p>The concept behind 'Smashburger' is that they physically smash their burger patties into the griddle, shortening cook time and crisping up the edges of the meat.  I can dig it.  I'm not a huge fan of a super greasy, non-Rays burger (see: Five Guys) and Smashburger eats like a cleaner, fresher burger.  I typically just order a classic and it's pretty similar to standard Shake Shack fare, except I prefer the thinner smashburger patty.  Offerings like garlic/rosemary fries are also good.</p>",
+        "price": "low",
+        "tags": "American",
+        "coordinates": 
+            {
+                "lng":  "-77.295785",
+                "lat":  "38.863704" 
+            }
+      },
+      {
+        "name": "Pomodoro Pizza and Pasta",
+        "description": "<h2>Pizza and Pasta, $3/slice</h2><p>A very good NY-style pizza/pasta joint in Fairfax, near the Fairfax Corner/Costco area.  They have pizza by the slice available most days (I think it stops after 5pm on Friday and weekends), and their pizzas are made fresh in an easily visible kitchen area.  I'm a pizza person so I've only tried one pasta dish but you could tell it was made by someone who knew how to make a proper pasta sauce.</p><p>A very good place to carryout for a big party, because their large pies are enormous and a good value for the quality/quanity. I think most of the large specialty pies come out to around $18.</p>",
+        "price": "low",
+        "tags": "Italian, American",
+        "coordinates": 
+            {
+                "lng":  "-77.369013",
+                "lat":  "38.871256" 
             }
       },
       {
@@ -233,7 +288,7 @@
       },
       {
         "name": "Shilla Bakery",
-        "description": "<h2>Korean Bakery, $10</h2><p>The breads here are good, as are the shaved ice desserts that are popular in Korean culture.  There's also been a growing level of ethnic diversity among the customers, which is always a plus.  On the downside, Shilla Bakery will always be filled with really loud groups of Korean high schoolers.</p>",
+        "description": "<h2>Korean Bakery, $10</h2><p>The breads here are good, as are the shaved ice desserts that are popular in Korean culture.  There's also been a growing level of ethnic diversity among the customers, which is always a plus.  On the downside, Shilla Bakery will always be filled with really loud groups of Korean high schoolers.</p><p>Protip: there are three Shilla Bakerys in NOVA.  The Annandale and Centreville locations are really good, whereas the Fairfax location is horrible.  I don't understand what causes the discrepancy but it's there.</p>",
         "price": "low",
         "tags": "Korean",
         "coordinates": 
@@ -265,17 +320,6 @@
             }
       },
       {
-        "name": "Pho Golden Cow",
-        "description": "<h2>Pho, $8</h2><p>So let's say you're super hungry and craving pho but want more food than is usually offered in a large at a place like Pho Sate.  Drive down Graham Road for 2 minutes and go to Pho Golden Cow instead.  The broth and flavors are not as good as Sate, but the portions here are the biggest I've seen for a pho restaurant.  I go here based on quantity alone; much bigger portions of noodles and meat.   I mean, the taste isn't terrible, but it's just not on the same level as Sate.  Still a valuable place to know when you're in a certain mood.</p>",
-        "price": "low",
-        "tags": "Vietnamese",
-        "coordinates": 
-            {
-                "lng":  "-77.117691",
-                "lat":  "38.847061" 
-            }
-      },
-      {
         "name": "Brio Tuscan Grille",
         "description": "<h2>Happy Hour ($2.50 plates)</h2><p>The only reason Brio is on this map is because the happy hour menu is one of the best I know of in the area.  Substantial $2.50 plates, including a real-sized hamburger, ravioli, flatbreads, bruschetta, spinach/artichoke dip, etc.  I'm not a drinker so I can't comment on drink specials but the food is super cheap in the bar area from 3pm-7pm and 9pm-close on weekdays.  Generally not worth the money for anything other than HH.  Brio is located In Tysons 1, downstairs near Barnes and Noble.</p>",
         "price": "low",
@@ -288,7 +332,7 @@
       },
       {
         "name": "Elephant Jumps",
-        "description": "<h2>Thai, $10-$15</h2><p>My recent and most significant revelation when it comes to Thai food (inspired by Duangrats) is that while most people order noodle dishes like Pad Thai, the best meals at quality Thai restaurants are fish dishes.  \"Elephant Jumps\" is a strange name but the food is good; maybe not Duangrats-level but few restaurants are.  The green curry is delicious, but my favorite dish is the crispy tilapia with crispy basil.  I've had the crispy flat bread shrimp appetizer and it was also good.  They have four levels of spicy here -- mild, medium, hot and \"Thai hot\".  My tolerance for spicy food has decreased over the years so I generally order mild curry but it still has a pleasant kick.  Order \"Thai hot\" at your own peril.</p>",
+        "description": "<h2>Thai, $10-$15</h2><p>My recent and most significant revelation when it comes to Thai food (inspired by Duangrats) is that while most people order noodle dishes like Pad Thai, the best meals at quality Thai restaurants are fish dishes.  \"Elephant Jumps\" is a strange name but the food is good; maybe not Duangrats-level but few restaurants are.</p><p>The green curry is delicious, but my favorite dish is the crispy tilapia with crispy basil.  I've had the crispy flat bread shrimp appetizer and it was also good.  They have four levels of spicy here -- mild, medium, hot and \"Thai hot\".  My tolerance for spicy food has decreased over the years so I generally order mild curry but it still has a pleasant kick.  Order \"Thai hot\" at your own peril.</p>",
         "price": "med",
         "tags": "Thai",
         "coordinates": 
@@ -299,7 +343,7 @@
       },
       {
         "name": "La Caraquena",
-        "description": "<h2>Latin American, $10-$15</h2><p>I've had Mexican food, I've had Peruvian chicken, but I've never really ventured into other forms of Latin American cuisine.  La Caraquena was an awesome introduction into all things beyond the crunchwrap supreme (which is awesome).  It was also featured on Diners, Drive-ins and Dives on the Food Network but it doesn't really seem to fall under any of those categories.  While the interior is cramped and it's located in a crappy motel, it's not dirty or disorganized and the food is excellent.  There's a nice variety of arepas (cornmeal sandwiches) and the meat/steak dishes were very well seasoned and cooked perfectly.  But the best things ever are the saltenas, which are more or less the spanish version of a samosa or a big deep fried dumpling.  The saltenas aren't on the menu and not always available, but if you get lucky I consider them one of the best appetizers to order at any restaurant anywhere.&nbsp; The only caveat to the saltenas is that they're somewhat pricey for what they are, and can be obtained for significantly cheaper at Julia's Empanadas in Adams Morgan.&nbsp; But that means you have to be in Adams Morgan.<p>",
+        "description": "<h2>Latin American, $10-$15</h2><p>I've had Mexican food, I've had Peruvian chicken, but I've never really ventured into other forms of Latin American cuisine.  La Caraquena was an awesome introduction into all things beyond the crunchwrap supreme (which is awesome).  It was also featured on Diners, Drive-ins and Dives on the Food Network but it doesn't really seem to fall under any of those categories.  While the interior is cramped and it's located in a crappy motel, it's not dirty or disorganized and the food is excellent.</p><p>There's a nice variety of arepas (cornmeal sandwiches) and the meat/steak dishes were very well seasoned and cooked perfectly.  But the best things ever are the saltenas, which are more or less the spanish version of a samosa or a big deep fried dumpling.  The saltenas aren't on the menu and not always available, but if you get lucky I consider them one of the best appetizers to order at any restaurant anywhere.&nbsp; The only caveat to the saltenas is that they're somewhat pricey for what they are, and can be obtained for significantly cheaper at Julia's Empanadas in Adams Morgan.&nbsp; But that means you have to be in Adams Morgan, and they still aren't as good as the ones here.<p>",
         "price": "med",
         "tags": "Mexican",
         "coordinates": 
@@ -321,7 +365,7 @@
       },
       {
         "name": "Joe's Burgers",
-        "description": "<h2>Burgers, $13</h2><p>Joe&#39;s Burgers is one of the few legitimate contenders to Ray&#39;s Hell Burger that I&#39;ve had in NOVA.  It&#39;s located in a very small, very loud, very parking unfriendly location in McLean, but the burgers and fries are seriously great. Probably the best sweet potato fries I&#39;ve ever had.  Although this is very much a palate-specific assessment, I think the specialty burgers here are more appealing than the ones at Rays with a greater variety of toppings and flavors.  At the suggestion of the waiter (who was cool) I got the chorizo burger, which according to the website contains &quot;HOUSEMADE BERKSHIRE PORK SAUSAGE WITH ROMESCO SAUCE, FRIED ORGANIC EGG, JALAPENO JACK CHEESE, SMOKED MAYONNAISE.&quot;  It. Was. Awesome.  Blue cheese loving friends say the Port Wine Blue Cheese was fantastic, and I&#39;ve also enjoyed the French Dip.  The downsides: a smidgen more expensive than Rays, smaller and lower quality burger patties than Rays (unavoidable), a wait during busy times, very loud inside and families with little kids dressed in little league apparel dominate the clientele.  But that&#39;s McLean for you.</p>",
+        "description": "<h2>Burgers, $13</h2><p>Joe&#39;s Burgers is one of the few legitimate contenders to Ray&#39;s Hell Burger that I&#39;ve had in NOVA.  It&#39;s located in a very small, very loud, very parking unfriendly location in McLean, but the burgers and fries are seriously great. Probably the best sweet potato fries I&#39;ve ever had.  Although this is very much a palate-specific assessment, I think the specialty burgers here are more appealing than the ones at Rays with a greater variety of toppings and flavors.</p><p>At the suggestion of the waiter (who was cool) I got the chorizo burger, which according to the website contains &quot;HOUSEMADE BERKSHIRE PORK SAUSAGE WITH ROMESCO SAUCE, FRIED ORGANIC EGG, JALAPENO JACK CHEESE, SMOKED MAYONNAISE.&quot;  It. Was. Awesome.  Blue cheese loving friends say the Port Wine Blue Cheese was fantastic, and I&#39;ve also enjoyed the French Dip.</p><p>The downsides: a smidgen more expensive than Rays, smaller and lower quality burger patties than Rays (unavoidable), a wait during busy times, very loud inside and families with little kids dressed in little league apparel dominate the clientele.  But that&#39;s McLean for you.</p>",
         "price": "med",
         "tags": "American",
         "coordinates": 
@@ -365,7 +409,7 @@
       },
       {
         "name": "China Wok",
-        "description": "<h2>Peking Duck/Chinese, $10-$30</h2><p>I've had some seriously underwhelming meals at China Wok in the past, and I had no idea this was a worthy establishment until this past weekend when I went with a friend who spoke Chinese.  The lunch specials/American-style Chinese food here is standard mall-style crap, but the authentic Chinese dishes are much, much better.  I haven't tried much of the menu yet but apparently the chef here moved from the highly regarded restaurant Oriental Regency that used to be down the street.  The Peking Duck here is a particularly great value at $28, especially compared to the $45 duck at Peking Gourmet Inn.  It comes with an entire crispy duck which is carved at the table, pancakes, hoisin sauce and green onions.  The markup at Peking Gourmet Inn is not worth it if you want duck alone, although the menu there is more extensive than the one here.  If you go to China Wok just remember not to get something typical like \"orange chicken,\" because it will suck.</p>",
+        "description": "<h2>Peking Duck/Chinese, $10-$30</h2><p>I've had some seriously underwhelming meals at China Wok in the past, and I had no idea this was a worthy establishment until this past weekend when I went with a friend who spoke Chinese. The lunch specials/American-style Chinese food here is standard mall-worthy crap, but the authentic Chinese dishes are much, much better.  I haven't tried much of the menu yet but apparently the chef here moved from the highly regarded restaurant Oriental Regency that used to be down the street.</p><p>The Peking Duck here is a particularly great value at $28, especially compared to the $45 duck at Peking Gourmet Inn.  It comes with an entire crispy duck which is carved at the table, pancakes, hoisin sauce and green onions.  The markup at Peking Gourmet Inn is not worth it if you want duck alone, although the menu there is more extensive than the one here.  If you go to China Wok just remember not to get something typical like \"orange chicken,\" because it will suck.</p>",
         "price": "med",
         "tags": "Chinese",
         "coordinates": 
@@ -376,7 +420,7 @@
       },
       {
         "name": "Bon Chon Chicken",
-        "description": "<h2>Fried Chicken, $12 med/$20 large</h2><p>Bon Chon should seriously be on every street corner in the US.  The owners should be billionaires; they&#39;re sitting on a winning lottery ticket but have no idea how to market their product.  Bon Chon is chicken fried multiple times and glazed with a soy-garlic sauce, resulting in a product that&#39;s strangely super crispy yet not messy to eat.  It&#39;s like the evolution of popeyes/KFC/insert other preconception of fried chicken.  And the drumsticks are the size of your head.  Notes: (1) Call ahead and place your order, because the chicken takes at least an hour to prepare; (2) Every time I&#39;ve had the &quot;spicy&quot; it&#39;s been unenjoyably spicy, so I avoid it now; (3) I always order &quot;large drumsticks only.&quot;  Also, for reasons that defy all reason and logic Bon Chon doesn&#39;t have call waiting at the Annandale location.  The Fairfax location has better decor and a more competent wait staff.</p>",
+        "description": "<h2>Fried Chicken, $12 med/$20 large</h2><p>Bon Chon should seriously be on every street corner in the US.  The owners should be billionaires; they&#39;re sitting on a winning lottery ticket but have no idea how to market their product.  Bon Chon is chicken fried multiple times and glazed with a soy-garlic sauce, resulting in a product that&#39;s strangely super crispy yet not messy to eat.  It&#39;s like the evolution of popeyes/KFC/insert other preconception of fried chicken.  And the drumsticks are the size of your head.</p><p>Protips:<br/>(1) Call ahead and place your order, because the chicken takes at least an hour to prepare;<br/>(2) Every time I&#39;ve had the &quot;spicy&quot; it&#39;s been unenjoyably spicy, so I avoid it now;<br/>(3) I always order &quot;large drumsticks only.&quot;  Also, for reasons that defy all reason and logic Bon Chon doesn&#39;t have call waiting at the Annandale location.  The Fairfax location has better decor and a more competent wait staff.</p>",
         "price": "med",
         "tags": "Korean",
         "coordinates": 
@@ -387,7 +431,7 @@
       },
       {
         "name": "Oegadjib Restaurant",
-        "description": "<h2>Korean BBQ, $20</h2><p>If you want to eat all you can eat pork belly (samgyupsal) and non-galbi beef, oegadjib is probably your best bet for around $20 including tip.  That being said, all you can eat pork belly will probably take years off your life.  That being said, all you can eat pork belly is awesome.  The banchan here is definitely better than honeypig.  They have all you can eat shabu shabu here too, but if I have to choose between meat and shabu shabu, I never choose shabu shabu.</p>",
+        "description": "<h2>Korean BBQ, $20</h2><p>If you want to eat all you can eat pork belly (samgyupsal) and non-galbi beef, oegadjib is probably your best bet for around $20 including tip.  That being said, all you can eat pork belly will probably take years off your life.  That being said, all you can eat pork belly is awesome.  The banchan here is definitely better than honeypig.  They have all you can eat shabu shabu here too, but if I have to choose between meat and shabu shabu, I never choose shabu shabu.</p><p>And this place is pronounced 'weh-gah-jeeb'.  I don't know why they picked a name that did not lend itself at all to an English variation.</p>",
         "price": "med",
         "tags": "Korean",
         "coordinates": 
@@ -430,17 +474,6 @@
             }
       },
       {
-        "name": "Sushi Yoshi",
-        "description": "<h2>Sushi, $20</h2><p>One of my friends considers this place better than Tachibana.  Sushi Yoshi is good, but saying it's better than Tachibana is madness.  It's also owned by Japanese people, and the quality of the fish is good.  They have a great happy hour with half off rolls.  But here's a massive protip: if you go here, order the chirashi.  It is one of the best dishes/values I've ever had at a sushi restaurant.  $15 for a big plate of fish and a load of rice topped with stuff that I can't recognize but tastes delicious.<p><p>Parking here can be scarce; park on the sloped road next to the restaurant rather than trying to find parking on the main street or in a lot.</p>",
-        "price": "med",
-        "tags": "Japanese",
-        "coordinates": 
-            {
-                "lng":  "-77.266945",
-                "lat":  "38.901733" 
-            }
-      },
-      {
         "name": "Metro 29 Diner Restaurant",
         "description": "<h2>Diner Food, $10-$15</h2><p>Metro 29 is a good quality diner in Arlington off of Route 29 (Lee Highway).  The menu here is surprisingly extensive, including an entire array of seafood dishes that have no business being on a diner menu.  I haven&#39;t ventured in the seafood areas, but the breakfast and dinner entrees are good.  It was featured on Food Network on &quot;Diners, Drive Ins and Dives.&quot;",
         "price": "med",
@@ -464,7 +497,7 @@
       },
       {
         "name": "Korshi Buffet",
-        "description": "<h2>Japanese/Korean Buffet, $30</h2><p>Korshi is in Centreville so it can be a trek depending on where you live, but I think it's better than all the other Japanese/Korean buffets that I've been to so far: Todai, HeeBeen and the lowly IlMee included.&nbsp; The variety of sushi/rolls here is ridiculous; probably twice the size of the other places and with expensive types of sushi included (sea urchin, white tuna, fatty tuna, etc.)&nbsp; They also cook the Korean BBQ at your table for you, and while buffet meats are never stellar they were better than the other places I've mentioned.&nbsp; The decor is nice, it's very clean, and the other buffet items seem to be fancier (i.e. raw oysters) for the same $30 price tag.&nbsp; All that being said... I should probably stop eating so many buffets.<p>",
+        "description": "<h2>Japanese/Korean Buffet, $30</h2><p>Korshi is in Centreville so it can be a trek depending on where you live, but I think it's better than all the other Japanese/Korean buffets that I've been to so far: Todai, HeeBeen and the lowly IlMee included.&nbsp; The variety of sushi/rolls here is ridiculous; probably twice the size of the other places and with expensive types of sushi included (sea urchin, white tuna, fatty tuna, etc.)</p><p>They also cook the Korean BBQ at your table for you, and while buffet meats are never stellar they were better than the other places I've mentioned.&nbsp; The decor is nice, it's very clean, and the other buffet items seem to be fancier (i.e. raw oysters) for the same $30 price tag.&nbsp; All that being said... I should probably stop eating so many buffets.<p>",
         "price": "high",
         "tags": "Buffet, Chinese, Japanese, Korean",
         "coordinates": 
@@ -474,19 +507,8 @@
             }
       },
       {
-        "name": "Todai Buffet",
-        "description": "<h2>Sushi Buffet, $30</h2><p>I&#39;m at that age where I average about 1 buffet a weekend, which I&#39;ll probably regret once I&#39;m a portly 30 year old.  Oh well.  Todai is in one of the corners of Fair Oaks Mall, and it has one of the better offerings of buffet sushi that I&#39;ve had in the area.  It has your average inauthentic Chinese/Korean offerings also, as well as a dessert stand, but I only go here when I anticipate eating 40 pieces of sushi.  It&#39;s predominantly in roll form.  The lunch is around $15, so it&#39;s a much better deal.</p>",
-        "price": "high",
-        "tags": "Buffet, Chinese, Japanese",
-        "coordinates": 
-            {
-                "lng":  "-77.357719",
-                "lat":  "38.861866" 
-            }
-      },
-      {
         "name": "Honey Pig",
-        "description": "<h2>Korean BBQ, $20-30+</h2><p>A 24 hour bbq joint that has its busiest hours (no lie) from 12am-4am on weekends.  That's when all the NOVA azns are returning from da klubz, which is why you should avoid honey pig like the plague from 12am-4am.  Otherwise, it's a relatively cheap place to get a variety of meats cooked at your table, if you don't mind the sound of really loud and really bad Korean techno.  It tends to appeal to a younger crowd and the meat quality isn't the greatest here, but you get what you pay for.  Also you can drink to your heart's content, if you're into that type of thing.  It's probably going to cost around $25-$30 to eat enough meat to be full, but you should be seriously full.</p>",
+        "description": "<h2>Korean BBQ, $20-30+</h2><p>A 24 hour bbq joint that has its busiest hours (no lie) from 12am-4am on weekends.  That's when all the NOVA azns are returning from da klubz, which is why you should avoid honey pig like the plague from 12am-4am.  Otherwise, it's a relatively cheap place to get a variety of meats cooked at your table, if you don't mind the sound of really loud and really bad Korean techno.</p><p>It tends to appeal to a younger crowd and the meat quality isn't the greatest here, but it's still the most economical way to eat Korean BBQ that I know of (aside from cooking it yourself).  The greens and sesame oil salad that they give you with the meat is great.  Lots of alcohol here, if you're into that type of thing.  It's probably going to cost around $25-$30 to eat enough meat to be full, but you should be seriously full.</p><p>The Centreville and Annandale locations are pretty much equivalent in every way.</p>",
         "price": "high",
         "tags": "Korean",
         "coordinates": 
