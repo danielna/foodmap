@@ -84,17 +84,18 @@ section {
             position: relative;
             margin-left: 5px;
             vertical-align: middle;
-            margin-bottom: 9px;
+            margin-bottom: 1.1em;
             font-size: 0.9em;
             padding: 5px 8px;
         }
-        .last-updated {
+        .right {
             display: inline-block;
             position: absolute;
             right: 5px;
             top: 5px;
             font-size: 0.8em;
             font-style: italic;
+            text-align: right;
         }
         h1.page-title {
             display: inline-block;
@@ -154,6 +155,7 @@ section {
                 float: left;
                 width: 130px;
                 height: 120px;
+                min-height: 100px;
                 color: $color-lightgray;
                 background-color: #333;
                 @include background-gradient;
@@ -318,5 +320,38 @@ section#map-container {
         p:last-child {
             margin-bottom: 0px;
         }
+    }
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    @include text-shadow(0 1px 1px rgba(0,0,0,.3));
+    @include border-radius(0.3em);
+    @include box-shadow(0 1px 2px rgba(0,0,0,.2));
+    &.blue {
+        color: #d9eef7;
+        border: solid 1px #0076a3;
+        background: #0095cd;
+        background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+        background: -moz-linear-gradient(top, #00adee, #0078a5);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+        &:hover {
+            background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+            background: -moz-linear-gradient(top, #0078a5, #00adee);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+        }
+    }
+    &:hover {
+        text-decoration: none;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
     }
 }

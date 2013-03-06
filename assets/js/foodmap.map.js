@@ -10,7 +10,8 @@ foodmap.map = function() {
         map = null,
         infoBox = null,
         zoom = 10,
-        listingWidth = 145;
+        listingWidth = 145,
+        zoomedOnce = false;
 
     /**
     * Run the show
@@ -25,7 +26,7 @@ foodmap.map = function() {
                             zoom: zoom,
                             center: latlng,
                             mapTypeId: google.maps.MapTypeId.ROADMAP,
-                            mapTypeControl: false,
+                            mapTypeControl: false
                         };
         
         markerBounds = new google.maps.LatLngBounds();
@@ -60,7 +61,7 @@ foodmap.map = function() {
                 $("#welcome-container").fadeOut();
 
                 marker_util.highlightListing(marker.title);
-                // marker_util.zoomMarker(marker.title);
+                marker_util.zoomMarker(marker.title);
                 marker_util.showinfoBox(marker.title);
             });
         }
@@ -137,7 +138,7 @@ foodmap.map = function() {
                 $("#welcome-container").fadeOut();
                 
                 var id = $self.attr("data-id");
-                // marker_util.zoomMarker(id);
+                marker_util.zoomMarker(id);
                 marker_util.showinfoBox(id);
             });
         });
@@ -147,11 +148,13 @@ foodmap.map = function() {
     /**
     * Create the DOM listing representing each Google Maps marker.
     * Add the DOMListener for clicking on each listing, which engages the map via the marker.
+    * Reset the zoomedOnce to false, since you're resetting the map.
     */
     var setOriginalZoom = function(){
         if (infoBox) {
             infoBox.close();
         }
+        zoomedOnce = false;
         map.fitBounds(markerBounds);
     };  
 
@@ -178,11 +181,15 @@ foodmap.map = function() {
             $("#bottom-container .listing-scroll").animate({scrollLeft: $active_listing[0].offsetLeft - ($(window).width()/2)}, 1200);
         },
 
-        // Zoom to a marker on the map
-        // zoomMarker: function(id) {
-        //     map.setCenter(markers[id].getPosition());
-        //     map.setZoom(12);
-        // },
+        // Zoom to a marker on the map at 13, only if it's the first time you zoom.
+        // Otherwise don't zoom.
+        zoomMarker: function(id) {
+            if (!zoomedOnce) {
+                zoomedOnce = true;
+                map.setCenter(markers[id].getPosition());
+                map.setZoom(13);
+            }
+        },
 
         // Pop an infoBox for the given marker id
         showinfoBox: function(id) {
