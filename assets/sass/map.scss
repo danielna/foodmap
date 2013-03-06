@@ -94,7 +94,6 @@ section {
             right: 5px;
             top: 5px;
             font-size: 0.8em;
-            font-style: italic;
             text-align: right;
         }
         h1.page-title {
@@ -188,6 +187,11 @@ section {
                     padding: 3% 0;
                     float: left;
                     @include box-sizing(content-box);
+                }
+                .best-of {
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
                 }
             }
         }

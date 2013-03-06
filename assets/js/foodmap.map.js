@@ -74,6 +74,9 @@ foodmap.map = function() {
             $listing.find(".listing").attr("data-id", marker.title);
             $listing.find(".title").text(marker.title);
             $listing.find(".price").html(price_map).attr("data-price", marker.price);
+            if (marker.tags && marker.tags.indexOf('BestOf') !== -1) {
+                $listing.find(".best-of").attr("style", "");
+            }
 
             $listing_container.append($listing.html());
         };
@@ -97,6 +100,7 @@ foodmap.map = function() {
 
                 marker.description = _this.description;
                 marker.price = _this.price;
+                marker.ethnicity = _this.ethnicity;
                 marker.tags = _this.tags;
 
                 markers[_this.name] = marker;
@@ -195,13 +199,12 @@ foodmap.map = function() {
         showinfoBox: function(id) {
             var marker = markers[id],
                 price_map = foodmap.globals.price_map[marker.price],
+                content_tags = marker.tags ? ", " + marker.tags : "",
                 content = 
                     '<span class="title">' + marker.title + '</span>' + 
                     '<span class="price" data-price="' + marker.price + '">' + price_map + '</span>' + 
-                    '<span class="tags">' + marker.tags + '</span>' + 
-                    marker.description;
-                    
-            
+                    '<span class="tags">' + marker.ethnicity + content_tags + '</span>' + marker.description;
+
             if (infoBox) {
                 infoBox.close();
             }
