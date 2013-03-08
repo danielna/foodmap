@@ -47,7 +47,7 @@ foodmap.map = function() {
             setOriginalZoom();
             $(".js-listing-container .listing").show().removeClass("active");
             _.each(markers, function(marker){
-                marker.setVisible(false);
+                marker.setVisible(true);
             });
         });
     };
