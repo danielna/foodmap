@@ -9,23 +9,26 @@
     <link rel="stylesheet" type="text/css" href="assets/css/map.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:900italic' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="menu-left">
 
-    <section id="left-container">
-    </section>
+    <article id="left-container">
+        <h2>Filter by Tag</h2>
+        <section class="tags">
+        </section>
+    </article>
 
-    <section id="top-bar">
+    <article id="top-bar">
+        <button id="js-btn-menu" class="button gray" title="Filters">&laquo;</button>
         <h1 class="page-title">Notable NOVA Eateries</h1>
-        <!-- <button id="js-btn-menu">Listings</button> -->
         <button id="js-btn-reset" class="button blue" title="Reset Map">Reset Map</button>
         <button id="js-btn-welcome" class="button blue" title="Show welcome message">Welcome</button>
         <span class="right">Last updated 3/2013<br/>Contact: dan at danielna</span>
-    </section>
+    </article>
     
-    <section id="map-container">
-    </section>
+    <article id="map-container">
+    </article>
 
-    <section id="bottom-container">
+    <article id="bottom-container">
         <div class="listing-scroll">
             <div class="js-listing-container listing-container">
                 <div id="js-template-listing" style="display: none">
@@ -39,7 +42,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </article>
 
     <div id="welcome-container">
         <span id="js-close-welcome" title="Close this message">

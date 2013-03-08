@@ -6,6 +6,7 @@ $color-darkgray: #ADADAD;
 $color-green: #89E63B;
 $color-yellow: #FBF658;
 $color-red: #DD7663;
+$color-blue: #0095cd;
 
 $menu-left-transition-percentage: 15%;
 
@@ -20,13 +21,20 @@ $menu-bottom-end-height: 15%;
 @mixin background-gradient($color1: #414141, $color2: #111111) {
     background-color: $color1; // Old browsers
     @include filter-gradient($color1, $color2, vertical); // IE6-8
-    // IE9 SVG, needs conditional override of 'filter' to 'none'
     $experimental-support-for-svg: true;
     @include background-image(linear-gradient(top,$color1 0%,$color2 80%));
 }
 
+@mixin background-gradient-horiz($color1: #414141, $color2: #111111) {
+    background-color: $color1; // Old browsers
+    @include filter-gradient($color1, $color2, horizontal); // IE6-8
+    // $experimental-support-for-svg: true;
+    @include background-image(linear-gradient(left,$color1 0%,$color2 80%));
+}
+
 html { 
-    height: 100% 
+    height: 100%;
+    font-family: Helvetica;
 }
 
 body { 
@@ -50,229 +58,188 @@ body {
     color: $color-red;
 }
 
-//
-// Containers
-section {
+
+/* Containers */
+article {
     position: absolute;
-    @include transition(left $menu-left-duration ease-in-out); 
-    &#left-container {
-        top: 0;
-        left: -$menu-left-transition-percentage;
-        height: 100%;
-        width: $menu-left-transition-percentage;
-        background-color: $color-black;
-        color: $color-lightgray;
-        @include box-sizing(border-box);
-        overflow-y: auto;
-        body.menu-left & {
-            left: 0;
-        }
-    }
-    &#top-bar {
-        height: 50px;
-        max-height: 50px;
-        width: 100%;
-        left: 0;
-        background-color: $color-black;
-        @include background-gradient;
-        color: $color-lightgray;
-        border: 0px;
-        @include box-sizing(border-box);
-        z-index: 100;
-        button {
-            display: inline-block;
-            position: relative;
-            margin-left: 5px;
-            vertical-align: middle;
-            margin-bottom: 1.1em;
-            font-size: 0.9em;
-            padding: 5px 8px;
-        }
-        .right {
-            display: inline-block;
-            position: absolute;
-            right: 5px;
-            top: 5px;
-            font-size: 0.8em;
-            text-align: right;
-        }
-        h1.page-title {
-            display: inline-block;
-            height: 100%;
-            font-size: 2em;
-            line-height: 50px;
-            padding: 0;
-            margin: 0 10px 0 0;
-            text-indent: 10px;
-            font-family: "Lato";
-            font-style: italic;
-        }
-        body.menu-left & {
-            left: $menu-left-transition-percentage;
-        }
-    }
-    &#map-container { 
-        top: 5%;
-        left: 0%;
-        height: 100% - $menu-bottom-height - $top-bar-height;
-        width: 100%;
-        z-index: 50;
-        body.menu-left & {
-            left: $menu-left-transition-percentage;
-        }
-    }
-    &#bottom-container {
-        height: 100px;
-        max-height: 100px;
-        bottom: 0;
-        width: 100%;
-        @include transition(left $menu-left-duration ease-in-out, height $menu-bottom-duration ease-in-out); 
-        z-index: 150;
-        body.menu-left & {
-            left: $menu-left-transition-percentage;
-        }
-        body.menu-bottom & { 
-            height: $menu-bottom-end-height;
-        }
-    }
+    @include transition(left $menu-left-duration ease-in-out);
 }
 
-#bottom-container {
-    .listing-scroll {
-        display: block;
-        position: relative;
+
+/* Left Menu */
+#left-container {
+    top: 0;
+    left: -$menu-left-transition-percentage;
+    height: 100%;
+    overflow-y: auto;
+    width: $menu-left-transition-percentage;
+    padding: 10px 12px;
+    color: $color-lightgray;
+    background: url("../img/bg_linen_light.png") repeat;
+    @include box-sizing(border-box);
+    body.menu-left & {
+        left: 0;
+    }
+    h2 {
+        color: #818181;
+        font-family: "Helvetica";
+        font-size: 0.9em;
+        line-height: 1.5em;
+        padding: 0;
+        margin: 0 0 0.3em;
+        text-indent: 0.5em;
+    }
+    .tags {
+        min-height: 50%;
         width: 100%;
-        height: 100%;
-        float: left;
-        overflow-x: auto;
-        overflow-y: hidden;
-        .listing-container {
-            width: 100%;
-            .listing {
-                position: relative;
-                @include box-sizing(border-box);
-                float: left;
-                width: 130px;
-                height: 120px;
-                min-height: 100px;
-                color: $color-lightgray;
-                background-color: #333;
-                @include background-gradient;
-                @include border-radius(5px 5px 0 0);
-                margin-right: 2px;
-                padding: 3px 8px;
-                margin: 5px;
-                &:hover, &.active {
-                    background-color: #999;
-                    @include background-gradient(#0090ff, #111111);
-                    @include box-shadow(rgba(#f2f2f2, 0.4) 0 0 25px);
-                }
-                .title {
-                    font-size: 0.9em;
-                }
-                .price {
-                    font-size: 0.65em;
-                    &[data-price="low"] {
-                        color: $color-green;
-                    }
-                    &[data-price="med"] {
-                        color: $color-yellow;
-                    }
-                    &[data-price="high"] {
-                        color: $color-red;
-                    }
-                }
-                .metadata {
-                    width: 75%;
-                    padding: 3% 0;
-                    float: left;
-                    @include box-sizing(content-box);
-                }
-                .best-of {
-                    position: absolute;
-                    top: 5px;
-                    right: 5px;
-                }
+        background: url("../img/bg_linen.png") repeat;
+        padding: 0.4em 0.5em;
+        @include box-sizing(border-box);
+        @include border-radius(10px);
+        @include box-shadow(#777 0px -2px 2px -2px inset, #000 0px 2px 6px -1px inset);
+        .tag {
+            display: inline-block;
+            font-size: 0.9em;
+            padding: 4px 8px;
+            margin: 5px 3px;
+            color: $color-lightgray;
+            background-color: #666;
+            @include border-radius(3px);
+            @include text-shadow(0 1px 1px rgba(0,0,0,.3));
+            cursor: pointer;
+            border: solid 1px #333;
+            &:hover, &.active {
+                background: #ff9c4c;
+                background: -webkit-gradient(linear, left top, left bottom, from(#ff9c4c), to(#ff7400));
+                background: -moz-linear-gradient(top, #ff9c4c, #ff7400);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9c4c', endColorstr='#ff7400');
+                @include text-shadow(0 1px 1px rgba(0,0,0,.6));
             }
         }
     }
 }
 
 
-
-#welcome-container {
-    z-index: 100;
-    display: block;
-    position: absolute;
-    padding: 20px;
-    width: 40%;
-    right: 10%;
-    top: 10%;
-    font-size: 0.875em;
-    line-height: 1.3em;
+/* Top Bar */
+#top-bar {
+    height: 50px;
+    max-height: 50px;
+    width: 100%;
+    left: 0;
+    background-color: $color-black;
+    background: url("../img/bg_linen_light.png") repeat;
     color: $color-lightgray;
-    background-color: rgba(0,0,0, 0.8);
-    p {
-        &:first-of-type {
-            margin-top: 0px;
-            padding-top: 0px;
-        }
-        &:last-child {
-            margin-bottom: 0px;
-        }
-    }
-    #js-close-welcome {
-        position: absolute;
+    border: 0px;
+    @include box-sizing(border-box);
+    z-index: 100;
+    button {
         display: inline-block;
-        top: 0.4em;
-        right: 0.7em;
-        font-size: 0.7em;
-        cursor: pointer;
+        position: relative;
+        margin-left: 5px;
+        vertical-align: middle;
+        margin-bottom: 1.1em;
+        font-size: 0.9em;
+        padding: 5px 8px;
+    }
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 0.8em;
+        text-align: right;
+    }
+    h1.page-title {
+        display: inline-block;
+        height: 100%;
+        font-size: 2em;
+        line-height: 50px;
+        padding: 0;
+        margin: 0 10px 0 0;
+        text-indent: 10px;
+        font-family: "Lato";
+        font-style: italic;
+    }
+    body.menu-left & {
+        left: $menu-left-transition-percentage;
     }
 }
 
-section#left-container {
-    > h2 {
-        font-size: 1.6em;
-        line-height: 1em;
-        margin: 0;
-        padding: 0.5em 0 0.5em 0.3em;
-    }
-}
-
-.meta {
-    display: none;
-    position: relative;
-    float: left;
-    margin: 2% 5% 0 2%; 
-    font-size: 0.875em;
-    line-height: 1.3em;
-    .title {
-        font-size: 1.5em;
-        margin-bottom: 0.3125em;
-        line-height: 1.2em;
-    }
-    .description {
-        > h2 {
-            font-size: 1em;
-            line-height: 1.1em;
-            font-weight: bold;
-            margin-top: 0;
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    @include text-shadow(0 1px 1px rgba(0,0,0,.3));
+    @include border-radius(0.3em);
+    @include box-shadow(0 1px 2px rgba(0,0,0,.2));
+    &.blue {
+        color: #d9eef7;
+        border: solid 1px #0076a3;
+        background: #0095cd;
+        background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+        background: -moz-linear-gradient(top, #00adee, #0078a5);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+        &:hover {
+            background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+            background: -moz-linear-gradient(top, #0078a5, #00adee);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
         }
-        p {
-            margin-bottom: 1.5em;
+    }
+    &.gray {
+        color: #d9eef7;
+        border: solid 1px #333;
+        background: #b5bdc8;
+        background: -webkit-gradient(linear, left top, left bottom, from(#828c95), to(#28343b));
+        background: -moz-linear-gradient(top, #828c95, #28343b);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#828c95', endColorstr='#28343b');
+        &:hover {
+            background: -webkit-gradient(linear, left top, left bottom, from(#28343b), to(#828c95));
+            background: -moz-linear-gradient(top, #28343b, #828c95);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#28343b', endColorstr='#828c95');
         }
     }
-    
+    &.orange {
+        color: #d9eef7;
+        border: solid 1px #333;
+        background: #ff9c4c;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ff9c4c), to(#ff7400));
+        background: -moz-linear-gradient(top, #ff9c4c, #ff7400);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9c4c', endColorstr='#ff7400');
+        &:hover {
+            background: -webkit-gradient(linear, left top, left bottom, from(#ff7400), to(#ff9c4c));
+            background: -moz-linear-gradient(top, #ff7400, #ff9c4c);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7400', endColorstr='#ff9c4c');
+        }
+    }
+    &:hover {
+        text-decoration: none;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
 }
 
-section#map-container {
+
+/* Map Container */
+#map-container { 
+    top: 5%;
+    left: 0%;
+    height: 100% - $menu-bottom-height - $top-bar-height;
+    width: 100%;
+    z-index: 50;
+    body.menu-left & {
+        left: $menu-left-transition-percentage;
+    }
     .infobox-container {
         display: block;
         font-size: 0.875em;
         line-height: 1.3em;
         width: 400px;
-        // max-height: 300px;
         background-color: rgba(255,255,255,0.9);
         border: 2px solid $color-black;
         padding: 10px 15px;
@@ -327,35 +294,112 @@ section#map-container {
     }
 }
 
-.button {
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font: 14px/100% Arial, Helvetica, sans-serif;
-    padding: .5em 2em .55em;
-    @include text-shadow(0 1px 1px rgba(0,0,0,.3));
-    @include border-radius(0.3em);
-    @include box-shadow(0 1px 2px rgba(0,0,0,.2));
-    &.blue {
-        color: #d9eef7;
-        border: solid 1px #0076a3;
-        background: #0095cd;
-        background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
-        background: -moz-linear-gradient(top, #00adee, #0078a5);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
-        &:hover {
-            background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
-            background: -moz-linear-gradient(top, #0078a5, #00adee);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+
+/* Bottom -- Listings */
+#bottom-container {
+    height: 100px;
+    max-height: 100px;
+    bottom: 0;
+    width: 100%;
+    @include transition(left $menu-left-duration ease-in-out, height $menu-bottom-duration ease-in-out); 
+    z-index: 150;
+    body.menu-left & {
+        left: $menu-left-transition-percentage;
+    }
+    body.menu-bottom & { 
+        height: $menu-bottom-end-height;
+    }
+}
+.listing-scroll {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    .listing-container {
+        width: 100%;
+        .listing {
+            position: relative;
+            @include box-sizing(border-box);
+            float: left;
+            width: 130px;
+            height: 120px;
+            min-height: 100px;
+            color: $color-lightgray;
+            background-color: #333;
+            @include background-gradient;
+            @include box-shadow($color-black -5px 0 10px 3px inset);
+            @include border-radius(5px 5px 0 0);
+            margin-right: 2px;
+            padding: 3px 8px;
+            margin: 5px;
+            cursor: pointer;
+            &:hover, &.active {
+                background-color: #999;
+                @include background-gradient(#0090ff, #111111);
+                @include box-shadow(rgba(#f2f2f2, 0.4) 0 0 25px);
+            }
+            .title {
+                font-size: 0.9em;
+            }
+            .price {
+                font-size: 0.65em;
+                &[data-price="low"] {
+                    color: $color-green;
+                }
+                &[data-price="med"] {
+                    color: $color-yellow;
+                }
+                &[data-price="high"] {
+                    color: $color-red;
+                }
+            }
+            .metadata {
+                width: 75%;
+                padding: 3% 0;
+                float: left;
+                @include box-sizing(content-box);
+            }
+            .best-of {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
         }
     }
-    &:hover {
-        text-decoration: none;
+}
+
+
+/* Welcome Message */
+#welcome-container {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    padding: 20px;
+    width: 40%;
+    right: 10%;
+    top: 10%;
+    font-size: 0.875em;
+    line-height: 1.3em;
+    color: $color-lightgray;
+    background-color: rgba(0,0,0, 0.8);
+    p {
+        &:first-of-type {
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+        }
     }
-    &:active {
-        position: relative;
-        top: 1px;
+    #js-close-welcome {
+        position: absolute;
+        display: inline-block;
+        top: 0.4em;
+        right: 0.7em;
+        font-size: 0.7em;
+        cursor: pointer;
     }
 }

@@ -6,6 +6,7 @@ foodmap.map = function() {
 
     var 
         markers = {},
+        tags = [],
         markerBounds = null,
         map = null,
         infoBox = null,
@@ -37,24 +38,29 @@ foodmap.map = function() {
         var path = 'assets/resources/eateries.json';
 
         $.getJSON(path, function(data) {
-            createMarkers(data);
+            parseMarkers(data);
             createMarkerDomListeners();
             setOriginalZoom();
         });
 
         $("#js-btn-reset").on("click", function(){
             setOriginalZoom();
+            $(".js-listing-container .listing").show().removeClass("active");
+            _.each(markers, function(marker){
+                marker.setVisible(false);
+            });
         });
     };
 
     /**
+    * Parse the data returned via JSON.
     * Create the Google Maps Marker objects.
-    * Creat the associated click listener for each marker.
+    * Create the associated click listener for each marker.
     * return markers as js object with title as key
     *
     * @param json data - The json representation of the marker data
     */
-    var createMarkers = function(markerData) {
+    var parseMarkers = function(markerData) {
 
         function addClickListener(marker) {
             google.maps.event.addListener(marker, 'click', function() {
@@ -81,6 +87,65 @@ foodmap.map = function() {
             $listing_container.append($listing.html());
         };
 
+        // Create the array of tags for all markers
+        var parseTags = function(tagsCSV) {
+            var tagsArray = tagsCSV.split(',');
+            for(var i = 0; i < tagsArray.length; i++){
+                if (tags.indexOf(tagsArray[i].trim()) === -1) {
+                    tags.push(tagsArray[i]);
+                }    
+            }
+        };
+
+        // Render the array of tags as filterable buttons in the left-container
+        var renderTags = function() {
+            var $container = $("#left-container .tags"),
+                output = "";
+            
+            for(var i = 0; i < tags.length; i++){
+                var tag = tags[i];
+                output = "<button class='button tag' title='" + tag + "'data-id='" + tag + "'>" + tag + "</button>";
+                $container.append(output);
+            }
+        };
+
+        var tagClickEvents = function() {
+            $(".tags .tag").on("click", function() {
+                
+                $("#welcome-container").fadeOut();
+
+                var $_this = $(this),
+                    tagName = $_this.attr("data-id"),
+                    activeMarkers = [],
+                    $listings = $(".js-listing-container .listing");
+
+                $(".tags .tag").removeClass("active");
+                $_this.addClass("active");
+
+                var filteredMarkers = _.filter(markers, function(obj){
+                    return (obj.tags && obj.tags.indexOf(tagName) > -1);
+                });
+
+                // markers
+                _.each(markers, function(marker){
+                    marker.setVisible(false);
+                });
+                _.each(filteredMarkers, function(marker){
+                    marker.setVisible(true);
+                    activeMarkers.push(marker.title);
+                });
+
+                // listings
+                $listings.hide();
+                _.each(activeMarkers, function(id){
+                    $listings.filter('[data-id="' + id + '"]').show();
+                });
+                
+                $listings.filter(":visible").first()[0].click();
+            });
+        };
+
+
         if (markerData) {
             $.each(markerData.Eateries, function(key, val) {                    
                 var _this = this;
@@ -105,16 +170,24 @@ foodmap.map = function() {
 
                 markers[_this.name] = marker;
 
+                if (marker.tags) { 
+                    parseTags(marker.tags);
+                }
+
                 addClickListener(marker);
                 createMarkerListing(marker);
             });
-
+            
             // set the width of the scrolling listing container
             var pixelLength = listingWidth * _.keys(markers).length;
             $("#bottom-container").find(".listing-container").attr("style", "width:" + pixelLength + "px;");
 
+            // todo: for the love of God clean this up.
+            renderTags();
+            tagClickEvents();
+
         } else {
-            console.error("markerData is null in createMarkers");
+            console.error("markerData is null in parseMarkers");
             return null;
         }        
 
@@ -140,10 +213,11 @@ foodmap.map = function() {
 
             google.maps.event.addDomListener($self[0], "click", function(ev) {
                 $("#welcome-container").fadeOut();
-                
                 var id = $self.attr("data-id");
                 marker_util.zoomMarker(id);
                 marker_util.showinfoBox(id);
+
+                console.log("self[0]:", $self[0]);
             });
         });
     };
