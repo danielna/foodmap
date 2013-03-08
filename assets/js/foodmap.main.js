@@ -14,9 +14,9 @@ $(document).ready(function() {
         $body.toggleClass("menu-left");
         
         if ($body.hasClass("menu-left")){
-            $(this).html("&raquo;");
+            $(this).html("&raquo; Hide");
         } else {
-            $(this).html("&laquo;");
+            $(this).html("&laquo; Show");
         }
     });
 

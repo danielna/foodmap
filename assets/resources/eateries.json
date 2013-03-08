@@ -496,6 +496,7 @@
         "description": "<h2>Pasta, $16</h2><p>While I haven&#39;t eaten enough pasta in the area to know, I wouldn&#39;t be surprised if Pasta Mia was in the running for best pasta in the DC area.  Located in Adams Morgan, it&#39;s a small, family-run, cash only operation marked by the huge line outside its building.  So the way it works is you line up before the restaurant opens and they let in the first 25 or so people, in order.  Those people place their orders, in order, and the single old male chef makes their orders, in order.  After a table clears a new set of patrons are seated.  Basically, if you&#39;re number 26 you&#39;re going to be waiting outside for over an hour, so get their early and wait.  The food is handmade and excellent.  Portions are enormous.</p>",
         "price": "med",
         "ethnicity": "Italian",
+        "tags": "Pasta",
         "coordinates": 
             {
                 "lng":  "-77.042213",

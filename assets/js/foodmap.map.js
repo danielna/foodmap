@@ -109,13 +109,14 @@ foodmap.map = function() {
             }
         };
 
+        // todo: clean me
         var tagClickEvents = function() {
             $(".tags .tag").on("click", function() {
                 
                 $("#welcome-container").fadeOut();
 
                 var $_this = $(this),
-                    tagName = $_this.attr("data-id"),
+                    tagName = $_this.attr("data-id").trim(),
                     activeMarkers = [],
                     $listings = $(".js-listing-container .listing");
 
@@ -123,7 +124,7 @@ foodmap.map = function() {
                 $_this.addClass("active");
 
                 var filteredMarkers = _.filter(markers, function(obj){
-                    return (obj.tags && obj.tags.indexOf(tagName) > -1);
+                    return ((obj.tags && obj.tags.indexOf(tagName) > -1) || obj.ethnicity.indexOf(tagName) > -1);
                 });
 
                 // markers
@@ -173,6 +174,9 @@ foodmap.map = function() {
                 if (marker.tags) { 
                     parseTags(marker.tags);
                 }
+                if (marker.ethnicity) {
+                    parseTags(marker.ethnicity);
+                }
 
                 addClickListener(marker);
                 createMarkerListing(marker);
@@ -216,8 +220,6 @@ foodmap.map = function() {
                 var id = $self.attr("data-id");
                 marker_util.zoomMarker(id);
                 marker_util.showinfoBox(id);
-
-                console.log("self[0]:", $self[0]);
             });
         });
     };
