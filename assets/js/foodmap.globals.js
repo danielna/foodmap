@@ -3,7 +3,6 @@
 var foodmap = {};
 
 foodmap.globals = {
-    API_KEY     : "AIzaSyDiA6472v_0VZUQjmVvXQ4peWbFZsUcpVc",
     container   : "map-container",
     map_icons   :   
                     {
