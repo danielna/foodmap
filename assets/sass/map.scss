@@ -163,6 +163,14 @@ article {
     body.menu-left & {
         left: $menu-left-transition-percentage;
     }
+    .header-link {
+        color: yellow;
+        text-decoration: none;
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        font-size: 0.9em;
+    }
 }
 
 .button {

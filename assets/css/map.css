@@ -167,8 +167,17 @@ body.menu-left #left-container {
 body.menu-left #top-bar {
   left: 15%;
 }
+/* line 166, ../sass/map.scss */
+#top-bar .header-link {
+  color: yellow;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 0.9em;
+}
 
-/* line 168, ../sass/map.scss */
+/* line 176, ../sass/map.scss */
 .button {
   display: inline-block;
   outline: none;
@@ -187,7 +196,7 @@ body.menu-left #top-bar {
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-/* line 179, ../sass/map.scss */
+/* line 187, ../sass/map.scss */
 .button.blue {
   color: #d9eef7;
   border: solid 1px #0076a3;
@@ -196,13 +205,13 @@ body.menu-left #top-bar {
   background: -moz-linear-gradient(top, #00adee, #0078a5);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
 }
-/* line 186, ../sass/map.scss */
+/* line 194, ../sass/map.scss */
 .button.blue:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
   background: -moz-linear-gradient(top, #0078a5, #00adee);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
 }
-/* line 192, ../sass/map.scss */
+/* line 200, ../sass/map.scss */
 .button.gray {
   color: #d9eef7;
   border: solid 1px #333;
@@ -211,13 +220,13 @@ body.menu-left #top-bar {
   background: -moz-linear-gradient(top, #828c95, #28343b);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#828c95', endColorstr='#28343b');
 }
-/* line 199, ../sass/map.scss */
+/* line 207, ../sass/map.scss */
 .button.gray:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#28343b), to(#828c95));
   background: -moz-linear-gradient(top, #28343b, #828c95);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#28343b', endColorstr='#828c95');
 }
-/* line 205, ../sass/map.scss */
+/* line 213, ../sass/map.scss */
 .button.orange {
   color: #d9eef7;
   border: solid 1px #333;
@@ -226,24 +235,24 @@ body.menu-left #top-bar {
   background: -moz-linear-gradient(top, #ff9c4c, #ff7400);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9c4c', endColorstr='#ff7400');
 }
-/* line 212, ../sass/map.scss */
+/* line 220, ../sass/map.scss */
 .button.orange:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#ff7400), to(#ff9c4c));
   background: -moz-linear-gradient(top, #ff7400, #ff9c4c);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7400', endColorstr='#ff9c4c');
 }
-/* line 218, ../sass/map.scss */
+/* line 226, ../sass/map.scss */
 .button:hover {
   text-decoration: none;
 }
-/* line 221, ../sass/map.scss */
+/* line 229, ../sass/map.scss */
 .button:active {
   position: relative;
   top: 1px;
 }
 
 /* Map Container */
-/* line 229, ../sass/map.scss */
+/* line 237, ../sass/map.scss */
 #map-container {
   top: 5%;
   left: 0%;
@@ -251,11 +260,11 @@ body.menu-left #top-bar {
   width: 100%;
   z-index: 50;
 }
-/* line 235, ../sass/map.scss */
+/* line 243, ../sass/map.scss */
 body.menu-left #map-container {
   left: 15%;
 }
-/* line 238, ../sass/map.scss */
+/* line 246, ../sass/map.scss */
 #map-container .infobox-container {
   display: block;
   font-size: 0.875em;
@@ -277,20 +286,20 @@ body.menu-left #map-container {
   box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px 2px;
   overflow-y: auto;
 }
-/* line 250, ../sass/map.scss */
+/* line 258, ../sass/map.scss */
 #map-container .infobox-container > img {
   position: absolute !important;
   top: 5px;
   right: 5px;
 }
-/* line 255, ../sass/map.scss */
+/* line 263, ../sass/map.scss */
 #map-container .infobox-container span.title {
   display: block;
   width: 100%;
   font-size: 1.3em;
   font-weight: bold;
 }
-/* line 262, ../sass/map.scss */
+/* line 270, ../sass/map.scss */
 #map-container .infobox-container .price {
   display: inline-block;
   font-size: 0.8em;
@@ -302,26 +311,26 @@ body.menu-left #map-container {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 268, ../sass/map.scss */
+/* line 276, ../sass/map.scss */
 #map-container .infobox-container .price[data-price="low"] {
   background-color: #89e63b;
 }
-/* line 271, ../sass/map.scss */
+/* line 279, ../sass/map.scss */
 #map-container .infobox-container .price[data-price="med"] {
   background-color: #fbf658;
 }
-/* line 274, ../sass/map.scss */
+/* line 282, ../sass/map.scss */
 #map-container .infobox-container .price[data-price="high"] {
   background-color: #dd7663;
 }
-/* line 278, ../sass/map.scss */
+/* line 286, ../sass/map.scss */
 #map-container .infobox-container .tags {
   display: inline-block;
   margin-left: 5px;
   font-size: 0.8em;
   font-style: italic;
 }
-/* line 284, ../sass/map.scss */
+/* line 292, ../sass/map.scss */
 #map-container .infobox-container h2 {
   font-size: 1em;
   font-weight: normal;
@@ -329,13 +338,13 @@ body.menu-left #map-container {
   margin: 0;
   padding: 0;
 }
-/* line 291, ../sass/map.scss */
+/* line 299, ../sass/map.scss */
 #map-container .infobox-container p:last-child {
   margin-bottom: 0px;
 }
 
 /* Bottom -- Listings */
-/* line 299, ../sass/map.scss */
+/* line 307, ../sass/map.scss */
 #bottom-container {
   height: 100px;
   max-height: 100px;
@@ -347,16 +356,16 @@ body.menu-left #map-container {
   transition: left 0.6s ease-in-out, height 0.4s ease-in-out;
   z-index: 150;
 }
-/* line 306, ../sass/map.scss */
+/* line 314, ../sass/map.scss */
 body.menu-left #bottom-container {
   left: 15%;
 }
-/* line 309, ../sass/map.scss */
+/* line 317, ../sass/map.scss */
 body.menu-bottom #bottom-container {
   height: 15%;
 }
 
-/* line 313, ../sass/map.scss */
+/* line 321, ../sass/map.scss */
 .listing-scroll {
   display: block;
   position: relative;
@@ -366,11 +375,11 @@ body.menu-bottom #bottom-container {
   overflow-x: auto;
   overflow-y: hidden;
 }
-/* line 321, ../sass/map.scss */
+/* line 329, ../sass/map.scss */
 .listing-scroll .listing-container {
   width: 100%;
 }
-/* line 323, ../sass/map.scss */
+/* line 331, ../sass/map.scss */
 .listing-scroll .listing-container .listing {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -405,7 +414,7 @@ body.menu-bottom #bottom-container {
   margin: 5px;
   cursor: pointer;
 }
-/* line 339, ../sass/map.scss */
+/* line 347, ../sass/map.scss */
 .listing-scroll .listing-container .listing:hover, .listing-scroll .listing-container .listing.active {
   background-color: #999;
   background-color: #0090ff;
@@ -422,27 +431,27 @@ body.menu-bottom #bottom-container {
   -moz-box-shadow: rgba(242, 242, 242, 0.4) 0 0 25px;
   box-shadow: rgba(242, 242, 242, 0.4) 0 0 25px;
 }
-/* line 344, ../sass/map.scss */
+/* line 352, ../sass/map.scss */
 .listing-scroll .listing-container .listing .title {
   font-size: 0.9em;
 }
-/* line 347, ../sass/map.scss */
+/* line 355, ../sass/map.scss */
 .listing-scroll .listing-container .listing .price {
   font-size: 0.65em;
 }
-/* line 349, ../sass/map.scss */
+/* line 357, ../sass/map.scss */
 .listing-scroll .listing-container .listing .price[data-price="low"] {
   color: #89e63b;
 }
-/* line 352, ../sass/map.scss */
+/* line 360, ../sass/map.scss */
 .listing-scroll .listing-container .listing .price[data-price="med"] {
   color: #fbf658;
 }
-/* line 355, ../sass/map.scss */
+/* line 363, ../sass/map.scss */
 .listing-scroll .listing-container .listing .price[data-price="high"] {
   color: #dd7663;
 }
-/* line 359, ../sass/map.scss */
+/* line 367, ../sass/map.scss */
 .listing-scroll .listing-container .listing .metadata {
   width: 75%;
   padding: 3% 0;
@@ -451,7 +460,7 @@ body.menu-bottom #bottom-container {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 365, ../sass/map.scss */
+/* line 373, ../sass/map.scss */
 .listing-scroll .listing-container .listing .best-of {
   position: absolute;
   top: 5px;
@@ -459,7 +468,7 @@ body.menu-bottom #bottom-container {
 }
 
 /* Welcome Message */
-/* line 376, ../sass/map.scss */
+/* line 384, ../sass/map.scss */
 #welcome-container {
   z-index: 100;
   display: block;
@@ -473,16 +482,16 @@ body.menu-bottom #bottom-container {
   color: #f2f2f2;
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* line 389, ../sass/map.scss */
+/* line 397, ../sass/map.scss */
 #welcome-container p:first-of-type {
   margin-top: 0px;
   padding-top: 0px;
 }
-/* line 393, ../sass/map.scss */
+/* line 401, ../sass/map.scss */
 #welcome-container p:last-child {
   margin-bottom: 0px;
 }
-/* line 397, ../sass/map.scss */
+/* line 405, ../sass/map.scss */
 #welcome-container #js-close-welcome {
   position: absolute;
   display: inline-block;
